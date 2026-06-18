@@ -1,0 +1,4817 @@
+{
+ "category": "sports",
+ "subcategories": {
+  "football-soccer": [
+   {
+    "prompt": "Best athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in football?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in football?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in football?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in football of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in football of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in football of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in football ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in football ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in football ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in football of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in football of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in football of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in football of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in football of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in football of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in football this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in football this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in football this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in football this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in football this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in football this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in football this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in football this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in football this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in football this year?",
+    "object_type": "athlete"
+   }
+  ],
+  "cricket": [
+   {
+    "prompt": "Best athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in cricket?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in cricket?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in cricket?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in cricket of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in cricket of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in cricket of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in cricket ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in cricket ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in cricket ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in cricket of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in cricket of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in cricket of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in cricket of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in cricket of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in cricket of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in cricket this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in cricket this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in cricket this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in cricket this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in cricket this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in cricket this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in cricket this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in cricket this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in cricket this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in cricket this year?",
+    "object_type": "athlete"
+   }
+  ],
+  "basketball": [
+   {
+    "prompt": "Best athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in the NBA?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in the NBA?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in the NBA?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in the NBA of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in the NBA of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in the NBA of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in the NBA ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in the NBA ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in the NBA ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in the NBA of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in the NBA of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in the NBA of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in the NBA of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in the NBA of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in the NBA of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in the NBA this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in the NBA this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in the NBA this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in the NBA this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in the NBA this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in the NBA this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in the NBA this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in the NBA this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in the NBA this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in the NBA this year?",
+    "object_type": "athlete"
+   }
+  ],
+  "f1": [
+   {
+    "prompt": "Best athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in F1?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in F1?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in F1?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in F1 of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in F1 of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in F1 of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in F1 ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in F1 ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in F1 ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in F1 of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in F1 of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in F1 of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in F1 of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in F1 of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in F1 of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in F1 this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in F1 this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in F1 this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in F1 this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in F1 this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in F1 this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in F1 this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in F1 this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in F1 this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in F1 this year?",
+    "object_type": "athlete"
+   }
+  ],
+  "tennis": [
+   {
+    "prompt": "Best athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in tennis?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in tennis?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in tennis?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in tennis of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in tennis of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in tennis of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in tennis ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in tennis ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in tennis ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in tennis of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in tennis of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in tennis of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment in tennis of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete in tennis of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team in tennis of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete in tennis this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team in tennis this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment in tennis this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete in tennis this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team in tennis this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment in tennis this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete in tennis this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team in tennis this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment in tennis this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete in tennis this year?",
+    "object_type": "athlete"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment of all time?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete of all time?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team of all time?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment ever?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete ever?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team ever?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment of the 2010s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete of the 2010s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team of the 2010s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most underrated team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most underrated moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most iconic athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most iconic team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most iconic moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most slept-on athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most slept-on team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most slept-on moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most influential athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most influential team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most influential moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most memorable athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most memorable team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most memorable moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most legendary athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most legendary team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most legendary moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most original athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most original team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most original moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overhyped athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overhyped team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overhyped moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most timeless athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most timeless team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most timeless moment of the 2020s?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "GOAT athlete of the 2020s?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "GOAT team of the 2020s?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best athlete this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Best team this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Best moment this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Worst athlete this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Worst team this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Worst moment this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most overrated athlete this year?",
+    "object_type": "athlete"
+   },
+   {
+    "prompt": "Most overrated team this year?",
+    "object_type": "team"
+   },
+   {
+    "prompt": "Most overrated moment this year?",
+    "object_type": "moment"
+   },
+   {
+    "prompt": "Most underrated athlete this year?",
+    "object_type": "athlete"
+   }
+  ]
+ }
+}

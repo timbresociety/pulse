@@ -1,0 +1,4817 @@
+{
+ "category": "music",
+ "subcategories": {
+  "hip-hop": [
+   {
+    "prompt": "Best song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in hip-hop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in hip-hop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in hip-hop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in hip-hop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in hip-hop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in hip-hop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in hip-hop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in hip-hop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in hip-hop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in hip-hop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in hip-hop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in hip-hop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in hip-hop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in hip-hop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in hip-hop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in hip-hop this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in hip-hop this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in hip-hop this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in hip-hop this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in hip-hop this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in hip-hop this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in hip-hop this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in hip-hop this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in hip-hop this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in hip-hop this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in hip-hop this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in hip-hop this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in hip-hop this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in hip-hop this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in hip-hop this year?",
+    "object_type": "artist"
+   }
+  ],
+  "pop": [
+   {
+    "prompt": "Best song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in pop?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in pop?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in pop?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in pop of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in pop of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in pop of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in pop ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in pop ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in pop ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in pop of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in pop of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in pop of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in pop of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in pop of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in pop of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in pop this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in pop this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in pop this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in pop this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in pop this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in pop this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in pop this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in pop this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in pop this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in pop this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in pop this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in pop this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in pop this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in pop this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in pop this year?",
+    "object_type": "artist"
+   }
+  ],
+  "rnb-alt": [
+   {
+    "prompt": "Best song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in R&B?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in R&B?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in R&B?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in R&B of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in R&B of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in R&B of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in R&B ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in R&B ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in R&B ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in R&B of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in R&B of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in R&B of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in R&B of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in R&B of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in R&B of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in R&B this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in R&B this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in R&B this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in R&B this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in R&B this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in R&B this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in R&B this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in R&B this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in R&B this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in R&B this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in R&B this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in R&B this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in R&B this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in R&B this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in R&B this year?",
+    "object_type": "artist"
+   }
+  ],
+  "rock-indie": [
+   {
+    "prompt": "Best song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in rock?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in rock?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in rock?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in rock of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in rock of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in rock of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in rock ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in rock ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in rock ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in rock of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in rock of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in rock of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in rock of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in rock of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in rock of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in rock this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in rock this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in rock this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in rock this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in rock this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in rock this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in rock this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in rock this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in rock this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in rock this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in rock this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in rock this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in rock this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in rock this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in rock this year?",
+    "object_type": "artist"
+   }
+  ],
+  "desi": [
+   {
+    "prompt": "Best song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in Indian music?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in Indian music?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in Indian music?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in Indian music of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in Indian music of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in Indian music of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in Indian music ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in Indian music ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in Indian music ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in Indian music of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in Indian music of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in Indian music of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song in Indian music of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album in Indian music of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist in Indian music of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song in Indian music this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album in Indian music this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist in Indian music this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song in Indian music this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album in Indian music this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist in Indian music this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song in Indian music this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album in Indian music this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist in Indian music this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song in Indian music this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album in Indian music this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist in Indian music this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song in Indian music this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album in Indian music this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist in Indian music this year?",
+    "object_type": "artist"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song of all time?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album of all time?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist of all time?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song ever?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album ever?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist ever?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song of the 2010s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album of the 2010s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist of the 2010s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most slept-on song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most slept-on album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most slept-on artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most influential song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most influential album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most influential artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most memorable song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most memorable album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most memorable artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most legendary song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most legendary album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most legendary artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most original song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most original album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most original artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overhyped song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overhyped album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overhyped artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most timeless song of the 2020s?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most timeless album of the 2020s?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most timeless artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "GOAT artist of the 2020s?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Best song this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Best album this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Best artist this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Worst song this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Worst album this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Worst artist this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most overrated song this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most overrated album this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most overrated artist this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most underrated song this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most underrated album this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most underrated artist this year?",
+    "object_type": "artist"
+   },
+   {
+    "prompt": "Most iconic song this year?",
+    "object_type": "song"
+   },
+   {
+    "prompt": "Most iconic album this year?",
+    "object_type": "album"
+   },
+   {
+    "prompt": "Most iconic artist this year?",
+    "object_type": "artist"
+   }
+  ]
+ }
+}

@@ -1,0 +1,4817 @@
+{
+ "category": "food-drink",
+ "subcategories": {
+  "indian": [
+   {
+    "prompt": "Best dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish in Indian food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink in Indian food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine in Indian food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish in Indian food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink in Indian food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine in Indian food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish in Indian food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink in Indian food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine in Indian food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish in Indian food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink in Indian food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine in Indian food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish in Indian food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink in Indian food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine in Indian food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish in Indian food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in Indian food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in Indian food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in Indian food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in Indian food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in Indian food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in Indian food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in Indian food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in Indian food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in Indian food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in Indian food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in Indian food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in Indian food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in Indian food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in Indian food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in Indian food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in Indian food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in Indian food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in Indian food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in Indian food this year?",
+    "object_type": "drink"
+   }
+  ],
+  "street": [
+   {
+    "prompt": "Best dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish in street food?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink in street food?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine in street food?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish in street food of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink in street food of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine in street food of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish in street food ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink in street food ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine in street food ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish in street food of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink in street food of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine in street food of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish in street food of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink in street food of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine in street food of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish in street food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink in street food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine in street food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish in street food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink in street food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine in street food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish in street food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink in street food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine in street food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish in street food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink in street food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine in street food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish in street food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink in street food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine in street food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish in street food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink in street food this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine in street food this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish in street food this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink in street food this year?",
+    "object_type": "drink"
+   }
+  ],
+  "comfort": [
+   {
+    "prompt": "Best dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish for comfort?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink for comfort?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine for comfort?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish for comfort of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink for comfort of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine for comfort of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish for comfort ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink for comfort ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine for comfort ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish for comfort of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink for comfort of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine for comfort of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish for comfort of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink for comfort of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine for comfort of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish for comfort this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for comfort this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for comfort this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for comfort this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for comfort this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for comfort this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for comfort this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for comfort this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for comfort this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for comfort this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for comfort this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for comfort this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for comfort this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for comfort this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for comfort this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for comfort this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for comfort this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for comfort this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for comfort this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for comfort this year?",
+    "object_type": "drink"
+   }
+  ],
+  "drinks": [
+   {
+    "prompt": "Best dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish to drink?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink to drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine to drink?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish to drink of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink to drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine to drink of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish to drink ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink to drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine to drink ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish to drink of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink to drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine to drink of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish to drink of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink to drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine to drink of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish to drink this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink to drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine to drink this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish to drink this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink to drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine to drink this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish to drink this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink to drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine to drink this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish to drink this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink to drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine to drink this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish to drink this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink to drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine to drink this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish to drink this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink to drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine to drink this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish to drink this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink to drink this year?",
+    "object_type": "drink"
+   }
+  ],
+  "desserts": [
+   {
+    "prompt": "Best dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish for dessert?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink for dessert?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine for dessert?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish for dessert of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink for dessert of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine for dessert of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish for dessert ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink for dessert ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine for dessert ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish for dessert of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink for dessert of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine for dessert of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish for dessert of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink for dessert of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine for dessert of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish for dessert this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink for dessert this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine for dessert this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish for dessert this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink for dessert this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine for dessert this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish for dessert this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink for dessert this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine for dessert this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish for dessert this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink for dessert this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine for dessert this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish for dessert this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink for dessert this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine for dessert this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish for dessert this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink for dessert this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine for dessert this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish for dessert this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink for dessert this year?",
+    "object_type": "drink"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish of all time?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink of all time?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine of all time?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish ever?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink ever?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine ever?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish of the 2010s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink of the 2010s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine of the 2010s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most influential cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most memorable dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most memorable drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most memorable cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most legendary dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most legendary drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most legendary cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most original dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most original drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most original cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overhyped dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overhyped drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overhyped cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most timeless dish of the 2020s?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most timeless drink of the 2020s?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most timeless cuisine of the 2020s?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Best dish this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Best drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Best cuisine this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Worst dish this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Worst drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Worst cuisine this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most overrated dish this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most overrated drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most overrated cuisine this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most underrated dish this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most underrated drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most underrated cuisine this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most iconic dish this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most iconic drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most iconic cuisine this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most slept-on dish this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most slept-on drink this year?",
+    "object_type": "drink"
+   },
+   {
+    "prompt": "Most slept-on cuisine this year?",
+    "object_type": "cuisine"
+   },
+   {
+    "prompt": "Most influential dish this year?",
+    "object_type": "dish"
+   },
+   {
+    "prompt": "Most influential drink this year?",
+    "object_type": "drink"
+   }
+  ]
+ }
+}

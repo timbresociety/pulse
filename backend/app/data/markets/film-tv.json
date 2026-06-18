@@ -1,0 +1,4817 @@
+{
+ "category": "film-tv",
+ "subcategories": {
+  "movies": [
+   {
+    "prompt": "Best film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in movies?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in movies?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in movies?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in movies?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in movies of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in movies of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in movies of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in movies of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in movies ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in movies ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in movies ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in movies ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in movies of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in movies of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in movies of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in movies of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in movies of the 2010s?",
+    "object_type": "director"
+   }
+  ],
+  "tv": [
+   {
+    "prompt": "Best film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in TV?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in TV?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in TV?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in TV?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in TV of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in TV of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in TV of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in TV of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in TV ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in TV ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in TV ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in TV ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in TV of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in TV of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in TV of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in TV of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in TV of the 2010s?",
+    "object_type": "director"
+   }
+  ],
+  "thriller": [
+   {
+    "prompt": "Best film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in a thriller?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in a thriller?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in a thriller?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in a thriller?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in a thriller of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in a thriller of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in a thriller of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in a thriller of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in a thriller ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in a thriller ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in a thriller ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in a thriller ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in a thriller of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in a thriller of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in a thriller of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in a thriller of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in a thriller of the 2010s?",
+    "object_type": "director"
+   }
+  ],
+  "indian-cinema": [
+   {
+    "prompt": "Best film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in Indian cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in Indian cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in Indian cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in Indian cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in Indian cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in Indian cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in Indian cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in Indian cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in Indian cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in Indian cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in Indian cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in Indian cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in Indian cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in Indian cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in Indian cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in Indian cinema of the 2010s?",
+    "object_type": "director"
+   }
+  ],
+  "world-cinema": [
+   {
+    "prompt": "Best film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in world cinema?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in world cinema?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in world cinema?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in world cinema?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in world cinema of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in world cinema of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in world cinema of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in world cinema of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in world cinema ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in world cinema ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in world cinema ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in world cinema ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film in world cinema of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show in world cinema of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director in world cinema of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character in world cinema of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director in world cinema of the 2010s?",
+    "object_type": "director"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film of all time?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show of all time?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director of all time?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film ever?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show ever?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director ever?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Best film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Best TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Best character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Worst film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Worst TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Worst character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overrated film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overrated TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overrated character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most underrated film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most underrated TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most underrated character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most iconic film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most iconic TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most iconic character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most slept-on film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most slept-on TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most slept-on character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most influential film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most influential TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most influential character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most memorable film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most memorable TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most memorable character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most legendary film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most legendary TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most legendary character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most original film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most original TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most original character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most overhyped film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most overhyped TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most overhyped character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "Most timeless film of the 2010s?",
+    "object_type": "film"
+   },
+   {
+    "prompt": "Most timeless TV show of the 2010s?",
+    "object_type": "tv_show"
+   },
+   {
+    "prompt": "Most timeless character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless director of the 2010s?",
+    "object_type": "director"
+   },
+   {
+    "prompt": "GOAT character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "GOAT director of the 2010s?",
+    "object_type": "director"
+   }
+  ]
+ }
+}

@@ -1,0 +1,4817 @@
+{
+ "category": "internet",
+ "subcategories": {
+  "memes": [
+   {
+    "prompt": "Best meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in memes?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in memes?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in memes?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in memes?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in memes of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in memes of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in memes of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in memes of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in memes ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in memes ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in memes ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in memes ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in memes of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in memes of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in memes of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in memes of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in memes of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in memes of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in memes of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in memes of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in memes of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in memes of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in memes of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in memes of the 2020s?",
+    "object_type": "creator"
+   }
+  ],
+  "tiktok": [
+   {
+    "prompt": "Best meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme on TikTok?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound on TikTok?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format on TikTok?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator on TikTok?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme on TikTok of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound on TikTok of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format on TikTok of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator on TikTok of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme on TikTok ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound on TikTok ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format on TikTok ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator on TikTok ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme on TikTok of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound on TikTok of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format on TikTok of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator on TikTok of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme on TikTok of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound on TikTok of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format on TikTok of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator on TikTok of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme on TikTok of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound on TikTok of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format on TikTok of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator on TikTok of the 2020s?",
+    "object_type": "creator"
+   }
+  ],
+  "youtube": [
+   {
+    "prompt": "Best meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme on YouTube?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound on YouTube?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format on YouTube?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator on YouTube?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme on YouTube of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound on YouTube of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format on YouTube of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator on YouTube of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme on YouTube ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound on YouTube ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format on YouTube ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator on YouTube ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme on YouTube of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound on YouTube of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format on YouTube of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator on YouTube of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme on YouTube of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound on YouTube of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format on YouTube of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator on YouTube of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme on YouTube of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound on YouTube of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format on YouTube of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator on YouTube of the 2020s?",
+    "object_type": "creator"
+   }
+  ],
+  "trends": [
+   {
+    "prompt": "Best meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in internet trends?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in internet trends?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in internet trends?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in internet trends?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in internet trends of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in internet trends of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in internet trends of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in internet trends of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in internet trends ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in internet trends ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in internet trends ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in internet trends ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in internet trends of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in internet trends of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in internet trends of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in internet trends of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in internet trends of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in internet trends of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in internet trends of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in internet trends of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in internet trends of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in internet trends of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in internet trends of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in internet trends of the 2020s?",
+    "object_type": "creator"
+   }
+  ],
+  "drama": [
+   {
+    "prompt": "Best meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in internet drama?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in internet drama?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in internet drama?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in internet drama?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in internet drama of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in internet drama of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in internet drama of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in internet drama of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in internet drama ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in internet drama ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in internet drama ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in internet drama ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme in internet drama of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound in internet drama of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format in internet drama of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator in internet drama of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme in internet drama of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound in internet drama of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format in internet drama of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator in internet drama of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme in internet drama of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound in internet drama of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format in internet drama of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator in internet drama of the 2020s?",
+    "object_type": "creator"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme of all time?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound of all time?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format of all time?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme ever?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound ever?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format ever?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overrated sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overrated format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overrated creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most underrated sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most underrated format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most underrated creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most iconic sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most iconic format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most iconic creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most slept-on sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most slept-on format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most slept-on creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most influential sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most influential format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most influential creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most memorable sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most memorable format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most memorable creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most legendary sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most legendary format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most legendary creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most original sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most original format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most original creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most overhyped sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most overhyped format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most overhyped creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless meme of the 2010s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Most timeless sound of the 2010s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Most timeless format of the 2010s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Most timeless creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best meme of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Best sound of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Best format of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Best creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst meme of the 2020s?",
+    "object_type": "meme"
+   },
+   {
+    "prompt": "Worst sound of the 2020s?",
+    "object_type": "sound"
+   },
+   {
+    "prompt": "Worst format of the 2020s?",
+    "object_type": "format"
+   },
+   {
+    "prompt": "Worst creator of the 2020s?",
+    "object_type": "creator"
+   }
+  ]
+ }
+}

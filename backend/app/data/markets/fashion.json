@@ -1,0 +1,4817 @@
+{
+ "category": "fashion",
+ "subcategories": {
+  "sneakers": [
+   {
+    "prompt": "Best sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in sneakers?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in sneakers?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in sneakers?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in sneakers?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in sneakers of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in sneakers of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in sneakers of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in sneakers of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in sneakers ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in sneakers ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in sneakers ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in sneakers ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in sneakers of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in sneakers of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in sneakers of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in sneakers of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in sneakers of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in sneakers of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in sneakers of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in sneakers of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in sneakers of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in sneakers of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in sneakers of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in sneakers of the 2020s?",
+    "object_type": "product"
+   }
+  ],
+  "streetwear": [
+   {
+    "prompt": "Best sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in streetwear?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in streetwear?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in streetwear?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in streetwear?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in streetwear of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in streetwear of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in streetwear of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in streetwear of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in streetwear ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in streetwear ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in streetwear ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in streetwear ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in streetwear of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in streetwear of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in streetwear of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in streetwear of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in streetwear of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in streetwear of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in streetwear of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in streetwear of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in streetwear of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in streetwear of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in streetwear of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in streetwear of the 2020s?",
+    "object_type": "product"
+   }
+  ],
+  "luxury": [
+   {
+    "prompt": "Best sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in luxury fashion?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in luxury fashion?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in luxury fashion?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in luxury fashion?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in luxury fashion of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in luxury fashion of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in luxury fashion of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in luxury fashion of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in luxury fashion ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in luxury fashion ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in luxury fashion ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in luxury fashion ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in luxury fashion of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in luxury fashion of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in luxury fashion of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in luxury fashion of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in luxury fashion of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in luxury fashion of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in luxury fashion of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in luxury fashion of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in luxury fashion of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in luxury fashion of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in luxury fashion of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in luxury fashion of the 2020s?",
+    "object_type": "product"
+   }
+  ],
+  "aesthetics": [
+   {
+    "prompt": "Best sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in fashion aesthetics?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in fashion aesthetics?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in fashion aesthetics?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in fashion aesthetics?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in fashion aesthetics of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in fashion aesthetics of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in fashion aesthetics of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in fashion aesthetics of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in fashion aesthetics ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in fashion aesthetics ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in fashion aesthetics ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in fashion aesthetics ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in fashion aesthetics of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in fashion aesthetics of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in fashion aesthetics of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in fashion aesthetics of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in fashion aesthetics of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in fashion aesthetics of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in fashion aesthetics of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in fashion aesthetics of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in fashion aesthetics of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in fashion aesthetics of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in fashion aesthetics of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in fashion aesthetics of the 2020s?",
+    "object_type": "product"
+   }
+  ],
+  "it-items": [
+   {
+    "prompt": "Best sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in fashion this season?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in fashion this season?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in fashion this season?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in fashion this season?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in fashion this season of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in fashion this season of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in fashion this season of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in fashion this season of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in fashion this season ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in fashion this season ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in fashion this season ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in fashion this season ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker in fashion this season of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand in fashion this season of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person in fashion this season of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product in fashion this season of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker in fashion this season of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand in fashion this season of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person in fashion this season of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product in fashion this season of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker in fashion this season of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand in fashion this season of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person in fashion this season of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product in fashion this season of the 2020s?",
+    "object_type": "product"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker of all time?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker ever?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overrated brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most underrated brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most iconic brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most slept-on brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most influential brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most memorable brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most legendary brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most original brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most overhyped brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless sneaker of the 2010s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Most timeless brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best sneaker of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Best brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst sneaker of the 2020s?",
+    "object_type": "sneaker"
+   },
+   {
+    "prompt": "Worst brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst product of the 2020s?",
+    "object_type": "product"
+   }
+  ]
+ }
+}

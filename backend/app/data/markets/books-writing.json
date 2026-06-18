@@ -1,0 +1,4817 @@
+{
+ "category": "books-writing",
+ "subcategories": {
+  "fiction": [
+   {
+    "prompt": "Best book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fiction you'd defend?",
+    "object_type": "author"
+   }
+  ],
+  "non-fiction": [
+   {
+    "prompt": "Best book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in non-fiction?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in non-fiction?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in non-fiction of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in non-fiction of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in non-fiction ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in non-fiction ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in non-fiction of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in non-fiction of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in non-fiction of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in non-fiction of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in non-fiction this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in non-fiction this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in non-fiction right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in non-fiction right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in non-fiction you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in non-fiction you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in non-fiction you'd defend?",
+    "object_type": "author"
+   }
+  ],
+  "scifi": [
+   {
+    "prompt": "Best book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in sci-fi?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in sci-fi?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in sci-fi of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in sci-fi of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in sci-fi ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in sci-fi ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in sci-fi of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in sci-fi of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in sci-fi of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in sci-fi of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in sci-fi this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in sci-fi this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in sci-fi right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in sci-fi right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in sci-fi you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in sci-fi you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in sci-fi you'd defend?",
+    "object_type": "author"
+   }
+  ],
+  "fantasy": [
+   {
+    "prompt": "Best book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fantasy?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fantasy?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fantasy of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fantasy of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fantasy ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fantasy ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fantasy of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fantasy of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fantasy of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fantasy of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fantasy this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fantasy this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fantasy right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fantasy right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in fantasy you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in fantasy you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in fantasy you'd defend?",
+    "object_type": "author"
+   }
+  ],
+  "modern": [
+   {
+    "prompt": "Best book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in modern writing?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in modern writing?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in modern writing of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in modern writing of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in modern writing ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in modern writing ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in modern writing of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in modern writing of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in modern writing of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in modern writing of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in modern writing this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in modern writing this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in modern writing right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in modern writing right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book in modern writing you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author in modern writing you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author in modern writing you'd defend?",
+    "object_type": "author"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book of all time?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author of all time?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book ever?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author ever?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book of the 2010s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author of the 2010s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book of the 2020s?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author of the 2020s?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book this year?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author this year?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book right now?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author right now?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Best book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Best author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Worst book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Worst author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overrated book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overrated author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most underrated book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most underrated author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most iconic book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most iconic author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most slept-on book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most slept-on author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most influential book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most influential author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most memorable book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most memorable author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most legendary book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most legendary author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most original book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most original author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most overhyped book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most overhyped author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "Most timeless book you'd defend?",
+    "object_type": "book"
+   },
+   {
+    "prompt": "Most timeless author you'd defend?",
+    "object_type": "author"
+   },
+   {
+    "prompt": "GOAT author you'd defend?",
+    "object_type": "author"
+   }
+  ]
+ }
+}

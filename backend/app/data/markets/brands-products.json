@@ -1,0 +1,4817 @@
+{
+ "category": "brands-products",
+ "subcategories": {
+  "tech": [
+   {
+    "prompt": "Best product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in tech?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in tech?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in tech?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in tech of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in tech of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in tech of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in tech ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in tech ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in tech ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in tech of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in tech of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in tech of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in tech of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in tech of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in tech of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in tech this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in tech this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in tech this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in tech this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in tech this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in tech this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in tech this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in tech this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in tech this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in tech this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in tech this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in tech this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in tech this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in tech this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in tech this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in tech this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in tech this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in tech this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in tech this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in tech this year?",
+    "object_type": "brand"
+   }
+  ],
+  "apps": [
+   {
+    "prompt": "Best product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product among apps?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand among apps?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app among apps?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product among apps of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand among apps of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app among apps of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product among apps ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand among apps ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app among apps ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product among apps of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand among apps of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app among apps of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product among apps of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand among apps of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app among apps of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product among apps this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand among apps this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app among apps this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product among apps this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand among apps this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app among apps this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product among apps this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand among apps this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app among apps this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product among apps this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand among apps this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app among apps this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product among apps this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand among apps this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app among apps this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product among apps this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand among apps this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app among apps this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product among apps this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand among apps this year?",
+    "object_type": "brand"
+   }
+  ],
+  "hype": [
+   {
+    "prompt": "Best product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in hype products?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in hype products?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in hype products?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in hype products of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in hype products of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in hype products of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in hype products ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in hype products ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in hype products ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in hype products of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in hype products of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in hype products of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in hype products of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in hype products of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in hype products of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in hype products this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in hype products this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in hype products this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in hype products this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in hype products this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in hype products this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in hype products this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in hype products this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in hype products this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in hype products this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in hype products this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in hype products this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in hype products this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in hype products this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in hype products this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in hype products this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in hype products this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in hype products this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in hype products this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in hype products this year?",
+    "object_type": "brand"
+   }
+  ],
+  "essentials": [
+   {
+    "prompt": "Best product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product for everyday use?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand for everyday use?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app for everyday use?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product for everyday use of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand for everyday use of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app for everyday use of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product for everyday use ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand for everyday use ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app for everyday use ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product for everyday use of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand for everyday use of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app for everyday use of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product for everyday use of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand for everyday use of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app for everyday use of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product for everyday use this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand for everyday use this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app for everyday use this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product for everyday use this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand for everyday use this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app for everyday use this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product for everyday use this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand for everyday use this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app for everyday use this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product for everyday use this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand for everyday use this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app for everyday use this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product for everyday use this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand for everyday use this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app for everyday use this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product for everyday use this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand for everyday use this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app for everyday use this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product for everyday use this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand for everyday use this year?",
+    "object_type": "brand"
+   }
+  ],
+  "premium": [
+   {
+    "prompt": "Best product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in premium brands?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in premium brands?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in premium brands?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in premium brands of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in premium brands of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in premium brands of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in premium brands ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in premium brands ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in premium brands ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in premium brands of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in premium brands of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in premium brands of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product in premium brands of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand in premium brands of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app in premium brands of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product in premium brands this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand in premium brands this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app in premium brands this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product in premium brands this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand in premium brands this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app in premium brands this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product in premium brands this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand in premium brands this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app in premium brands this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product in premium brands this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand in premium brands this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app in premium brands this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product in premium brands this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand in premium brands this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app in premium brands this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product in premium brands this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand in premium brands this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app in premium brands this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product in premium brands this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand in premium brands this year?",
+    "object_type": "brand"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product of all time?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand of all time?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app of all time?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product ever?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand ever?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app ever?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product of the 2010s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand of the 2010s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app of the 2010s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most influential app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most memorable product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most memorable brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most memorable app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most legendary product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most legendary brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most legendary app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most original product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most original brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most original app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overhyped product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overhyped brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overhyped app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most timeless product of the 2020s?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most timeless brand of the 2020s?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most timeless app of the 2020s?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Best product this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Best brand this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Best app this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Worst product this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Worst brand this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Worst app this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most overrated product this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most overrated brand this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most overrated app this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most underrated product this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most underrated brand this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most underrated app this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most iconic product this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most iconic brand this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most iconic app this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most slept-on product this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most slept-on brand this year?",
+    "object_type": "brand"
+   },
+   {
+    "prompt": "Most slept-on app this year?",
+    "object_type": "app"
+   },
+   {
+    "prompt": "Most influential product this year?",
+    "object_type": "product"
+   },
+   {
+    "prompt": "Most influential brand this year?",
+    "object_type": "brand"
+   }
+  ]
+ }
+}

@@ -1,0 +1,4817 @@
+{
+ "category": "gaming",
+ "subcategories": {
+  "rpg": [
+   {
+    "prompt": "Best game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in RPGs?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in RPGs?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in RPGs?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in RPGs of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in RPGs of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in RPGs of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in RPGs ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in RPGs ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in RPGs ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in RPGs of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in RPGs of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in RPGs of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in RPGs of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in RPGs of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in RPGs of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in RPGs this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in RPGs this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in RPGs this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in RPGs this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in RPGs this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in RPGs this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in RPGs this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in RPGs this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in RPGs this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in RPGs this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in RPGs this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in RPGs this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in RPGs this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in RPGs this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in RPGs this year?",
+    "object_type": "studio"
+   }
+  ],
+  "open-world": [
+   {
+    "prompt": "Best game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in open-world games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in open-world games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in open-world games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in open-world games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in open-world games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in open-world games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in open-world games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in open-world games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in open-world games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in open-world games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in open-world games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in open-world games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in open-world games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in open-world games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in open-world games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in open-world games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in open-world games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in open-world games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in open-world games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in open-world games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in open-world games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in open-world games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in open-world games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in open-world games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in open-world games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in open-world games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in open-world games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in open-world games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in open-world games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in open-world games this year?",
+    "object_type": "studio"
+   }
+  ],
+  "indie": [
+   {
+    "prompt": "Best game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in indie games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in indie games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in indie games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in indie games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in indie games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in indie games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in indie games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in indie games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in indie games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in indie games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in indie games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in indie games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in indie games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in indie games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in indie games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in indie games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in indie games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in indie games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in indie games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in indie games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in indie games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in indie games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in indie games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in indie games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in indie games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in indie games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in indie games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in indie games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in indie games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in indie games this year?",
+    "object_type": "studio"
+   }
+  ],
+  "fps": [
+   {
+    "prompt": "Best game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in shooters?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in shooters?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in shooters?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in shooters of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in shooters of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in shooters of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in shooters ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in shooters ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in shooters ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in shooters of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in shooters of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in shooters of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in shooters of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in shooters of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in shooters of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in shooters this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in shooters this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in shooters this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in shooters this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in shooters this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in shooters this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in shooters this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in shooters this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in shooters this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in shooters this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in shooters this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in shooters this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in shooters this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in shooters this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in shooters this year?",
+    "object_type": "studio"
+   }
+  ],
+  "mobile": [
+   {
+    "prompt": "Best game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in mobile games?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in mobile games?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in mobile games?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in mobile games of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in mobile games of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in mobile games of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in mobile games ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in mobile games ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in mobile games ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in mobile games of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in mobile games of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in mobile games of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game in mobile games of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio in mobile games of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character in mobile games of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game in mobile games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character in mobile games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio in mobile games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game in mobile games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character in mobile games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio in mobile games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game in mobile games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character in mobile games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio in mobile games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game in mobile games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character in mobile games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio in mobile games this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game in mobile games this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character in mobile games this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio in mobile games this year?",
+    "object_type": "studio"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game of all time?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character of all time?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game ever?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character ever?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game of the 2010s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character of the 2010s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most slept-on game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most slept-on studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most influential game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most influential studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most memorable game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most memorable studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most legendary game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most legendary studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most original game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most original studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overhyped game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overhyped studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless game of the 2020s?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most timeless game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most timeless studio of the 2020s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT game character of the 2020s?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best game this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Best game character this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Best studio this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst game this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Worst game character this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Worst studio this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated game this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most overrated game character this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most overrated studio this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated game this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most underrated game character this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most underrated studio this year?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic game this year?",
+    "object_type": "game"
+   },
+   {
+    "prompt": "Most iconic game character this year?",
+    "object_type": "game_character"
+   },
+   {
+    "prompt": "Most iconic studio this year?",
+    "object_type": "studio"
+   }
+  ]
+ }
+}

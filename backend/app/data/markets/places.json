@@ -1,0 +1,4817 @@
+{
+ "category": "places",
+ "subcategories": {
+  "cities": [
+   {
+    "prompt": "Best place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place to live in?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city to live in?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue to live in?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place to live in of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city to live in of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue to live in of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place to live in ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city to live in ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue to live in ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place to live in of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city to live in of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue to live in of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place to live in of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city to live in of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue to live in of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place to live in this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city to live in this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue to live in this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place to live in this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city to live in this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue to live in this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place to live in this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city to live in this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue to live in this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place to live in this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city to live in this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue to live in this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place to live in this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city to live in this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue to live in this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place to live in this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city to live in this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue to live in this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place to live in this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city to live in this year?",
+    "object_type": "city"
+   }
+  ],
+  "nightlife": [
+   {
+    "prompt": "Best place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place for nightlife?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city for nightlife?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue for nightlife?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place for nightlife of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city for nightlife of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue for nightlife of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place for nightlife ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city for nightlife ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue for nightlife ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place for nightlife of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city for nightlife of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue for nightlife of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place for nightlife of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city for nightlife of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue for nightlife of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place for nightlife this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for nightlife this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for nightlife this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for nightlife this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for nightlife this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for nightlife this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for nightlife this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for nightlife this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for nightlife this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for nightlife this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for nightlife this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for nightlife this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for nightlife this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for nightlife this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for nightlife this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for nightlife this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for nightlife this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for nightlife this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for nightlife this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for nightlife this year?",
+    "object_type": "city"
+   }
+  ],
+  "nature": [
+   {
+    "prompt": "Best place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place for a getaway?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city for a getaway?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue for a getaway?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place for a getaway of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city for a getaway of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue for a getaway of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place for a getaway ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city for a getaway ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue for a getaway ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place for a getaway of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city for a getaway of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue for a getaway of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place for a getaway of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city for a getaway of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue for a getaway of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place for a getaway this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city for a getaway this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue for a getaway this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place for a getaway this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city for a getaway this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue for a getaway this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place for a getaway this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city for a getaway this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue for a getaway this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place for a getaway this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city for a getaway this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue for a getaway this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place for a getaway this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city for a getaway this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue for a getaway this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place for a getaway this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city for a getaway this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue for a getaway this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place for a getaway this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city for a getaway this year?",
+    "object_type": "city"
+   }
+  ],
+  "india": [
+   {
+    "prompt": "Best place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place in India?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city in India?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue in India?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place in India of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city in India of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue in India of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place in India ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city in India ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue in India ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place in India of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city in India of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue in India of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place in India of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city in India of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue in India of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place in India this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city in India this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue in India this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place in India this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city in India this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue in India this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place in India this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city in India this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue in India this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place in India this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city in India this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue in India this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place in India this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city in India this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue in India this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place in India this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city in India this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue in India this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place in India this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city in India this year?",
+    "object_type": "city"
+   }
+  ],
+  "abroad": [
+   {
+    "prompt": "Best place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place abroad?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city abroad?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue abroad?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place abroad of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city abroad of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue abroad of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place abroad ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city abroad ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue abroad ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place abroad of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city abroad of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue abroad of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place abroad of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city abroad of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue abroad of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place abroad this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city abroad this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue abroad this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place abroad this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city abroad this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue abroad this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place abroad this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city abroad this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue abroad this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place abroad this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city abroad this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue abroad this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place abroad this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city abroad this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue abroad this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place abroad this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city abroad this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue abroad this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place abroad this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city abroad this year?",
+    "object_type": "city"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place of all time?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city of all time?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue of all time?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place ever?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city ever?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue ever?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place of the 2010s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city of the 2010s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue of the 2010s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most influential venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most memorable place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most memorable city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most memorable venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most legendary place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most legendary city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most legendary venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most original place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most original city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most original venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overhyped place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overhyped city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overhyped venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most timeless place of the 2020s?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most timeless city of the 2020s?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most timeless venue of the 2020s?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Best place this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Best city this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Best venue this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Worst place this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Worst city this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Worst venue this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most overrated place this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most overrated city this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most overrated venue this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most underrated place this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most underrated city this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most underrated venue this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most iconic place this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most iconic city this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most iconic venue this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most slept-on place this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most slept-on city this year?",
+    "object_type": "city"
+   },
+   {
+    "prompt": "Most slept-on venue this year?",
+    "object_type": "venue"
+   },
+   {
+    "prompt": "Most influential place this year?",
+    "object_type": "place"
+   },
+   {
+    "prompt": "Most influential city this year?",
+    "object_type": "city"
+   }
+  ]
+ }
+}

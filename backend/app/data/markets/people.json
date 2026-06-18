@@ -1,0 +1,4817 @@
+{
+ "category": "people",
+ "subcategories": {
+  "creators": [
+   {
+    "prompt": "Best person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person among creators?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator among creators?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer among creators?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person among creators of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator among creators of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer among creators of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person among creators ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator among creators ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer among creators ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person among creators of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator among creators of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer among creators of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person among creators of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator among creators of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer among creators of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person among creators this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator among creators this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer among creators this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person among creators this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator among creators this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer among creators this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person among creators this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator among creators this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer among creators this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person among creators this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator among creators this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer among creators this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person among creators this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator among creators this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer among creators this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person among creators this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator among creators this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer among creators this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person among creators this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator among creators this year?",
+    "object_type": "creator"
+   }
+  ],
+  "musicians": [
+   {
+    "prompt": "Best person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in music?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in music?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in music?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in music of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in music of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in music of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in music ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in music ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in music ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in music of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in music of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in music of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in music of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in music of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in music of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in music this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in music this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in music this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in music this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in music this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in music this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in music this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in music this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in music this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in music this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in music this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in music this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in music this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in music this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in music this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in music this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in music this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in music this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in music this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in music this year?",
+    "object_type": "creator"
+   }
+  ],
+  "founders": [
+   {
+    "prompt": "Best person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in tech?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in tech?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in tech?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in tech of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in tech of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in tech of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in tech ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in tech ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in tech ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in tech of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in tech of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in tech of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in tech of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in tech of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in tech of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in tech this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in tech this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in tech this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in tech this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in tech this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in tech this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in tech this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in tech this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in tech this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in tech this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in tech this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in tech this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in tech this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in tech this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in tech this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in tech this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in tech this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in tech this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in tech this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in tech this year?",
+    "object_type": "creator"
+   }
+  ],
+  "actors": [
+   {
+    "prompt": "Best person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in film?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in film?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in film?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in film of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in film of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in film of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in film ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in film ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in film ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in film of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in film of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in film of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in film of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in film of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in film of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in film this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in film this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in film this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in film this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in film this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in film this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in film this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in film this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in film this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in film this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in film this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in film this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in film this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in film this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in film this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in film this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in film this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in film this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in film this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in film this year?",
+    "object_type": "creator"
+   }
+  ],
+  "sports": [
+   {
+    "prompt": "Best person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in sports?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in sports?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in sports?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in sports of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in sports of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in sports of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in sports ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in sports ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in sports ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in sports of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in sports of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in sports of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person in sports of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator in sports of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer in sports of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person in sports this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator in sports this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer in sports this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person in sports this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator in sports this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer in sports this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person in sports this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator in sports this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer in sports this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person in sports this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator in sports this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer in sports this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person in sports this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator in sports this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer in sports this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person in sports this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator in sports this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer in sports this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person in sports this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator in sports this year?",
+    "object_type": "creator"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person of all time?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator of all time?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer of all time?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person ever?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator ever?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer ever?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person of the 2010s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator of the 2010s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer of the 2010s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most influential influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most memorable person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most memorable creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most memorable influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most legendary person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most legendary creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most legendary influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most original person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most original creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most original influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overhyped person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overhyped creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overhyped influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most timeless person of the 2020s?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most timeless creator of the 2020s?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most timeless influencer of the 2020s?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Best person this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Best creator this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Best influencer this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Worst person this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Worst creator this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Worst influencer this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most overrated person this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most overrated creator this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most overrated influencer this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most underrated person this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most underrated creator this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most underrated influencer this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most iconic person this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most iconic creator this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most iconic influencer this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most slept-on person this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most slept-on creator this year?",
+    "object_type": "creator"
+   },
+   {
+    "prompt": "Most slept-on influencer this year?",
+    "object_type": "influencer"
+   },
+   {
+    "prompt": "Most influential person this year?",
+    "object_type": "person"
+   },
+   {
+    "prompt": "Most influential creator this year?",
+    "object_type": "creator"
+   }
+  ]
+ }
+}

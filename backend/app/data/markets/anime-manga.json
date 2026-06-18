@@ -1,0 +1,4817 @@
+{
+ "category": "anime-manga",
+ "subcategories": {
+  "shonen": [
+   {
+    "prompt": "Best anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in shonen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in shonen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in shonen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in shonen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in shonen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in shonen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in shonen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in shonen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in shonen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in shonen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in shonen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in shonen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in shonen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in shonen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in shonen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in shonen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in shonen of the 2020s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in shonen of the 2020s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in shonen of the 2020s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in shonen of the 2020s?",
+    "object_type": "studio"
+   }
+  ],
+  "seinen": [
+   {
+    "prompt": "Best anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in seinen?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in seinen?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in seinen?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in seinen?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in seinen of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in seinen of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in seinen of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in seinen of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in seinen ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in seinen ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in seinen ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in seinen ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in seinen of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in seinen of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in seinen of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in seinen of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in seinen of the 2020s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in seinen of the 2020s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in seinen of the 2020s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in seinen of the 2020s?",
+    "object_type": "studio"
+   }
+  ],
+  "action": [
+   {
+    "prompt": "Best anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in an action series?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in an action series?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in an action series?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in an action series?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in an action series of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in an action series of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in an action series of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in an action series of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in an action series ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in an action series ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in an action series ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in an action series ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in an action series of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in an action series of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in an action series of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in an action series of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in an action series of the 2020s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in an action series of the 2020s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in an action series of the 2020s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in an action series of the 2020s?",
+    "object_type": "studio"
+   }
+  ],
+  "films": [
+   {
+    "prompt": "Best anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in anime films?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in anime films?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in anime films?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in anime films?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in anime films of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in anime films of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in anime films of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in anime films of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in anime films ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in anime films ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in anime films ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in anime films ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in anime films of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in anime films of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in anime films of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in anime films of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in anime films of the 2020s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in anime films of the 2020s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in anime films of the 2020s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in anime films of the 2020s?",
+    "object_type": "studio"
+   }
+  ],
+  "modern": [
+   {
+    "prompt": "Best anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in modern anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in modern anime?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in modern anime?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in modern anime?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in modern anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in modern anime of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in modern anime of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in modern anime of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in modern anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in modern anime ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in modern anime ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in modern anime ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime in modern anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga in modern anime of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio in modern anime of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character in modern anime of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime in modern anime of the 2020s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga in modern anime of the 2020s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character in modern anime of the 2020s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio in modern anime of the 2020s?",
+    "object_type": "studio"
+   }
+  ],
+  "all-time": [
+   {
+    "prompt": "Best anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime of all time?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga of all time?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio of all time?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character of all time?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime ever?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga ever?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio ever?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character ever?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Worst anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Worst manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Worst character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Worst studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overrated anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overrated manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overrated character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overrated studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most underrated anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most underrated manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most underrated character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most underrated studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most iconic anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most iconic manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most iconic character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most iconic studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most slept-on anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most slept-on manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most slept-on character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most slept-on studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most influential anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most influential manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most influential character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most influential studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most memorable anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most memorable manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most memorable character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most memorable studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most legendary anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most legendary manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most legendary character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most legendary studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most original anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most original manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most original character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most original studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most overhyped anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most overhyped manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most overhyped character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most overhyped studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "Most timeless anime of the 2010s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Most timeless manga of the 2010s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Most timeless character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Most timeless studio of the 2010s?",
+    "object_type": "studio"
+   },
+   {
+    "prompt": "GOAT character of the 2010s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best anime of the 2020s?",
+    "object_type": "anime"
+   },
+   {
+    "prompt": "Best manga of the 2020s?",
+    "object_type": "manga"
+   },
+   {
+    "prompt": "Best character of the 2020s?",
+    "object_type": "character"
+   },
+   {
+    "prompt": "Best studio of the 2020s?",
+    "object_type": "studio"
+   }
+  ]
+ }
+}
