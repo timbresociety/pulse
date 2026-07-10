@@ -42,7 +42,20 @@ async def lock_prediction(
         await db.rollback()
         raise HTTPException(409, "Already predicted on this market")
     await db.refresh(prediction)
-    return CreatePredictionOut(id=prediction.id, reveal_seconds=reveal_seconds)
+
+    picked_object = await db.get(Object, payload.object_id) if payload.object_id else None
+    return CreatePredictionOut(
+        id=prediction.id,
+        reveal_seconds=reveal_seconds,
+        new_coins=user.coins,
+        entry_cost=10,
+        is_ranked=True,
+        ranked_calls_remaining=10,
+        pool_size=0,
+        object_id=picked_object.id if picked_object else None,
+        canonical_name=picked_object.canonical_name if picked_object else payload.raw_text,
+        object_type=picked_object.object_type if picked_object else market.object_type,
+    )
 
 
 @router.post("/{prediction_id}/reveal", response_model=RevealOut)

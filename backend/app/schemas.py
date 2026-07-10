@@ -1,4 +1,5 @@
 import uuid
+from datetime import datetime
 
 from pydantic import BaseModel, ConfigDict
 
@@ -20,6 +21,7 @@ class UserOut(BaseModel):
     avatar_url: str | None
     coins: int
     pulse_score: int
+    ranked_calls_remaining: int = 10
     categories: list[CategoryOut] = []
 
 
@@ -53,6 +55,14 @@ class CreatePredictionIn(BaseModel):
 class CreatePredictionOut(BaseModel):
     id: uuid.UUID
     reveal_seconds: int
+    new_coins: int | None = None
+    entry_cost: int = 10
+    is_ranked: bool = True
+    ranked_calls_remaining: int = 10
+    pool_size: int = 0
+    object_id: uuid.UUID | None = None
+    canonical_name: str | None = None
+    object_type: str | None = None
 
 
 class RevealOut(BaseModel):
@@ -73,6 +83,45 @@ class LeaderboardRow(BaseModel):
     coins: int
     pulse_score: int
     is_you: bool = False
+
+
+class HistoryPredictionOut(BaseModel):
+    id: uuid.UUID
+    market_id: uuid.UUID
+    prompt: str
+    category_name: str | None = None
+    category_slug: str | None = None
+    picked_name: str | None = None
+    outcome: str | None = None
+    locked_at: datetime
+    resolved_at: datetime | None = None
+    reveal_seconds: int
+    shown_share: float | None = None
+    coins_won: int
+    pulse_delta: int
+    entry_cost: int = 10
+    payout_multiplier: float = 0
+    pool_size: int = 0
+    settlement_type: str = "top_call"
+
+
+class ProfileStatsOut(BaseModel):
+    entered: int
+    resolved: int
+    pending: int
+    wins: int
+    losses: int
+    win_rate: float
+    total_coins_won: int
+    total_pulse_delta: int
+    best_coin_win: int
+    avg_crowd_share: float
+    ranked_calls_remaining: int = 10
+    current_streak: int = 0
+    biggest_multiplier: float = 0
+    contrarian_wins: int = 0
+    early_calls: int = 0
+    best_category: str | None = None
 
 
 class TokenOut(BaseModel):

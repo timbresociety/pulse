@@ -3,15 +3,28 @@ import { useAuth } from "./auth.jsx";
 import Login from "./screens/Login.jsx";
 import Categories from "./screens/Categories.jsx";
 import Feed from "./screens/Feed.jsx";
+import History from "./screens/History.jsx";
 import Leaderboard from "./screens/Leaderboard.jsx";
 import Profile from "./screens/Profile.jsx";
+import Wallet from "./screens/Wallet.jsx";
 
 function BottomNav() {
+  const items = [
+    ["/feed", "F", "Feed"],
+    ["/reveals", "R", "Reveals"],
+    ["/wallet", "W", "Wallet"],
+    ["/social", "S", "Social"],
+    ["/profile", "P", "Profile"],
+  ];
+
   return (
     <nav className="bottomnav">
-      <NavLink to="/feed" className={({ isActive }) => (isActive ? "active" : "")}>Feed</NavLink>
-      <NavLink to="/leaderboard" className={({ isActive }) => (isActive ? "active" : "")}>Leaderboard</NavLink>
-      <NavLink to="/profile" className={({ isActive }) => (isActive ? "active" : "")}>Profile</NavLink>
+      {items.map(([to, glyph, label]) => (
+        <NavLink key={to} to={to} className={({ isActive }) => (isActive ? "active" : "")}>
+          <span className="nav-glyph">{glyph}</span>
+          <span>{label}</span>
+        </NavLink>
+      ))}
     </nav>
   );
 }
@@ -19,10 +32,9 @@ function BottomNav() {
 export default function App() {
   const { user, loading } = useAuth();
 
-  if (loading) return <div className="app"><div className="empty">Loading…</div></div>;
+  if (loading) return <div className="app"><div className="empty">Loading Psyblr...</div></div>;
   if (!user) return <div className="app"><Login /></div>;
 
-  // Force category selection before play.
   const hasCategories = user.categories && user.categories.length > 0;
 
   return (
@@ -30,7 +42,11 @@ export default function App() {
       <Routes>
         <Route path="/categories" element={<Categories />} />
         <Route path="/feed" element={hasCategories ? <Feed /> : <Navigate to="/categories" />} />
-        <Route path="/leaderboard" element={<Leaderboard />} />
+        <Route path="/reveals" element={<History />} />
+        <Route path="/history" element={<Navigate to="/reveals" />} />
+        <Route path="/wallet" element={<Wallet />} />
+        <Route path="/social" element={<Leaderboard />} />
+        <Route path="/leaderboard" element={<Navigate to="/social" />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="*" element={<Navigate to={hasCategories ? "/feed" : "/categories"} />} />
       </Routes>

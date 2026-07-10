@@ -1,11 +1,11 @@
 {
-  "name": "Pulse",
-  "short_name": "Pulse",
+  "name": "Psyblr",
+  "short_name": "Psyblr",
   "description": "How well can you read culture?",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#F7F5FF",
+  "theme_color": "#F7F5FF",
   "icons": [
     { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
