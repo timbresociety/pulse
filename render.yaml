@@ -1,0 +1,50 @@
+services:
+  - type: web
+    name: pulse-api
+    runtime: docker
+    rootDir: backend
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: pulse-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRE_MINUTES
+        value: "43200"
+      - key: DEBUG
+        value: "false"
+      - key: ADMIN_EMAILS
+        value: luckyloot786@gmail.com
+      - key: EMAIL_DELIVERY
+        value: resend
+      - key: RESEND_API_KEY
+        sync: false
+      - key: EMAIL_FROM
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: PUBLIC_API_URL
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+      - key: GOOGLE_CLIENT_ID
+        sync: false
+      - key: GOOGLE_CLIENT_SECRET
+        sync: false
+      - key: GOOGLE_REDIRECT_URI
+        sync: false
+      - key: DEFAULT_MARKET_DURATION_MINUTES
+        value: "1440"
+      - key: STARTING_COINS
+        value: "100"
+      - key: LEADERBOARD_RANK_METRIC
+        value: coins
+
+databases:
+  - name: pulse-db
+    databaseName: pulse
+    user: pulse

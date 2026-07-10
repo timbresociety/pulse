@@ -1,158 +1,98 @@
-# Pulse — Rigged Demo
+# Pulse / Psyblr
 
-A PWA demo of **Pulse Markets**: a swipe-feed cultural prediction game ("how well
-can you read culture?"). This version exists to test the core dopamine loop —
-swipe → lock a call → reveal → win coins → climb the leaderboard — with **rigged**
-outcomes, **real** Google auth, and **real** measurement.
+A culture-market PWA where users lock canonical calls, wait for markets to close,
+and see how their picks settle against the market result.
 
-Design spec: [`docs/superpowers/specs/2026-06-18-pulse-rigged-demo-design.md`](docs/superpowers/specs/2026-06-18-pulse-rigged-demo-design.md)
-
-## What's real vs faked
-
-| Real | Faked |
-|---|---|
-| Google auth, user records | win/lose outcome (weighted random + guardrails) |
-| category selections | crowd distribution % at reveal |
-| markets, objects, fuzzy search | leaderboard competitors |
-| every prediction (pick, timing) | |
-| coins + pulse derived from wins | |
+The current architecture is source-bound: a market cannot be created from a
+prompt alone. Admin-created markets require a category, object type, source URL,
+source freshness date, scope statement, coverage statement, and a MECE object
+universe. Search and locking are restricted to that finite universe.
 
 ## Stack
 
-- **Backend:** FastAPI (async) + Postgres (SQLAlchemy 2.0 + asyncpg), `pg_trgm`
-  fuzzy search.
-- **Frontend:** React + Vite PWA (simple light theme).
-- **Auth:** Google OAuth (+ an email-only `/auth/dev-login` for local testing).
+- Backend: FastAPI, SQLAlchemy 2.0 async, managed Postgres-compatible storage.
+- Frontend: React + Vite PWA.
+- Auth: Google OAuth plus passwordless email sign-in with a one-time code and
+  one-use magic link.
+- Admin: allowlisted emails can create markets. `luckyloot786@gmail.com` is in
+  the default admin allowlist.
 
-## Run it locally
+## Data Contract
 
-### 1. Backend
+- User records, username onboarding, predictions, markets, objects, aliases,
+  market universes, email challenges, and settlements are all persisted in
+  Postgres via `DATABASE_URL`.
+- Public standings use real signed-in users with usernames.
+- Pools, counts, settlement winners, payouts, and history are computed from
+  persisted prediction rows.
+- Development fixtures must stay isolated from public accounting surfaces.
+
+## Run Locally
+
+Backend:
 
 ```bash
 cd backend
-
-# Start Postgres (or use your own and set DATABASE_URL)
 docker compose up -d
-
-# Python env
-python3 -m venv .venv && source .venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
-
-# Config
-cp .env.example .env          # defaults work with the docker compose db
-
-# Run — creates tables, enables pg_trgm, seeds 12 categories on first boot
+cp .env.example .env
 uvicorn app.main:app --reload
 ```
 
-Check it: open http://localhost:8000/health → `{"status":"ok", ...}`.
-API docs at http://localhost:8000/docs.
-
-**Testing without Google:** with `DEBUG=true` (the default), you can log in with
-just an email via `POST /auth/dev-login?email=you@example.com`. The frontend's
-login screen exposes this as a "Dev login" box.
-
-**Enabling Google OAuth:** create OAuth credentials at
-https://console.cloud.google.com/apis/credentials, set the redirect URI to
-`http://localhost:8000/auth/google/callback`, and fill `GOOGLE_CLIENT_ID` /
-`GOOGLE_CLIENT_SECRET` in `.env`.
-
-### 2. Frontend
+Frontend:
 
 ```bash
 cd frontend
-cp .env.example .env          # VITE_API_URL=http://localhost:8000
+cp .env.example .env
 npm install
-npm run dev                   # http://localhost:5173
+npm run dev
 ```
 
-Open http://localhost:5173, log in (use Dev login for speed), pick your
-categories, and start swiping.
+Open `http://localhost:5173`. The backend health check is at
+`http://localhost:8000/health`.
 
-## Questions (static seed)
+## Auth Setup
 
-The feed is seeded from **14,400 questions** — **200 per subcategory**, 6
-subcategories × 12 categories (1,200 per category). They live as compact JSON in
-`backend/app/data/markets/<category>.json`, grouped by subcategory, and load at
-first boot.
+Google OAuth:
 
-Regenerate or tweak them with the template generator:
+- Create credentials in Google Cloud Console.
+- Set the redirect URI to `http://localhost:8000/auth/google/callback` locally,
+  or your production backend callback URL in production.
+- Fill `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, and `GOOGLE_REDIRECT_URI`.
 
-```bash
-cd backend && python scripts/build_market_seed.py   # rewrites the JSON files
-```
+Email sign-in:
 
-Each question is templated as `superlative × object_type × facet` within a
-subcategory scope, and every question's `object_type` is restricted to the types
-that category actually has seeded answers for — so the fuzzy search always has
-real objects to match. To reload after regenerating, drop and recreate the DB
-(seeding only runs on an empty database).
+- Production uses `EMAIL_DELIVERY=resend`, `RESEND_API_KEY`, and `EMAIL_FROM`.
+- The email contains both a six-digit code and a magic link.
+- The magic link redirects back to `FRONTEND_URL` with an access token fragment.
+- Local development can use `EMAIL_DELIVERY=console` with `DEBUG=true`; the code
+  is written to backend logs only.
 
-## Optional: dynamic LLM top-up
+## Market Creation
 
-With 14,400 static questions the feed effectively never runs dry, so this is
-off by default. If you set `ANTHROPIC_API_KEY`, the backend will *also* generate
-fresh questions on the fly with Claude (`claude-opus-4-8`) when a user's
-unanswered count in a category drops below `FEED_TOPUP_THRESHOLD`:
+Admin users see a Create tab after login. To publish a market they must provide:
 
-- **On category select** — picking categories kicks off background generation
-  for each, so the feed grows as you start playing.
-- **Auto top-up** — when a category's unanswered count for a user drops below
-  `FEED_TOPUP_THRESHOLD`, the feed fires a background batch of
-  `FEED_TOPUP_BATCH` new questions.
+- prompt
+- category
+- object type
+- close duration
+- source name and URL
+- source last-updated date
+- scope statement
+- coverage statement
+- MECE object list with optional aliases
 
-Generated prompts are constrained (via structured outputs) to the `object_type`s
-each category actually has seeded answers for, so fuzzy search always has real
-objects to match. It's fully best-effort: no key, or any API error, and the feed
-just falls back to the seeded markets — nothing in the request path blocks on it.
+The API rejects duplicate canonical objects and alias collisions. Once published,
+retrieval is object-restricted: autocomplete and lock resolution only search
+objects linked through `market_objects` for that market.
 
-Set `ANTHROPIC_API_KEY` in `backend/.env` to enable it.
+See `docs/architecture.md` for the backend model and settlement details.
 
-## Game tuning (backend `.env`)
+## Cloud Deploy
 
-| Var | Default | Meaning |
-|---|---|---|
-| `REVEAL_START_SECONDS` | 30 | delay before the 1st locked market reveals |
-| `REVEAL_INCREMENT_SECONDS` | 30 | added to each subsequent reveal (linear: 30, 60, 90…) |
-| `WIN_PROBABILITY` | 0.65 | base win chance per reveal |
-| `FIRST_MARKET_ALWAYS_WIN` | true | guarantee a first-win dopamine hit |
-| `NO_BACK_TO_BACK_LOSS_WINDOW` | 5 | no two losses in a row within first N markets |
-| `STARTING_COINS` | 100 | balance on signup |
-| `BASE_COIN_PAYOUT` | 50 | base coins per win (×contrarian multiplier) |
-| `LEADERBOARD_RANK_METRIC` | coins | `coins` or `pulse` |
-
-## Project layout
-
-```
-backend/
-  app/
-    main.py            # app wiring, table create + seed on startup
-    config.py          # env settings + game knobs
-    models.py          # SQLAlchemy models
-    auth.py            # JWT sessions, get_current_user, upsert_user
-    game.py            # rigging: timers, outcomes, crowd, coins, pulse
-    seed_data.py       # the 12-category catalog
-    seed.py            # idempotent seeding
-    routers/           # auth, users, feed, predictions, leaderboard
-  docker-compose.yml   # Postgres 16
-frontend/
-  src/
-    api.js             # fetch client
-    auth.jsx           # token + useAuth
-    App.jsx            # router + nav + login gate
-    screens/           # Login, Categories, Feed, Reveal, Leaderboard, Profile
-docs/superpowers/specs/ # design spec
-```
-
-## Deploy (later)
-
-Railway: a backend service + managed Postgres (set `DATABASE_URL`,
-`JWT_SECRET`, Google creds, `FRONTEND_URL`), and the frontend as a static build
-(`npm run build`) with `VITE_API_URL` pointed at the backend.
-
-## Notes for the frontend dev
-
-The UI is intentionally minimal (plain CSS, button-based "swipe"). The backend
-contract is stable — see `frontend/src/api.js` for every endpoint. Good next
-steps: real swipe gestures, animated reveal/coin counter, category-themed feed
-skins, streaks, share cards.
+The backend is packaged for Render with `render.yaml` and `backend/Dockerfile`.
+Follow `docs/deploy-render.md` to create the web service, managed Postgres
+database, Resend email settings, Google OAuth redirect, and frontend
+`VITE_API_URL`.

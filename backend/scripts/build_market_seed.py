@@ -1,12 +1,8 @@
-"""Generate ~200 markets (questions) per SUBCATEGORY, grouped by subcategory, and
-write one compact JSON file per category to app/data/markets/<slug>.json.
+"""Generate catalog-wide markets with a complete, finite answer universe.
 
-Each subcategory has a fixed scope phrase. Questions are built from
-  superlative x object_type x facet
-within that scope, which guarantees uniqueness (scope differs per subcategory)
-and enough volume to reach 200 per subcategory. object_types are restricted to
-the types each category actually has seeded objects for, so the fuzzy search
-always has real answers to match.
+Every emitted prompt is answered by the full curated catalog for its category
+and object type. Narrow prompts require a tagged catalog or an explicit object
+list and are deliberately not generated here.
 
 Run from backend/:  python scripts/build_market_seed.py
 """
@@ -41,15 +37,11 @@ SUPERLATIVES = [
 
 GOAT_OK = {"athlete", "team", "character", "game_character", "artist", "director", "author"}
 
-# 10 facets (tail fragments). "" = no facet.
-FACETS = [
-    "", "of all time", "ever", "of the 2010s", "of the 2020s",
-    "this year", "right now", "you'd defend", "that's underrated", "for the culture",
-]
+# These facets do not narrow the candidate universe by time, platform, genre,
+# geography, or use case.
+FACETS = ["", "of all time", "ever", "you'd defend", "that's underrated", "for the culture"]
 
-# Per category: object_types with seeded answers + subcategory -> scope phrase.
-# Scope phrases are distinct per subcategory (so prompts never collide) and avoid
-# reusing any FACETS string. One "all-time" subcategory per category uses "".
+# Per category: object types that can be backed by a curated answer universe.
 CATEGORIES = {
     "music": {
         "types": ["song", "album", "artist"],
@@ -146,6 +138,8 @@ def _prompt(superlative_tpl: str, noun: str, scope: str, facet: str) -> str:
 
 
 def build_subcat(types: list[str], scope: str) -> list[dict]:
+    if scope:
+        raise ValueError("Scoped markets require an explicit scoped object catalog")
     out: list[dict] = []
     seen: set[str] = set()
     # Order so variety shows immediately: facet-major, then superlative, then type.
@@ -169,10 +163,7 @@ def main() -> None:
     os.makedirs(OUT_DIR, exist_ok=True)
     grand_total = 0
     for slug, cfg in CATEGORIES.items():
-        subcats = {
-            name: build_subcat(cfg["types"], scope)
-            for name, scope in cfg["subcats"].items()
-        }
+        subcats = {"all-time": build_subcat(cfg["types"], "")}
         count = sum(len(v) for v in subcats.values())
         grand_total += count
         path = os.path.join(OUT_DIR, f"{slug}.json")

@@ -6,7 +6,13 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.auth import create_session_token, upsert_user
 from app.config import settings
 from app.database import get_db
-from app.schemas import TokenOut
+from app.email_auth import (
+    consume_email_code,
+    consume_magic_token,
+    deliver_email_challenge,
+    issue_email_challenge,
+)
+from app.schemas import EmailLoginStartIn, EmailLoginVerifyIn, TokenOut
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
@@ -24,7 +30,7 @@ if settings.google_enabled:
 @router.get("/google/login")
 async def google_login(request: Request):
     if not settings.google_enabled:
-        raise HTTPException(503, "Google OAuth not configured. Use /auth/dev-login in DEBUG mode.")
+        raise HTTPException(503, "Google OAuth is not configured.")
     return await oauth.google.authorize_redirect(request, settings.google_redirect_uri)
 
 
@@ -46,6 +52,29 @@ async def google_callback(request: Request, db: AsyncSession = Depends(get_db)):
     )
     session_token = create_session_token(user.id)
     # Hand the token to the PWA via URL fragment
+    return RedirectResponse(f"{settings.frontend_url}/#token={session_token}")
+
+
+@router.post("/email/start")
+async def start_email_login(payload: EmailLoginStartIn, db: AsyncSession = Depends(get_db)):
+    """Send both a six-digit code and a one-use magic link to the address."""
+    _challenge, code, magic_token = await issue_email_challenge(db, payload.email)
+    await deliver_email_challenge(email=payload.email, code=code, magic_token=magic_token)
+    return {"status": "sent"}
+
+
+@router.post("/email/verify", response_model=TokenOut)
+async def verify_email_code(payload: EmailLoginVerifyIn, db: AsyncSession = Depends(get_db)):
+    email = await consume_email_code(db, email=payload.email, code=payload.code)
+    user = await upsert_user(db, email=email)
+    return TokenOut(access_token=create_session_token(user.id))
+
+
+@router.get("/email/magic")
+async def verify_magic_link(token: str, db: AsyncSession = Depends(get_db)):
+    email = await consume_magic_token(db, magic_token=token)
+    user = await upsert_user(db, email=email)
+    session_token = create_session_token(user.id)
     return RedirectResponse(f"{settings.frontend_url}/#token={session_token}")
 
 

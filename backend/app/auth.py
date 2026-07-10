@@ -38,6 +38,12 @@ async def get_current_user(
     return user
 
 
+async def get_current_admin(user: User = Depends(get_current_user)) -> User:
+    if not user.is_admin:
+        raise HTTPException(status.HTTP_403_FORBIDDEN, "Administrator access is required")
+    return user
+
+
 async def upsert_user(
     db: AsyncSession,
     *,
@@ -46,14 +52,16 @@ async def upsert_user(
     display_name: str | None = None,
     avatar_url: str | None = None,
 ) -> User:
+    email = email.strip().casefold()
     result = await db.execute(select(User).where(User.email == email))
     user = result.scalar_one_or_none()
     if user is None:
         user = User(
             email=email,
             google_sub=google_sub,
-            display_name=display_name or email.split("@")[0],
+            display_name=display_name,
             avatar_url=avatar_url,
+            is_admin=email in settings.authorized_admin_emails,
             coins=settings.starting_coins,
             pulse_score=0,
         )
@@ -65,6 +73,9 @@ async def upsert_user(
             user.display_name = display_name
         if avatar_url and not user.avatar_url:
             user.avatar_url = avatar_url
+        # Configuration is the source of truth for bootstrap administrators.
+        # This also grants the requested administrator access on the next sign-in.
+        user.is_admin = email in settings.authorized_admin_emails
     await db.commit()
     await db.refresh(user)
     return user

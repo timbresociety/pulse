@@ -38,8 +38,12 @@ class User(Base):
     id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=_uuid)
     email: Mapped[str] = mapped_column(String, unique=True, index=True)
     google_sub: Mapped[str | None] = mapped_column(String, unique=True, nullable=True)
+    # `display_name` is provider-supplied presentation data. `username` is the
+    # public, user-chosen identity used throughout the product.
+    username: Mapped[str | None] = mapped_column(String(32), nullable=True, unique=True, index=True)
     display_name: Mapped[str | None] = mapped_column(String, nullable=True)
     avatar_url: Mapped[str | None] = mapped_column(String, nullable=True)
+    is_admin: Mapped[bool] = mapped_column(Boolean, default=False, nullable=False)
     coins: Mapped[int] = mapped_column(Integer, default=0)
     pulse_score: Mapped[int] = mapped_column(Integer, default=0)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
@@ -84,6 +88,53 @@ class Market(Base):
     category_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), ForeignKey("categories.id"))
     object_type: Mapped[str] = mapped_column(String)
     status: Mapped[str] = mapped_column(String, default="open")
+    opens_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
+    closes_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True, index=True)
+    settled_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    winning_object_id: Mapped[uuid.UUID | None] = mapped_column(
+        UUID(as_uuid=True), ForeignKey("objects.id"), nullable=True
+    )
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
+
+
+class MarketObject(Base):
+    __tablename__ = "market_objects"
+    __table_args__ = (UniqueConstraint("market_id", "object_id", name="uq_market_object"),)
+
+    id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=_uuid)
+    market_id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True), ForeignKey("markets.id", ondelete="CASCADE"), index=True
+    )
+    object_id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True), ForeignKey("objects.id", ondelete="RESTRICT"), index=True
+    )
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
+
+
+class MarketUniverse(Base):
+    """The declared, finite answer universe for one market.
+
+    A market is public only when this record and its linked MarketObjects pass
+    validation.  The source and scope make "complete" a reviewable claim rather
+    than an implicit promise made by fuzzy search.
+    """
+
+    __tablename__ = "market_universes"
+
+    id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=_uuid)
+    market_id: Mapped[uuid.UUID] = mapped_column(
+        UUID(as_uuid=True), ForeignKey("markets.id", ondelete="CASCADE"), unique=True, index=True
+    )
+    source_name: Mapped[str] = mapped_column(String)
+    source_url: Mapped[str] = mapped_column(String)
+    scope_statement: Mapped[str] = mapped_column(String)
+    coverage_statement: Mapped[str] = mapped_column(String)
+    source_updated_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    coverage_hash: Mapped[str] = mapped_column(String(64), index=True)
+    object_count: Mapped[int] = mapped_column(Integer)
+    created_by_user_id: Mapped[uuid.UUID | None] = mapped_column(
+        UUID(as_uuid=True), ForeignKey("users.id", ondelete="SET NULL"), nullable=True
+    )
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())
 
 
@@ -106,11 +157,15 @@ class Prediction(Base):
     pulse_delta: Mapped[int] = mapped_column(Integer, default=0)
 
 
-class LeaderboardEntry(Base):
-    __tablename__ = "leaderboard_entries"
+class EmailLoginChallenge(Base):
+    """One-use email sign-in challenge. Only digests are persisted."""
+
+    __tablename__ = "email_login_challenges"
 
     id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=_uuid)
-    display_name: Mapped[str] = mapped_column(String)
-    coins: Mapped[int] = mapped_column(Integer, default=0)
-    pulse_score: Mapped[int] = mapped_column(Integer, default=0)
-    is_bot: Mapped[bool] = mapped_column(Boolean, default=True)
+    email: Mapped[str] = mapped_column(String, index=True)
+    code_hash: Mapped[str] = mapped_column(String(64), index=True)
+    magic_token_hash: Mapped[str] = mapped_column(String(64), unique=True, index=True)
+    expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), index=True)
+    consumed_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), server_default=func.now())

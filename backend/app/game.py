@@ -1,124 +1,129 @@
-"""Rigged demo game logic: timers, outcomes, fabricated crowd, scoring, coins.
+"""Real market accounting and settlement.
 
-Nothing here reflects a real crowd. Outcomes are weighted-random with dopamine
-guardrails; crowd shares are fabricated deterministically per prediction.
+Every displayed call count, pool, winner, payout, and leaderboard score is
+derived from persisted user predictions. Markets settle once, after their actual
+close time; no manufactured participation or outcome shaping is used.
 """
-import hashlib
-import random
-import uuid
 
-from sqlalchemy import func, select
+from __future__ import annotations
+
+import uuid
+from datetime import datetime, time, timezone
+
+from fastapi import HTTPException
+from sqlalchemy import func, select, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.config import settings
-from app.models import Object, Prediction
+from app.models import Market, Prediction, User
+
+ENTRY_COST = 10
+RANKED_CALLS_PER_DAY = 10
+PLATFORM_RAKE = 0.10
 
 
-def reveal_seconds_for_index(index: int) -> int:
-    """index is 0-based count of the user's prior locked markets.
+def market_context(market: Market, total_calls: int = 0) -> dict:
+    now = datetime.now(timezone.utc)
+    closes_in = max(
+        0,
+        int((market.closes_at - now).total_seconds()),
+    ) if market.closes_at else 0
+    pool = total_calls * ENTRY_COST
+    net_pool = int(pool * (1 - PLATFORM_RAKE))
+    # This is deliberately the current distributable pool, not an invented
+    # payout projection. The final distribution depends on real winning calls.
+    return {
+        "entry_cost": ENTRY_COST,
+        "ranked": True,
+        "closes_in_seconds": closes_in,
+        "opens_in_batch_seconds": 0,
+        "total_call_count": total_calls,
+        "pool_size": pool,
+        "net_pool": net_pool,
+        "potential_payout_min": 0,
+        "potential_payout_max": net_pool,
+        "settlement_type": "top_call",
+    }
 
-    30s, 60s, 90s, ... (start + index * increment)
-    """
-    return settings.reveal_start_seconds + index * settings.reveal_increment_seconds
 
-
-def _seeded_rng(*parts: object) -> random.Random:
-    digest = hashlib.sha256("|".join(str(p) for p in parts).encode()).hexdigest()
-    return random.Random(int(digest[:16], 16))
-
-
-async def user_locked_count(db: AsyncSession, user_id: uuid.UUID) -> int:
+async def user_ranked_calls_today(db: AsyncSession, user_id: uuid.UUID) -> int:
+    start = datetime.combine(datetime.now(timezone.utc).date(), time.min, tzinfo=timezone.utc)
     result = await db.execute(
-        select(func.count()).select_from(Prediction).where(Prediction.user_id == user_id)
+        select(func.count())
+        .select_from(Prediction)
+        .where(Prediction.user_id == user_id, Prediction.locked_at >= start)
     )
     return result.scalar_one()
 
 
-async def _recent_outcomes(db: AsyncSession, user_id: uuid.UUID, limit: int) -> list[str]:
-    result = await db.execute(
-        select(Prediction.outcome)
-        .where(Prediction.user_id == user_id, Prediction.outcome.is_not(None))
-        .order_by(Prediction.resolved_at.desc())
-        .limit(limit)
-    )
-    return [row[0] for row in result.all()]
+async def settle_market(db: AsyncSession, market: Market) -> None:
+    """Settle a closed market from its persisted calls exactly once.
 
-
-async def decide_outcome(db: AsyncSession, user_id: uuid.UUID) -> str:
-    """Weighted-random win/lose with dopamine guardrails.
-
-    - The user's very first resolved market is always a win.
-    - No two losses back-to-back inside the first `window` resolved markets.
+    Ties use the object whose first call was locked earliest. The full tie rule
+    is deterministic so any worker/API request reaches the same result.
     """
-    resolved = await db.execute(
-        select(func.count())
-        .select_from(Prediction)
-        .where(Prediction.user_id == user_id, Prediction.outcome.is_not(None))
+    now = datetime.now(timezone.utc)
+    if market.settled_at is not None or market.status == "settled":
+        return
+    if market.closes_at is None or now < market.closes_at:
+        raise HTTPException(409, "This market has not closed yet.")
+
+    result = await db.execute(
+        select(Prediction)
+        .where(Prediction.market_id == market.id)
+        .order_by(Prediction.locked_at.asc(), Prediction.id.asc())
+        .with_for_update()
     )
-    resolved_count = resolved.scalar_one()
+    predictions = result.scalars().all()
+    if not predictions:
+        market.status = "settled"
+        market.settled_at = now
+        return
 
-    if settings.first_market_always_win and resolved_count == 0:
-        return "win"
+    counts: dict[uuid.UUID, int] = {}
+    first_call: dict[uuid.UUID, tuple[datetime, str]] = {}
+    for prediction in predictions:
+        if prediction.object_id is None:
+            continue
+        counts[prediction.object_id] = counts.get(prediction.object_id, 0) + 1
+        first_call.setdefault(prediction.object_id, (prediction.locked_at, str(prediction.id)))
 
-    rng = _seeded_rng("outcome", user_id, resolved_count)
-    outcome = "win" if rng.random() < settings.win_probability else "lose"
+    if not counts:
+        market.status = "settled"
+        market.settled_at = now
+        return
 
-    if outcome == "lose" and resolved_count < settings.no_back_to_back_loss_window:
-        recent = await _recent_outcomes(db, user_id, 1)
-        if recent and recent[0] == "lose":
-            outcome = "win"  # avoid back-to-back losses early
-    return outcome
-
-
-async def _random_other_object(
-    db: AsyncSession, category_id: uuid.UUID, object_type: str, exclude_id: uuid.UUID | None
-) -> Object | None:
-    stmt = select(Object).where(
-        Object.category_id == category_id,
-        Object.object_type == object_type,
-        Object.status == "active",
+    winner_id = min(
+        counts,
+        key=lambda object_id: (-counts[object_id], first_call[object_id][0], first_call[object_id][1]),
     )
-    if exclude_id is not None:
-        stmt = stmt.where(Object.id != exclude_id)
-    result = await db.execute(stmt.order_by(func.random()).limit(1))
-    return result.scalar_one_or_none()
+    winner_count = counts[winner_id]
+    shown_share = round(winner_count / len(predictions), 3)
+    distributable_pool = int(len(predictions) * ENTRY_COST * (1 - PLATFORM_RAKE))
+    per_winner, remainder = divmod(distributable_pool, winner_count)
+    winner_predictions = [p for p in predictions if p.object_id == winner_id]
 
-
-def coins_and_pulse_for_win(shown_share: float, pred_id: uuid.UUID) -> tuple[int, int]:
-    """Lower shown share => more 'contrarian' => bigger reward."""
-    # contrarian multiplier: share 0.10 -> ~2.2x, share 0.35 -> ~1.1x
-    multiplier = max(1.0, 1.0 + (0.40 - shown_share) * 3.0)
-    rng = _seeded_rng("payout", pred_id)
-    jitter = rng.uniform(0.9, 1.1)
-    coins = int(settings.base_coin_payout * multiplier * jitter)
-    pulse = int(10 * multiplier * jitter)
-    return coins, pulse
-
-
-async def fabricate_reveal(
-    db: AsyncSession,
-    prediction: Prediction,
-    category_id: uuid.UUID,
-    object_type: str,
-) -> dict:
-    """Decide outcome, fabricate crowd, compute coins/pulse. Mutates prediction."""
-    outcome = await decide_outcome(db, prediction.user_id)
-    rng = _seeded_rng("crowd", prediction.id)
-
-    if outcome == "win":
-        shown_share = round(rng.uniform(0.18, 0.34), 3)
-        prediction.shown_winner_object_id = prediction.object_id
-        coins, pulse = coins_and_pulse_for_win(shown_share, prediction.id)
-    else:
-        shown_share = round(rng.uniform(0.22, 0.40), 3)
-        other = await _random_other_object(
-            db, category_id, object_type, prediction.object_id
+    winner_positions = {prediction.id: index for index, prediction in enumerate(winner_predictions)}
+    for prediction in predictions:
+        won = prediction.object_id == winner_id
+        coins = (
+            per_winner + (1 if winner_positions[prediction.id] < remainder else 0)
+            if won
+            else 0
         )
-        prediction.shown_winner_object_id = other.id if other else None
-        coins, pulse = 0, rng.randint(0, 2)
+        pulse = 10 if won else 0
+        prediction.outcome = "win" if won else "lose"
+        prediction.shown_winner_object_id = winner_id
+        prediction.shown_share = shown_share
+        prediction.coins_won = coins
+        prediction.pulse_delta = pulse
+        prediction.resolved_at = now
+        if won:
+            await db.execute(
+                update(User)
+                .where(User.id == prediction.user_id)
+                .values(coins=User.coins + coins, pulse_score=User.pulse_score + pulse)
+            )
 
-    prediction.outcome = outcome
-    prediction.shown_share = shown_share
-    prediction.coins_won = coins
-    prediction.pulse_delta = pulse
-    return {"outcome": outcome, "shown_share": shown_share, "coins_won": coins, "pulse_delta": pulse}
+    market.winning_object_id = winner_id
+    market.status = "settled"
+    market.settled_at = now
