@@ -7627,3 +7627,121 @@ p {
     grid-template-columns: 1fr;
   }
 }
+
+/* Channel selection: flip to a distinct, feed-ready card face. */
+.channel-grid .channel-card {
+  min-height: 92px;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  perspective: 900px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.channel-card__inner {
+  position: relative;
+  display: block;
+  min-height: inherit;
+  transform-style: preserve-3d;
+  transition: transform 420ms cubic-bezier(0.2, 0.82, 0.24, 1.16);
+}
+
+.channel-card.selected .channel-card__inner {
+  transform: rotateY(180deg);
+}
+
+.channel-card__face {
+  position: absolute;
+  inset: 0;
+  display: flex !important;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.62);
+  border-radius: var(--radius-md);
+  color: var(--text);
+  box-shadow: var(--glass-shadow-soft);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.channel-card__front {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.48)),
+    radial-gradient(circle at 16% 0%, color-mix(in srgb, var(--channel) 22%, transparent), transparent 42%);
+}
+
+.channel-card__back {
+  border-color: color-mix(in srgb, var(--channel) 66%, white);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(255, 255, 255, 0.64), transparent 38%),
+    linear-gradient(135deg, color-mix(in srgb, var(--channel) 76%, white), color-mix(in srgb, var(--channel) 35%, white));
+  box-shadow: 0 16px 36px color-mix(in srgb, var(--channel) 30%, transparent), inset 0 1px 0 rgba(255, 255, 255, 0.86);
+  transform: rotateY(180deg);
+}
+
+.channel-card__title {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.channel-card__name {
+  display: block;
+  font-size: 18px !important;
+  font-weight: 800;
+  line-height: 1.1 !important;
+}
+
+.channel-card__check {
+  display: grid !important;
+  width: 26px;
+  height: 26px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid rgba(16, 19, 29, 0.12);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.72);
+  color: #10131d;
+  font-size: 16px !important;
+  font-weight: 900;
+  line-height: 1 !important;
+  box-shadow: 0 5px 12px rgba(16, 19, 29, 0.12);
+}
+
+.channel-card__face small {
+  display: block;
+  margin-top: 9px !important;
+  color: #273850;
+  font-size: 14px !important;
+  font-weight: 800;
+  line-height: 1.1 !important;
+}
+
+.channel-card__front small {
+  color: var(--muted);
+}
+
+.channel-card:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--channel) 70%, white);
+  outline-offset: 3px;
+  border-radius: var(--radius-md);
+}
+
+.channel-card:active .channel-card__inner {
+  transform: scale(0.975) rotateY(0deg);
+}
+
+.channel-card.selected:active .channel-card__inner {
+  transform: scale(0.975) rotateY(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .channel-card__inner {
+    transition: none;
+  }
+}

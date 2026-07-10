@@ -7,6 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.auth import get_current_user
 from app.config import settings
 from app.database import get_db
+from app.game import fabricate_market_metrics
 from app.llm import generate_markets_for_category
 from app.models import Category, Market, Object, Prediction, User
 from app.schemas import (
@@ -82,7 +83,7 @@ async def history(
             coins_won=prediction.coins_won,
             pulse_delta=prediction.pulse_delta,
             payout_multiplier=round((prediction.coins_won or 0) / 10, 1),
-            pool_size=0,
+            pool_size=fabricate_market_metrics(prediction.market_id)["pool_size"],
         )
         for prediction, market, category_name, category_slug, picked_name in result.all()
     ]

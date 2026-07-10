@@ -6,12 +6,21 @@ guardrails; crowd shares are fabricated deterministically per prediction.
 import hashlib
 import random
 import uuid
+from typing import TypedDict
 
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.config import settings
 from app.models import Object, Prediction
+
+
+class DemoMarketMetrics(TypedDict):
+    closes_in_seconds: int
+    pool_size: int
+    total_call_count: int
+    potential_payout_max: int
+    settlement_type: str
 
 
 def reveal_seconds_for_index(index: int) -> int:
@@ -25,6 +34,25 @@ def reveal_seconds_for_index(index: int) -> int:
 def _seeded_rng(*parts: object) -> random.Random:
     digest = hashlib.sha256("|".join(str(p) for p in parts).encode()).hexdigest()
     return random.Random(int(digest[:16], 16))
+
+
+def fabricate_market_metrics(market_id: uuid.UUID) -> DemoMarketMetrics:
+    """Return a stable fabricated crowd snapshot for a demo market.
+
+    The app deliberately has no real market pool yet, so derive the visible
+    crowd from the market id. Keeping it deterministic makes every API surface
+    agree on the same numbers without adding mutable demo rows to the database.
+    """
+    rng = _seeded_rng("market-metrics", market_id)
+    total_call_count = rng.randint(24, 120)
+    pool_size = total_call_count * 10
+    return {
+        "closes_in_seconds": rng.randrange(8 * 60, 46 * 60, 30),
+        "pool_size": pool_size,
+        "total_call_count": total_call_count,
+        "potential_payout_max": pool_size - 10,
+        "settlement_type": "top_call",
+    }
 
 
 async def user_locked_count(db: AsyncSession, user_id: uuid.UUID) -> int:

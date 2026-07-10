@@ -7,6 +7,7 @@ function formatNumber(value = 0) {
 export default function Reveal({ data, onClose }) {
   const win = data.outcome === "win";
   const pct = Math.round((data.shown_share || 0) * 1000) / 10;
+  const payoutMultiplier = data.payout_multiplier ?? Math.round(((data.coins_won || 0) / 10) * 10) / 10;
 
   const content = (
     <div className={`overlay ${win ? "win" : "lose"}`} onClick={onClose}>
@@ -44,7 +45,7 @@ export default function Reveal({ data, onClose }) {
           </div>
           <div>
             <span>Payout</span>
-            <strong>{win ? `${data.payout_multiplier}x` : "0x"}</strong>
+            <strong>{win ? `${payoutMultiplier}x` : "0x"}</strong>
           </div>
           <div>
             <span>Score</span>

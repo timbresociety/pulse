@@ -45,6 +45,11 @@ class MarketOut(BaseModel):
     category_id: uuid.UUID
     category_name: str | None = None
     category_slug: str | None = None
+    closes_in_seconds: int = 0
+    pool_size: int = 0
+    total_call_count: int = 0
+    potential_payout_max: int = 0
+    settlement_type: str = "top_call"
 
 
 class CreatePredictionIn(BaseModel):
@@ -73,6 +78,8 @@ class RevealOut(BaseModel):
     winning_object: str | None
     shown_share: float
     coins_won: int
+    payout_multiplier: float = 0
+    pool_size: int = 0
     pulse_delta: int
     new_coins: int
     new_pulse: int

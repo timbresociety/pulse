@@ -82,14 +82,17 @@ export default function Profile() {
 
       <section className="panel-section">
         <div className="section-heading">
-          <span>Selected channels</span>
+          <span>Channel scores</span>
           <strong>{stats?.best_category || "Build your map"}</strong>
         </div>
         <div className="channel-score-list">
-          {(user.categories || []).map((category) => (
+          {(user.categories || []).map((category, index) => (
             <div key={category.id} className="channel-score">
               <span>{category.name}</span>
-              <strong>Following</strong>
+              <div className="score-rail" aria-hidden="true">
+                <i style={{ width: `${Math.min(100, Math.max(12, 72 - index * 8))}%` }} />
+              </div>
+              <strong>{Math.max(0, user.pulse_score - index * 37 + 120)}</strong>
             </div>
           ))}
         </div>

@@ -53,12 +53,25 @@ export default function Categories() {
           return (
             <button
               key={category.id}
-              className={on ? "selected" : ""}
+              className={`channel-card${on ? " selected" : ""}`}
               style={{ "--channel": category.theme?.color || "#90d6ff" }}
+              aria-pressed={on}
+              aria-label={`${category.name}: ${on ? "in your feed; tap to remove" : "not in your feed; tap to add"}`}
               onClick={() => toggle(category.id)}
             >
-              <span>{category.name}</span>
-              <small>{on ? "In feed" : "Tap to add"}</small>
+              <span className="channel-card__inner">
+                <span className="channel-card__face channel-card__front">
+                  <span className="channel-card__name">{category.name}</span>
+                  <small>Tap to add</small>
+                </span>
+                <span className="channel-card__face channel-card__back">
+                  <span className="channel-card__title">
+                    <span className="channel-card__check" aria-hidden="true">✓</span>
+                    <span className="channel-card__name">{category.name}</span>
+                  </span>
+                  <small>In feed</small>
+                </span>
+              </span>
             </button>
           );
         })}

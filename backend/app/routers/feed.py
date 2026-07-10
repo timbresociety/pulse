@@ -8,6 +8,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.auth import get_current_user
 from app.config import settings
 from app.database import get_db
+from app.game import fabricate_market_metrics
 from app.llm import generate_markets_for_category
 from app.models import Category, Market, Object, ObjectAlias, Prediction, User
 from app.schemas import MarketOut, ObjectOut
@@ -53,6 +54,7 @@ async def feed(
     )
     out: list[MarketOut] = []
     for market, cat_name, cat_slug in result.all():
+        metrics = fabricate_market_metrics(market.id)
         out.append(
             MarketOut(
                 id=market.id,
@@ -61,6 +63,7 @@ async def feed(
                 category_id=market.category_id,
                 category_name=cat_name,
                 category_slug=cat_slug,
+                **metrics,
             )
         )
     return out

@@ -6,7 +6,12 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth import get_current_user
 from app.database import get_db
-from app.game import fabricate_reveal, reveal_seconds_for_index, user_locked_count
+from app.game import (
+    fabricate_market_metrics,
+    fabricate_reveal,
+    reveal_seconds_for_index,
+    user_locked_count,
+)
 from app.models import Market, Object, Prediction, User
 from app.schemas import CreatePredictionIn, CreatePredictionOut, RevealOut
 
@@ -44,6 +49,7 @@ async def lock_prediction(
     await db.refresh(prediction)
 
     picked_object = await db.get(Object, payload.object_id) if payload.object_id else None
+    metrics = fabricate_market_metrics(market.id)
     return CreatePredictionOut(
         id=prediction.id,
         reveal_seconds=reveal_seconds,
@@ -51,7 +57,7 @@ async def lock_prediction(
         entry_cost=10,
         is_ranked=True,
         ranked_calls_remaining=10,
-        pool_size=0,
+        pool_size=metrics["pool_size"],
         object_id=picked_object.id if picked_object else None,
         canonical_name=picked_object.canonical_name if picked_object else payload.raw_text,
         object_type=picked_object.object_type if picked_object else market.object_type,
@@ -69,6 +75,7 @@ async def reveal(
         raise HTTPException(404, "Prediction not found")
 
     market = await db.get(Market, prediction.market_id)
+    metrics = fabricate_market_metrics(prediction.market_id)
 
     if prediction.outcome is None:
         await fabricate_reveal(db, prediction, market.category_id, market.object_type)
@@ -98,6 +105,8 @@ async def reveal(
         winning_object=winning,
         shown_share=prediction.shown_share or 0.0,
         coins_won=prediction.coins_won,
+        payout_multiplier=round((prediction.coins_won or 0) / 10, 1),
+        pool_size=metrics["pool_size"],
         pulse_delta=prediction.pulse_delta,
         new_coins=user.coins,
         new_pulse=user.pulse_score,
