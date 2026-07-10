@@ -144,11 +144,42 @@ frontend/
 docs/superpowers/specs/ # design spec
 ```
 
-## Deploy (later)
+## Deploy to Vercel
 
-Railway: a backend service + managed Postgres (set `DATABASE_URL`,
-`JWT_SECRET`, Google creds, `FRONTEND_URL`), and the frontend as a static build
-(`npm run build`) with `VITE_API_URL` pointed at the backend.
+This repository deploys as one Vercel **Services** project: the Vite frontend
+at `/` and the FastAPI backend at `/api/*`. The root
+[`vercel.json`](vercel.json) defines both services and strips the public `/api`
+prefix before the backend handles a request. `frontend/.env.production` makes
+the built frontend call that same-origin `/api` path.
+
+1. Import the repository into Vercel and set **Framework Preset** to
+   **Services** in **Settings → Build and Deployment**. Do not set a root
+   directory; Vercel needs the repository root to read `vercel.json`.
+2. Create a managed Postgres database (for example, Vercel Postgres, Neon, or
+   Supabase) and use its async SQLAlchemy connection string for `DATABASE_URL`.
+3. Add these environment variables to the Vercel project for Production (and
+   Preview if you want preview deployments to work):
+
+   ```text
+   DATABASE_URL=postgresql+asyncpg://...
+   JWT_SECRET=<a long, random secret>
+   DEBUG=false
+   FRONTEND_URL=https://<your-production-domain>
+   GOOGLE_CLIENT_ID=<optional>
+   GOOGLE_CLIENT_SECRET=<optional>
+   GOOGLE_REDIRECT_URI=https://<your-production-domain>/api/auth/google/callback
+   ANTHROPIC_API_KEY=<optional>
+   ```
+
+4. If Google login is enabled, add the same `GOOGLE_REDIRECT_URI` in the Google
+   Cloud OAuth client. For each preview domain you want to test with Google,
+   add its exact callback URL as well.
+5. Deploy. Verify the backend through
+   `https://<your-production-domain>/api/health` and then open the root URL.
+
+Vercel Services is currently in beta; it builds the two directories separately
+but exposes them on one domain. The backend is a Vercel Function, so the
+database must be external and reachable over TLS.
 
 ## Notes for the frontend dev
 
