@@ -44,6 +44,9 @@ class Settings(BaseSettings):
     # This is intentionally passwordless and unverified. It is for sharing the
     # prototype with testers, not a production authentication system.
     email_login_enabled: bool = True
+    # Local and newly provisioned databases need the schema and seed. Once a
+    # production database is ready, disabling this removes cold-start DDL work.
+    initialize_database: bool = True
 
     # Game tuning
     reveal_start_seconds: int = 30

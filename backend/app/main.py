@@ -13,14 +13,15 @@ from app.seed import seed_if_empty
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    async with engine.begin() as conn:
-        # Enable trigram fuzzy search; ignore if unavailable.
-        try:
-            await conn.execute(text("CREATE EXTENSION IF NOT EXISTS pg_trgm"))
-        except Exception:
-            pass
-        await conn.run_sync(Base.metadata.create_all)
-    await seed_if_empty()
+    if settings.initialize_database:
+        async with engine.begin() as conn:
+            # Enable trigram fuzzy search; ignore if unavailable.
+            try:
+                await conn.execute(text("CREATE EXTENSION IF NOT EXISTS pg_trgm"))
+            except Exception:
+                pass
+            await conn.run_sync(Base.metadata.create_all)
+        await seed_if_empty()
     yield
 
 

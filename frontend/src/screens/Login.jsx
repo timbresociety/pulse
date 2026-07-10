@@ -3,7 +3,7 @@ import { api, setToken } from "../api";
 import { useAuth } from "../auth.jsx";
 
 export default function Login() {
-  const { refresh } = useAuth();
+  const { setUser } = useAuth();
   const googleEnabled = import.meta.env.VITE_GOOGLE_AUTH_ENABLED === "true";
   const [email, setEmail] = useState("");
   const [busy, setBusy] = useState(false);
@@ -14,9 +14,9 @@ export default function Login() {
     setBusy(true);
     setErr("");
     try {
-      const { access_token } = await api.emailLogin(email.trim());
+      const { access_token, user } = await api.emailLogin(email.trim());
       setToken(access_token);
-      await refresh();
+      setUser(user);
     } catch (error) {
       setErr(error.message || "Email sign-in failed. Please try again.");
     } finally {

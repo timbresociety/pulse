@@ -130,6 +130,10 @@ class TokenOut(BaseModel):
     token_type: str = "bearer"
 
 
+class EmailLoginOut(TokenOut):
+    user: UserOut
+
+
 class EmailLoginIn(BaseModel):
     email: str
 

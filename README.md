@@ -168,6 +168,7 @@ the built frontend call that same-origin `/api` path.
    JWT_SECRET=<a long, random secret>
    DEBUG=false
    EMAIL_LOGIN_ENABLED=true
+   INITIALIZE_DATABASE=false
    FRONTEND_URL=https://<your-production-domain>
    GOOGLE_CLIENT_ID=<optional>
    GOOGLE_CLIENT_SECRET=<optional>

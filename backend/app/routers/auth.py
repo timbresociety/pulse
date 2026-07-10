@@ -6,7 +6,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.auth import create_session_token, upsert_user
 from app.config import settings
 from app.database import get_db
-from app.schemas import EmailLoginIn, TokenOut
+from app.schemas import EmailLoginIn, EmailLoginOut, TokenOut
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
@@ -49,13 +49,13 @@ async def google_callback(request: Request, db: AsyncSession = Depends(get_db)):
     return RedirectResponse(f"{settings.frontend_url}/#token={session_token}")
 
 
-@router.post("/email-login", response_model=TokenOut)
+@router.post("/email-login", response_model=EmailLoginOut)
 async def email_login(payload: EmailLoginIn, db: AsyncSession = Depends(get_db)):
     """Passwordless, unverified sign-in for sharing this prototype with testers."""
     if not settings.email_login_enabled:
         raise HTTPException(404, "Not found")
     user = await upsert_user(db, email=payload.email)
-    return TokenOut(access_token=create_session_token(user.id))
+    return EmailLoginOut(access_token=create_session_token(user.id), user=user)
 
 
 @router.post("/dev-login", response_model=TokenOut, include_in_schema=False)

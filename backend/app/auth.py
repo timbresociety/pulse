@@ -67,5 +67,4 @@ async def upsert_user(
         if avatar_url and not user.avatar_url:
             user.avatar_url = avatar_url
     await db.commit()
-    await db.refresh(user)
     return user
