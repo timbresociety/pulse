@@ -48,8 +48,7 @@ async function req(path, { method = "GET", body, auth = true } = {}) {
 
 export const api = {
   base: BASE,
-  devLogin: (email) =>
-    req(`/auth/dev-login?email=${encodeURIComponent(email)}`, { method: "POST", auth: false }),
+  emailLogin: (email) => req("/auth/email-login", { method: "POST", body: { email }, auth: false }),
   me: () => req("/me"),
   categories: () => req("/categories"),
   setCategories: (category_ids) => req("/me/categories", { method: "POST", body: { category_ids } }),

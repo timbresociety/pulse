@@ -1,3 +1,6 @@
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
+
+from pydantic import field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -6,6 +9,25 @@ class Settings(BaseSettings):
 
     # Database
     database_url: str = "postgresql+asyncpg://pulse:pulse@localhost:5432/pulse"
+
+    @field_validator("database_url")
+    @classmethod
+    def use_asyncpg_driver(cls, value: str) -> str:
+        """Accept the standard Postgres URLs supplied by managed providers."""
+        if value.startswith("postgresql://"):
+            value = "postgresql+asyncpg://" + value.removeprefix("postgresql://")
+        elif value.startswith("postgres://"):
+            value = "postgresql+asyncpg://" + value.removeprefix("postgres://")
+
+        # Neon appends libpq-specific query parameters. asyncpg uses `ssl`
+        # instead of `sslmode` and does not accept `channel_binding`.
+        parsed = urlsplit(value)
+        query = [
+            ("ssl" if key == "sslmode" else key, item)
+            for key, item in parse_qsl(parsed.query, keep_blank_values=True)
+            if key != "channel_binding"
+        ]
+        return urlunsplit(parsed._replace(query=urlencode(query)))
 
     # Auth
     jwt_secret: str = "dev-secret-change-me"
@@ -19,6 +41,9 @@ class Settings(BaseSettings):
     frontend_url: str = "http://localhost:5173"
 
     debug: bool = True
+    # This is intentionally passwordless and unverified. It is for sharing the
+    # prototype with testers, not a production authentication system.
+    email_login_enabled: bool = True
 
     # Game tuning
     reveal_start_seconds: int = 30

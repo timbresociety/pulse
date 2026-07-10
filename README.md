@@ -3,7 +3,7 @@
 A PWA demo of **Pulse Markets**: a swipe-feed cultural prediction game ("how well
 can you read culture?"). This version exists to test the core dopamine loop —
 swipe → lock a call → reveal → win coins → climb the leaderboard — with **rigged**
-outcomes, **real** Google auth, and **real** measurement.
+outcomes, prototype email sign-in, and **real** measurement.
 
 Design spec: [`docs/superpowers/specs/2026-06-18-pulse-rigged-demo-design.md`](docs/superpowers/specs/2026-06-18-pulse-rigged-demo-design.md)
 
@@ -11,7 +11,7 @@ Design spec: [`docs/superpowers/specs/2026-06-18-pulse-rigged-demo-design.md`](d
 
 | Real | Faked |
 |---|---|
-| Google auth, user records | win/lose outcome (weighted random + guardrails) |
+| prototype email sign-in, user records | win/lose outcome (weighted random + guardrails) |
 | category selections | crowd distribution % at reveal |
 | markets, objects, fuzzy search | leaderboard competitors |
 | every prediction (pick, timing) | |
@@ -22,7 +22,7 @@ Design spec: [`docs/superpowers/specs/2026-06-18-pulse-rigged-demo-design.md`](d
 - **Backend:** FastAPI (async) + Postgres (SQLAlchemy 2.0 + asyncpg), `pg_trgm`
   fuzzy search.
 - **Frontend:** React + Vite PWA (simple light theme).
-- **Auth:** Google OAuth (+ an email-only `/auth/dev-login` for local testing).
+- **Auth:** passwordless prototype email sign-in (plus optional Google OAuth).
 
 ## Run it locally
 
@@ -48,9 +48,12 @@ uvicorn app.main:app --reload
 Check it: open http://localhost:8000/health → `{"status":"ok", ...}`.
 API docs at http://localhost:8000/docs.
 
-**Testing without Google:** with `DEBUG=true` (the default), you can log in with
-just an email via `POST /auth/dev-login?email=you@example.com`. The frontend's
-login screen exposes this as a "Dev login" box.
+**Testing without Google:** the login screen lets a tester enter an email
+address and creates a prototype account through `POST /auth/email-login`.
+This does not verify mailbox ownership, so use it only for a shareable demo.
+Set `EMAIL_LOGIN_ENABLED=false` to turn it off. The legacy
+`POST /auth/dev-login?email=you@example.com` endpoint remains available only
+with `DEBUG=true`.
 
 **Enabling Google OAuth:** create OAuth credentials at
 https://console.cloud.google.com/apis/credentials, set the redirect URI to
@@ -66,7 +69,7 @@ npm install
 npm run dev                   # http://localhost:5173
 ```
 
-Open http://localhost:5173, log in (use Dev login for speed), pick your
+Open http://localhost:5173, log in with any valid email address, pick your
 categories, and start swiping.
 
 ## Questions (static seed)
@@ -164,6 +167,7 @@ the built frontend call that same-origin `/api` path.
    DATABASE_URL=postgresql+asyncpg://...
    JWT_SECRET=<a long, random secret>
    DEBUG=false
+   EMAIL_LOGIN_ENABLED=true
    FRONTEND_URL=https://<your-production-domain>
    GOOGLE_CLIENT_ID=<optional>
    GOOGLE_CLIENT_SECRET=<optional>
@@ -180,6 +184,10 @@ the built frontend call that same-origin `/api` path.
 Vercel Services is currently in beta; it builds the two directories separately
 but exposes them on one domain. The backend is a Vercel Function, so the
 database must be external and reachable over TLS.
+
+The default sign-in is intentionally a low-friction, **unverified email**
+identity for prototype testers. It is suitable for sharing a demo link, but it
+is not a replacement for real password or email-link authentication.
 
 ## Notes for the frontend dev
 

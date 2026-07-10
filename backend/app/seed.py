@@ -1,7 +1,7 @@
 import json
 import os
 
-from sqlalchemy import func, select
+from sqlalchemy import func, select, text
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import SessionLocal
@@ -9,6 +9,9 @@ from app.models import Category, LeaderboardEntry, Market, Object, ObjectAlias
 from app.seed_data import BOTS, CATEGORIES, OBJECTS
 
 MARKETS_DIR = os.path.join(os.path.dirname(__file__), "data", "markets")
+# A stable, app-specific PostgreSQL advisory lock id. It prevents concurrent
+# Vercel cold starts from both attempting the one-time initial seed.
+SEED_LOCK_ID = 1_345_391_699
 
 
 def _load_markets(slug: str) -> list[tuple[str, str]]:
@@ -31,8 +34,10 @@ def _load_markets(slug: str) -> list[tuple[str, str]]:
 
 async def seed_if_empty() -> None:
     async with SessionLocal() as db:
+        await db.execute(text("SELECT pg_advisory_xact_lock(:lock_id)"), {"lock_id": SEED_LOCK_ID})
         count = await db.scalar(select(func.count()).select_from(Category))
         if count and count > 0:
+            await db.rollback()
             return
         await _seed(db)
 

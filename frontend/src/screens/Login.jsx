@@ -4,20 +4,21 @@ import { useAuth } from "../auth.jsx";
 
 export default function Login() {
   const { refresh } = useAuth();
+  const googleEnabled = import.meta.env.VITE_GOOGLE_AUTH_ENABLED === "true";
   const [email, setEmail] = useState("");
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState("");
 
-  async function devLogin(event) {
+  async function emailLogin(event) {
     event.preventDefault();
     setBusy(true);
     setErr("");
     try {
-      const { access_token } = await api.devLogin(email.trim());
+      const { access_token } = await api.emailLogin(email.trim());
       setToken(access_token);
       await refresh();
-    } catch {
-      setErr("Dev login failed. Check that DEBUG=true on the backend.");
+    } catch (error) {
+      setErr(error.message || "Email sign-in failed. Please try again.");
     } finally {
       setBusy(false);
     }
@@ -35,13 +36,7 @@ export default function Login() {
       </section>
 
       <section className="login-card">
-        <a className="primary-btn full" href={`${api.base}/auth/google/login`}>
-          Continue with Google
-        </a>
-
-        <div className="auth-divider"><span>or</span></div>
-
-        <form onSubmit={devLogin}>
+        <form onSubmit={emailLogin}>
           <label>
             Email address
             <input
@@ -54,10 +49,18 @@ export default function Login() {
               onChange={(event) => setEmail(event.target.value)}
             />
           </label>
-          <button className="ghost-btn full" disabled={busy || !email.trim()}>
-            {busy ? "Signing in..." : "Dev login"}
+          <button className="primary-btn full" disabled={busy || !email.trim()}>
+            {busy ? "Signing in..." : "Continue with email"}
           </button>
         </form>
+        {googleEnabled && (
+          <>
+            <div className="auth-divider"><span>or</span></div>
+            <a className="ghost-btn full" href={`${api.base}/auth/google/login`}>
+              Continue with Google
+            </a>
+          </>
+        )}
         {err && <div className="notice">{err}</div>}
       </section>
     </main>

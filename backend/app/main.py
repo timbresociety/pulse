@@ -44,4 +44,9 @@ app.include_router(leaderboard.router)
 
 @app.get("/health")
 async def health():
-    return {"status": "ok", "google_auth": settings.google_enabled, "debug": settings.debug}
+    return {
+        "status": "ok",
+        "email_login": settings.email_login_enabled,
+        "google_auth": settings.google_enabled,
+        "debug": settings.debug,
+    }

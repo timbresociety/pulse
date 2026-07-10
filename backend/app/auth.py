@@ -46,6 +46,7 @@ async def upsert_user(
     display_name: str | None = None,
     avatar_url: str | None = None,
 ) -> User:
+    email = email.strip().lower()
     result = await db.execute(select(User).where(User.email == email))
     user = result.scalar_one_or_none()
     if user is None:
