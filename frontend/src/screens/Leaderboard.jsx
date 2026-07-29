@@ -2,13 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { api } from "../api";
 
 function initials(name = "P") {
-  return name
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0])
-    .join("")
-    .toUpperCase();
+  return name.split(/\s+/).filter(Boolean).slice(0, 2).map((part) => part[0]).join("").toUpperCase();
 }
 
 export default function Leaderboard() {
@@ -16,61 +10,33 @@ export default function Leaderboard() {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    api.leaderboard().then(setRows).catch(() => setError("Could not load the standings."));
+    api.leaderboard().then(setRows).catch((event) => setError(event.message || "Could not load the standings."));
   }, []);
 
   const you = useMemo(() => rows.find((row) => row.is_you), [rows]);
-  const leaders = rows.slice(0, 3);
 
   return (
-    <main className="screen stack-screen">
+    <main className="screen stack-screen social-screen">
       <header className="page-hero">
-        <div>
-          <div className="label">Standings</div>
-          <h1>Community reads</h1>
-        </div>
-        <div className="hero-stat">
-          <strong>#{you?.rank || "-"}</strong>
-          <span>your rank</span>
-        </div>
+        <div><div className="label">Social</div><h1>Pulse leaderboard</h1><p>Ranked by crowd-reading skill, never by bankroll.</p></div>
+        <div className="hero-stat"><strong>#{you?.rank || "–"}</strong><span>your rank</span></div>
       </header>
 
-      <section className="podium-grid">
-        {leaders.map((row) => (
-          <article key={row.rank} className={`podium-card ${row.is_you ? "you" : ""}`}>
-            <div className="podium-avatar" aria-hidden="true">{initials(row.display_name)}</div>
-            <span>#{row.rank}</span>
-            <strong>{row.display_name}</strong>
-            <small>{row.pulse_score} score</small>
-          </article>
-        ))}
-      </section>
-
-      <section className="community-panel">
-        <div className="community-mark" aria-hidden="true"><span /><span /></div>
-        <div>
-          <span>Live standings</span>
-          <strong>Scores settle with markets</strong>
-        </div>
-        <p>Only accounts with a chosen username appear here.</p>
+      <section className="social-highlight">
+        <div className="social-orbit" aria-hidden="true"><span>P</span><i /><i /><i /></div>
+        <div><span>Primary signal</span><strong>Pulse Score</strong><p>Accuracy builds status. Stake size does not.</p></div>
       </section>
 
       {error && <div className="notice">{error}</div>}
-      <section className="leaderboard-list">
-        <div className="section-heading">
-          <span>Overall standings</span>
-          <strong>{rows.length} members</strong>
-        </div>
+      <section className="v0-leaderboard">
+        <div className="leaderboard-head"><span>Rank · player</span><span>Pulse</span></div>
         {rows.map((row) => (
-          <div key={row.rank} className={`leader-row ${row.is_you ? "you" : ""}`}>
+          <article key={`${row.rank}-${row.display_name}`} className={row.is_you ? "you" : ""}>
             <span className="rank">#{row.rank}</span>
-            <span className="leader-avatar" aria-hidden="true">{initials(row.display_name)}</span>
-            <span className="caller">
-              <strong>{row.display_name}</strong>
-              {row.is_you && <small>You</small>}
-            </span>
-            <b>{row.pulse_score}</b>
-          </div>
+            <span className="leader-avatar">{row.avatar_url ? <img src={row.avatar_url} alt="" /> : initials(row.display_name)}</span>
+            <div className="leader-identity"><strong>{row.display_name}</strong>{row.is_you && <em>You</em>}<small>{row.markets_played} markets · {row.current_streak} streak</small></div>
+            <div className="leader-performance"><strong>{row.pulse_score}</strong><small>{row.average_accuracy.toFixed(1)}% accuracy · {Math.round(row.win_rate * 100)}% wins</small></div>
+          </article>
         ))}
       </section>
     </main>

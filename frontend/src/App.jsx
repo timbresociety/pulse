@@ -10,11 +10,11 @@ import Wallet from "./screens/Wallet.jsx";
 
 function BottomNav() {
   const items = [
-    ["/feed", "F", "Feed"],
-    ["/reveals", "R", "Reveals"],
-    ["/wallet", "W", "Wallet"],
-    ["/social", "S", "Social"],
-    ["/profile", "P", "Profile"],
+    ["/feed", "◉", "Feed"],
+    ["/reveals", "◷", "History"],
+    ["/wallet", "$", "Wallet"],
+    ["/social", "♢", "Social"],
+    ["/profile", "●", "Profile"],
   ];
 
   return (
@@ -32,7 +32,7 @@ function BottomNav() {
 export default function App() {
   const { user, loading } = useAuth();
 
-  if (loading) return <div className="app"><div className="empty">Loading Psyblr...</div></div>;
+  if (loading) return <div className="app"><div className="empty">Loading Pulse...</div></div>;
   if (!user) return <div className="app"><Login /></div>;
 
   const hasCategories = user.categories && user.categories.length > 0;

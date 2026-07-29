@@ -43,7 +43,7 @@ export default function Categories() {
 
       <section className="panel-section">
         <p>
-          Pick the rooms Psyblr should pull into your market feed.
+          Pick the Pulse channels you want in your market feed.
         </p>
       </section>
 

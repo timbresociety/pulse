@@ -1,86 +1,102 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { api } from "../api";
 import { useAuth } from "../auth.jsx";
 
-function formatNumber(value = 0) {
-  return new Intl.NumberFormat(undefined, { maximumFractionDigits: 0 }).format(value);
+function money(cents = 0) {
+  return new Intl.NumberFormat(undefined, {
+    style: "currency",
+    currency: "USD",
+    maximumFractionDigits: cents % 100 ? 2 : 0,
+  }).format(cents / 100);
 }
 
-function formatDuration(totalSeconds = 0) {
-  const seconds = Math.max(0, Math.round(totalSeconds));
-  const minutes = Math.floor(seconds / 60);
-  const rest = seconds % 60;
-  if (minutes >= 60) {
-    const hours = Math.floor(minutes / 60);
-    return `${hours}h ${minutes % 60}m`;
-  }
-  return `${minutes}m ${String(rest).padStart(2, "0")}s`;
+function number(value = 0) {
+  return new Intl.NumberFormat().format(value);
 }
 
-function formatObjectType(value = "object") {
-  return value.replaceAll("_", " ");
+function duration(seconds = 0) {
+  const safe = Math.max(0, Math.round(seconds));
+  const minutes = Math.floor(safe / 60);
+  const rest = safe % 60;
+  return `${minutes}:${String(rest).padStart(2, "0")}`;
 }
 
-function settlementLabel(type) {
-  return type === "top_3_split" ? "Top 3 split" : "Top call wins";
+function equalAllocations(options) {
+  const base = Math.floor(10000 / options.length);
+  let remaining = 10000 - base * options.length;
+  return Object.fromEntries(options.map((option) => {
+    const value = base + (remaining > 0 ? 1 : 0);
+    remaining -= remaining > 0 ? 1 : 0;
+    return [option.id, value];
+  }));
 }
 
-const howItWorksCards = [
-  {
-    kicker: "Step 1",
-    title: "Find the room",
-    body: "Each market asks what the crowd will converge on before the timer closes.",
-  },
-  {
-    kicker: "Step 2",
-    title: "Lock your call",
-    body: "Search for an answer, spend coins, and lock it before the room settles.",
-  },
-  {
-    kicker: "Step 3",
-    title: "Reveal the read",
-    body: "When the reveal opens, winning calls earn coins and build your score.",
-  },
+const explainer = [
+  ["01", "Answer", "Tap the option that is true for you."],
+  ["02", "Shape", "Show how the crowd leans without doing percentage math."],
+  ["03", "Lock", "Pick a test stake and commit once."],
 ];
+
+const crowdShapes = [
+  { id: "tight", label: "Tight race", hint: "Almost even", lift: 400 },
+  { id: "lean", label: "Leaning", hint: "Small edge", lift: 1400 },
+  { id: "clear", label: "Clear lead", hint: "Strong edge", lift: 2800 },
+  { id: "landslide", label: "Landslide", hint: "Runs away", lift: 5000 },
+];
+
+function shapedAllocations(options, leaderId, shapeId) {
+  if (!options.length) return {};
+  if (!leaderId) return equalAllocations(options);
+
+  const shape = crowdShapes.find((item) => item.id === shapeId) || crowdShapes[1];
+  const equalShare = Math.floor(10000 / options.length);
+  const leaderShare = Math.min(9000, equalShare + shape.lift);
+  const others = options.filter((option) => option.id !== leaderId);
+  const otherBase = Math.floor((10000 - leaderShare) / Math.max(1, others.length));
+  let remainder = 10000 - leaderShare - (otherBase * others.length);
+
+  return Object.fromEntries(options.map((option) => {
+    if (option.id === leaderId) return [option.id, leaderShare];
+    const value = otherBase + (remainder > 0 ? 1 : 0);
+    remainder -= remainder > 0 ? 1 : 0;
+    return [option.id, value];
+  }));
+}
 
 export default function Feed() {
   const { user, setUser } = useAuth();
   const [markets, setMarkets] = useState([]);
-  const [idx, setIdx] = useState(0);
-  const [query, setQuery] = useState("");
-  const [candidates, setCandidates] = useState([]);
-  const [picked, setPicked] = useState(null);
+  const [index, setIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-  const [searching, setSearching] = useState(false);
+  const [voteId, setVoteId] = useState("");
+  const [forecast, setForecast] = useState({});
+  const [crowdLeaderId, setCrowdLeaderId] = useState("");
+  const [crowdShape, setCrowdShape] = useState("lean");
+  const [stake, setStake] = useState("");
+  const [submitting, setSubmitting] = useState(false);
   const [receipt, setReceipt] = useState(null);
-  const [drag, setDrag] = useState({ active: false, startX: 0, currentX: 0 });
-  const [nudged, setNudged] = useState(false);
-  const [burst, setBurst] = useState("");
-  const [howOpen, setHowOpen] = useState(false);
-  const [howStep, setHowStep] = useState(0);
-  const searchTimer = useRef(null);
-  const searchSerial = useRef(0);
-  const receiptTimer = useRef(null);
-  const burstTimer = useRef(null);
 
-  const market = markets[idx];
-  const dragOffset = drag.active ? drag.currentX - drag.startX : 0;
-  const intent = dragOffset > 72 ? "lock" : dragOffset < -72 ? "skip" : "";
-  const typedAnswer = query.trim();
-  const canLock = Boolean(picked || typedAnswer.length > 1);
-  const showResults = !picked && (candidates.length > 0 || searching || typedAnswer.length > 1);
-  const activity = market ? Math.min(100, (market.total_call_count || 0) * 8) : 0;
+  const market = markets[index];
+  const forecastTotal = useMemo(
+    () => Object.values(forecast).reduce((sum, value) => sum + (Number(value) || 0), 0),
+    [forecast],
+  );
+  const stakeCents = Math.max(0, Math.round((Number(stake) || 0) * 100));
+  const validForecast = market
+    && Object.keys(forecast).length === market.options.length
+    && forecastTotal === 10000;
+  const canSubmit = voteId && validForecast && stakeCents > 0 && stakeCents <= user.balance_cents;
 
   async function loadFeed() {
     setLoading(true);
     setError("");
     try {
-      const data = await api.feed(30);
+      const data = await api.feed(50);
       setMarkets(data);
-      setIdx(0);
-    } catch {
-      setError("Could not load active markets.");
+      setIndex(0);
+    } catch (event) {
+      setError(event.message || "Could not load Pulse markets.");
     } finally {
       setLoading(false);
     }
@@ -88,388 +104,320 @@ export default function Feed() {
 
   useEffect(() => {
     loadFeed();
-    return () => {
-      window.clearTimeout(receiptTimer.current);
-      window.clearTimeout(burstTimer.current);
-    };
   }, []);
 
-  useEffect(() => {
-    if (!howOpen) return undefined;
-
-    function handleHowKeys(event) {
-      if (event.key === "Escape") {
-        setHowOpen(false);
-      }
-      if (event.key === "ArrowLeft") {
-        setHowStep((current) => (current + howItWorksCards.length - 1) % howItWorksCards.length);
-      }
-      if (event.key === "ArrowRight") {
-        setHowStep((current) => (current + 1) % howItWorksCards.length);
-      }
-    }
-
-    window.addEventListener("keydown", handleHowKeys);
-    return () => window.removeEventListener("keydown", handleHowKeys);
-  }, [howOpen]);
-
-  useEffect(() => {
-    const trimmedQuery = query.trim();
-
-    if (!market || trimmedQuery.length < 2 || picked) {
-      searchSerial.current += 1;
-      setCandidates([]);
-      setSearching(false);
-      return;
-    }
-
-    window.clearTimeout(searchTimer.current);
-    const requestId = searchSerial.current + 1;
-    searchSerial.current = requestId;
-    setCandidates([]);
-    setSearching(true);
-    searchTimer.current = window.setTimeout(async () => {
-      try {
-        const results = await api.search(trimmedQuery, market.id, 20);
-        if (requestId === searchSerial.current) {
-          setCandidates(results);
-        }
-      } catch {
-        if (requestId === searchSerial.current) {
-          setCandidates([]);
-        }
-      } finally {
-        if (requestId === searchSerial.current) {
-          setSearching(false);
-        }
-      }
-    }, 160);
-
-    return () => window.clearTimeout(searchTimer.current);
-  }, [query, market, picked]);
-
-  function resetComposer() {
-    setQuery("");
-    setPicked(null);
-    setCandidates([]);
-    setSearching(false);
-    setDrag({ active: false, startX: 0, currentX: 0 });
+  function resetParticipation(nextMarket = markets[index]) {
+    setVoteId("");
+    setForecast(nextMarket ? equalAllocations(nextMarket.options) : {});
+    setCrowdLeaderId("");
+    setCrowdShape("lean");
+    setStake("");
   }
+
+  useEffect(() => {
+    if (market) resetParticipation(market);
+    // Market identity is the reset boundary for an immutable participation draft.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [market?.id]);
 
   async function advance() {
-    resetComposer();
-    if (idx + 1 >= markets.length) await loadFeed();
-    else setIdx((current) => current + 1);
-  }
-
-  async function skip() {
-    if (!market) return;
-    flashBurst("skip");
-    await advance();
-  }
-
-  function pulseNudge() {
-    setNudged(true);
-    window.setTimeout(() => setNudged(false), 460);
-  }
-
-  function flashBurst(type) {
-    setBurst(type);
-    window.clearTimeout(burstTimer.current);
-    burstTimer.current = window.setTimeout(() => setBurst(""), 760);
-  }
-
-  async function lock() {
-    if (!market) return;
-    if (!canLock) {
-      pulseNudge();
-      return;
+    setReceipt(null);
+    if (index + 1 < markets.length) {
+      setIndex((current) => current + 1);
+    } else {
+      await loadFeed();
     }
+  }
 
+  function skip() {
+    if (!market) return;
+    advance();
+  }
+
+  function chooseVote(optionId) {
+    setVoteId(optionId);
+    if (!crowdLeaderId) {
+      setCrowdLeaderId(optionId);
+      setForecast(shapedAllocations(market.options, optionId, crowdShape));
+    }
+  }
+
+  function chooseCrowdLeader(optionId) {
+    setCrowdLeaderId(optionId);
+    setForecast(shapedAllocations(market.options, optionId, crowdShape));
+  }
+
+  function chooseCrowdShape(shapeId) {
+    const leaderId = crowdLeaderId || voteId || market.options[0]?.id;
+    setCrowdShape(shapeId);
+    setCrowdLeaderId(leaderId);
+    setForecast(shapedAllocations(market.options, leaderId, shapeId));
+  }
+
+  function nudgeAllocation(optionId, delta) {
+    setForecast((current) => {
+      const currentValue = current[optionId] || 0;
+      const target = Math.max(0, Math.min(10000, currentValue + delta));
+      const others = market.options.filter((option) => option.id !== optionId);
+      if (!others.length) return { [optionId]: 10000 };
+
+      const remaining = 10000 - target;
+      const otherTotal = others.reduce((sum, option) => sum + (current[option.id] || 0), 0);
+      const raw = others.map((option) => (
+        otherTotal
+          ? ((current[option.id] || 0) * remaining) / otherTotal
+          : remaining / others.length
+      ));
+      const values = raw.map(Math.floor);
+      let remainder = remaining - values.reduce((sum, value) => sum + value, 0);
+      raw
+        .map((value, idx) => [idx, value - values[idx]])
+        .sort((a, b) => b[1] - a[1] || a[0] - b[0])
+        .slice(0, remainder)
+        .forEach(([idx]) => { values[idx] += 1; });
+
+      return Object.fromEntries([
+        [optionId, target],
+        ...others.map((option, idx) => [option.id, values[idx]]),
+      ]);
+    });
+  }
+
+  async function submit() {
+    if (!canSubmit || submitting) return;
+    setSubmitting(true);
     setError("");
     try {
-      const callText = picked ? picked.canonical_name : typedAnswer;
-      const ticket = await api.lock(
-        market.id,
-        picked ? picked.id : null,
-        picked ? null : typedAnswer,
-      );
-      setUser({
-        ...user,
-        coins: ticket.new_coins,
-        ranked_calls_remaining: ticket.ranked_calls_remaining,
-      });
+      const ticket = await api.lock(market.id, voteId, forecast, stakeCents);
+      setUser({ ...user, balance_cents: ticket.new_balance_cents });
       setReceipt({
-        call: ticket.canonical_name || callText,
-        market: market.prompt,
-        reveal: ticket.reveal_seconds,
-        ranked: ticket.is_ranked,
-        pool: ticket.pool_size,
+        question: market.question,
+        vote: market.options.find((option) => option.id === voteId)?.label,
+        stake: ticket.stake_cents,
+        delay: ticket.reveal_seconds,
       });
-      flashBurst("lock");
-      window.clearTimeout(receiptTimer.current);
-      receiptTimer.current = window.setTimeout(() => setReceipt(null), 2400);
-      await advance();
     } catch (event) {
-      setError(event?.status === 402 ? "You need more coins to enter this market." : "No relevant match for this market yet.");
+      setError(event.message || "Could not lock this participation.");
+    } finally {
+      setSubmitting(false);
     }
-  }
-
-  function startDrag(event) {
-    if (event.button > 0) return;
-    if (event.target.closest("input, button, .result-card, .call-chip")) return;
-    event.currentTarget.setPointerCapture?.(event.pointerId);
-    setDrag({ active: true, startX: event.clientX, currentX: event.clientX });
-  }
-
-  function moveDrag(event) {
-    if (!drag.active) return;
-    setDrag((current) => ({ ...current, currentX: event.clientX }));
-  }
-
-  async function endDrag(event) {
-    if (!drag.active) return;
-    event.currentTarget.releasePointerCapture?.(event.pointerId);
-    const offset = drag.currentX - drag.startX;
-    setDrag({ active: false, startX: 0, currentX: 0 });
-    if (offset < -118) await skip();
-    if (offset > 118) await lock();
   }
 
   return (
     <main className="screen feed-screen">
-      {burst && (
-        <div className={`screen-burst ${burst}`} aria-hidden="true">
-          <span />
-          <span />
-          <span />
-          <b>{burst === "lock" ? "Locked" : "Skipped"}</b>
-        </div>
-      )}
-
-      <header className="feed-header">
+      <header className="feed-header pulse-header">
         <div>
-          <div className="psyblr-wordmark compact-wordmark" aria-label="Psyblr">
-            <span className="chrome-text">Psy</span><span className="accent-word">blr</span>
-          </div>
-          <div className="label">Culture markets</div>
-          <h1>Read the room.</h1>
+          <div className="pulse-wordmark compact-wordmark" aria-label="Pulse">Pulse<span>.</span></div>
+          <p>Vote your truth. Predict the crowd.</p>
         </div>
-        <div className="feed-actions">
-          <button
-            className="how-trigger"
-            type="button"
-            aria-label="How Psyblr works"
-            onClick={() => {
-              setHowStep(0);
-              setHowOpen(true);
-            }}
-          >
-            how it works?
-          </button>
-          <div className="balance-stack">
-            <span className="coin-stack-icon" aria-hidden="true" />
-            <span className="balance-amount">{formatNumber(user.coins)}</span>
-            <span className="balance-unit">coins</span>
-            <small>{user.ranked_calls_remaining ?? 10} ranked calls left</small>
-          </div>
+        <div className="balance-pill">
+          <span>Balance</span>
+          <strong>{money(user.balance_cents)}</strong>
+          <small>{user.pulse_score} Pulse</small>
         </div>
       </header>
 
-      {receipt && (
-        <div className="ticket-receipt">
-          <div>
-            <span>Call ticket locked</span>
-            <strong>{receipt.call}</strong>
-          </div>
-          <small>{receipt.ranked ? "Ranked call" : "Casual pool"} reveals in {formatDuration(receipt.reveal)}</small>
-        </div>
-      )}
-
       {error && <div className="notice">{error}</div>}
-      {loading && <div className="empty">Loading active markets...</div>}
-
+      {loading && <div className="empty">Loading the market deck…</div>}
       {!loading && !market && (
         <div className="empty">
-          <strong>No active markets in your channels.</strong>
-          <button className="primary-btn" onClick={loadFeed}>Refresh feed</button>
+          <strong>You have read every market in these channels.</strong>
+          <button className="primary-btn" onClick={loadFeed}>Refresh deck</button>
         </div>
       )}
 
-      {market && (
-        <div className="market-deck">
-          <article
-            className={`pulse-card live-card ${nudged ? "shake" : ""}`}
-            style={{ transform: `translateX(${dragOffset}px) rotate(${dragOffset / 24}deg)` }}
-            onPointerDown={startDrag}
-            onPointerMove={moveDrag}
-            onPointerUp={endDrag}
-            onPointerCancel={endDrag}
-          >
-            <div className={`intent-badge intent-lock ${intent === "lock" ? "visible" : ""}`}>Lock</div>
-            <div className={`intent-badge intent-skip ${intent === "skip" ? "visible" : ""}`}>Skip</div>
-
+      {market && !receipt && (
+        <div className="market-deck v0-deck">
+          <article className="pulse-card v0-market-card market-compose-card">
             <div className="market-topline">
-              <span>{market.category_name} market</span>
-              <b>{formatDuration(market.closes_in_seconds)}</b>
+              <span>{market.category.name}</span>
+              <button className="text-btn market-skip" onClick={skip}>Skip →</button>
             </div>
 
-            <div className="market-art" aria-hidden="true">
-              <div className="chaos-cube">
-                <span />
-                <span />
-                <span />
+            <div className="market-question">
+              <div className="market-question-meta">
+                <b>{number(market.participant_count)} people</b>
+                <b>{duration(market.reveal_seconds)} reveal</b>
               </div>
-              <div className="hype-stack">
-                <span>Live calls</span>
-                <div className="hype-rail">
-                  <span style={{ width: `${activity}%` }} />
-                </div>
-              </div>
+              <h1>{market.question}</h1>
+              {market.context && <p>{market.context}</p>}
             </div>
 
-            <h2>{market.prompt}</h2>
-
-            <div className="pool-panel">
-              <div>
-                <span>Pool</span>
-                <strong>{formatNumber(market.pool_size)}</strong>
+            <section className={`composer-stage answer-stage ${voteId ? "complete" : ""}`}>
+              <div className="stage-heading">
+                <span className="stage-number">1</span>
+                <div><strong>Your answer</strong><small>What is true for you?</small></div>
+                {voteId && <i aria-label="Complete">✓</i>}
               </div>
-              <div>
-                <span>Locked calls</span>
-                <strong>{formatNumber(market.total_call_count)}</strong>
+              <div className="answer-grid">
+                {market.options.map((option) => (
+                  <button
+                    key={option.id}
+                    className={voteId === option.id ? "selected" : ""}
+                    aria-pressed={voteId === option.id}
+                    onClick={() => chooseVote(option.id)}
+                  >
+                    <span>{option.label}</span>
+                    <i>{voteId === option.id ? "My answer" : "Choose"}</i>
+                  </button>
+                ))}
               </div>
-              <div>
-                <span>Net pool</span>
-                <strong>{formatNumber(market.potential_payout_max)}</strong>
-              </div>
-            </div>
+            </section>
 
-            <div className="call-composer">
-              <div className="composer-label">
-                <span>Your call</span>
-                <b>{settlementLabel(market.settlement_type)}</b>
+            <section className={`composer-stage crowd-stage ${crowdLeaderId ? "complete" : ""}`}>
+              <div className="stage-heading">
+                <span className="stage-number">2</span>
+                <div><strong>Draw the crowd</strong><small>Who leads, and by how much?</small></div>
+                {crowdLeaderId && <i aria-label="Complete">✓</i>}
               </div>
 
-              <input
-                className="call-input"
-                placeholder={`Search any ${formatObjectType(market.object_type)}`}
-                value={query}
-                role="combobox"
-                aria-autocomplete="list"
-                aria-expanded={showResults}
-                onChange={(event) => {
-                  setQuery(event.target.value);
-                  setPicked(null);
-                }}
-              />
+              <div className="crowd-field" aria-label="Your crowd forecast">
+                {market.options.map((option, optionIndex) => (
+                  <div
+                    key={option.id}
+                    className={crowdLeaderId === option.id ? "leader" : ""}
+                    style={{
+                      "--share": `${forecast[option.id] || 0}`,
+                      "--option-index": optionIndex,
+                      flexBasis: `${(forecast[option.id] || 0) / 100}%`,
+                    }}
+                  >
+                    <strong>{((forecast[option.id] || 0) / 100).toFixed(0)}%</strong>
+                    <span>{option.label}</span>
+                  </div>
+                ))}
+              </div>
 
-              {picked && (
-                <button className="call-chip" onClick={() => setPicked(null)}>
-                  <span>{picked.canonical_name}</span>
-                  <small>Change</small>
-                </button>
-              )}
+              <div className="crowd-leader-grid" aria-label="Predicted crowd leader">
+                {market.options.map((option) => (
+                  <button
+                    key={option.id}
+                    className={crowdLeaderId === option.id ? "selected" : ""}
+                    aria-pressed={crowdLeaderId === option.id}
+                    onClick={() => chooseCrowdLeader(option.id)}
+                  >
+                    <span>{option.label}</span>
+                    <strong>{((forecast[option.id] || 0) / 100).toFixed(0)}%</strong>
+                  </button>
+                ))}
+              </div>
 
-              {showResults && (
-                <div className="result-list" role="listbox">
-                  {candidates.map((candidate) => (
-                    <button
-                      key={candidate.id}
-                      className="result-card"
-                      role="option"
-                      onClick={() => {
-                        setPicked(candidate);
-                        setQuery(candidate.canonical_name);
-                        setCandidates([]);
-                      }}
-                    >
-                      <span>{candidate.canonical_name}</span>
-                      <small>{formatObjectType(candidate.object_type)}</small>
-                    </button>
-                  ))}
-                  {searching && candidates.length === 0 && (
-                    <div className="result-card result-status">
-                      <span>Finding matches...</span>
-                      <small>{formatObjectType(market.object_type)}</small>
+              <div className="shape-picker" aria-label="Shape of the result">
+                {crowdShapes.map((shape, shapeIndex) => (
+                  <button
+                    key={shape.id}
+                    className={crowdShape === shape.id ? "selected" : ""}
+                    aria-pressed={crowdShape === shape.id}
+                    onClick={() => chooseCrowdShape(shape.id)}
+                  >
+                    <span className="shape-mark" aria-hidden="true">
+                      <i style={{ "--bar": 32 + (shapeIndex * 13) }} />
+                      <i style={{ "--bar": 68 - (shapeIndex * 13) }} />
+                    </span>
+                    <strong>{shape.label}</strong>
+                    <small>{shape.hint}</small>
+                  </button>
+                ))}
+              </div>
+
+              <details className="precision-editor">
+                <summary>Fine-tune the split</summary>
+                <div className="precision-list">
+                  {market.options.map((option) => (
+                    <div key={option.id}>
+                      <span>{option.label}</span>
+                      <div>
+                        <button
+                          aria-label={`Reduce ${option.label} by 5 percent`}
+                          onClick={() => nudgeAllocation(option.id, -500)}
+                          disabled={(forecast[option.id] || 0) === 0}
+                        >−</button>
+                        <strong>{((forecast[option.id] || 0) / 100).toFixed(0)}%</strong>
+                        <button
+                          aria-label={`Increase ${option.label} by 5 percent`}
+                          onClick={() => nudgeAllocation(option.id, 500)}
+                          disabled={(forecast[option.id] || 0) === 10000}
+                        >+</button>
+                      </div>
                     </div>
-                  )}
+                  ))}
                 </div>
-              )}
+              </details>
+            </section>
 
-              {!showResults && !picked && !searching && query.trim().length > 1 && candidates.length === 0 && (
-                <div className="resolver-empty">
-                  <strong>No relevant match yet.</strong>
-                  <span>{formatObjectType(market.object_type)}</span>
-                </div>
-              )}
-            </div>
-
-            <footer className="swipe-actions">
-              <button className="ghost-btn" onClick={skip}>Pass</button>
-              <button className="primary-btn" disabled={!canLock} onClick={lock}>
-                {picked ? "Lock call" : "Find & lock"}
+            <section className={`composer-stage commit-stage ${stakeCents > 0 ? "complete" : ""}`}>
+              <div className="stage-heading">
+                <span className="stage-number">3</span>
+                <div><strong>Choose your stake</strong><small>Test credits only · {money(user.balance_cents)} available</small></div>
+                {stakeCents > 0 && <i aria-label="Complete">✓</i>}
+              </div>
+              <div className="stake-presets">
+                {[10, 25, 50, 100].map((amount) => (
+                  <button
+                    key={amount}
+                    className={stakeCents === amount * 100 ? "selected" : ""}
+                    disabled={amount * 100 > user.balance_cents}
+                    onClick={() => setStake(String(amount))}
+                  >${amount}</button>
+                ))}
+              </div>
+              <label className="compact-stake-input">
+                <span>$</span>
+                <input
+                  type="number"
+                  min="0.01"
+                  max={(user.balance_cents / 100).toFixed(2)}
+                  step="0.01"
+                  placeholder="Custom"
+                  value={stake}
+                  onChange={(event) => setStake(event.target.value)}
+                  aria-label="Custom stake"
+                />
+              </label>
+              <div className="commit-summary">
+                <span>{voteId ? `You: ${market.options.find((option) => option.id === voteId)?.label}` : "Choose your answer"}</span>
+                <span>{crowdLeaderId ? `Crowd: ${market.options.find((option) => option.id === crowdLeaderId)?.label} leads` : "Shape the crowd"}</span>
+                <span>{stakeCents ? `${money(stakeCents)} stake · ${money(Math.round(stakeCents * 0.02))} fee` : "Choose a stake"}</span>
+              </div>
+              <button className="primary-btn lock-submit full" disabled={!canSubmit || submitting} onClick={submit}>
+                {submitting ? "Locking…" : canSubmit ? `Lock for ${money(stakeCents)}` : "Complete the three choices"}
               </button>
-            </footer>
+              {stakeCents > user.balance_cents && <small className="form-error">Stake exceeds your available balance.</small>}
+              <small className="lock-note">One tap locks your answer, crowd shape, and test stake.</small>
+            </section>
+
+            {market.simulation_seed && (
+              <details className="debug-panel">
+                <summary>DEBUG simulation</summary>
+                <code>{market.simulation_seed}</code>
+                <pre>{JSON.stringify(market.latent_distribution_bps, null, 2)}</pre>
+              </details>
+            )}
           </article>
         </div>
       )}
 
-      {howOpen && (
-        <div
-          className="how-overlay"
-          role="dialog"
-          aria-modal="true"
-          aria-labelledby="how-title"
-          onClick={() => setHowOpen(false)}
-        >
-          <div className="how-sheet" onClick={(event) => event.stopPropagation()}>
-            <div className="how-topline">
-              <div>
-                <span>How it works</span>
-                <strong id="how-title">Read the room</strong>
-              </div>
-              <button className="how-close" type="button" aria-label="Close how it works" onClick={() => setHowOpen(false)}>
-                &times;
-              </button>
-            </div>
-
-            <div className="how-carousel" aria-live="polite">
-              <div className="how-track" style={{ transform: `translateX(-${howStep * 100}%)` }}>
-                {howItWorksCards.map((card) => (
-                  <article className="how-card" key={card.title}>
-                    <span>{card.kicker}</span>
-                    <h2>{card.title}</h2>
-                    <p>{card.body}</p>
-                  </article>
-                ))}
-              </div>
-            </div>
-
-            <div className="how-controls">
-              <button
-                type="button"
-                aria-label="Previous how it works card"
-                onClick={() => setHowStep((current) => (current + howItWorksCards.length - 1) % howItWorksCards.length)}
-              >
-                &lsaquo;
-              </button>
-              <div className="how-dots" aria-hidden="true">
-                {howItWorksCards.map((card, cardIdx) => (
-                  <span key={card.title} className={cardIdx === howStep ? "active" : ""} />
-                ))}
-              </div>
-              <button
-                type="button"
-                aria-label="Next how it works card"
-                onClick={() => setHowStep((current) => (current + 1) % howItWorksCards.length)}
-              >
-                &rsaquo;
-              </button>
-            </div>
+      {receipt && (
+        <section className="lock-receipt">
+          <span className="receipt-check">✓</span>
+          <div className="label">Participation locked</div>
+          <h1>{receipt.question}</h1>
+          <div className="receipt-grid">
+            <div><span>Your vote</span><strong>{receipt.vote}</strong></div>
+            <div><span>Stake</span><strong>{money(receipt.stake)}</strong></div>
+            <div><span>Reveal in</span><strong>{duration(receipt.delay)}</strong></div>
           </div>
-        </div>
+          <p>Your payout is credited only when you reveal the result.</p>
+          <button className="primary-btn full" onClick={advance}>Play Next Market</button>
+        </section>
       )}
+
+      <section className="how-loop">
+        <div className="section-heading"><span>The Pulse loop</span><strong>No real money</strong></div>
+        {explainer.map(([count, title, copy]) => (
+          <div key={count}><b>{count}</b><span><strong>{title}</strong><small>{copy}</small></span></div>
+        ))}
+      </section>
     </main>
   );
 }

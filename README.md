@@ -1,27 +1,23 @@
-# Pulse — Rigged Demo
+# Pulse Markets v0
 
-A PWA demo of **Pulse Markets**: a swipe-feed cultural prediction game ("how well
-can you read culture?"). This version exists to test the core dopamine loop —
-swipe → lock a call → reveal → win coins → climb the leaderboard — with **rigged**
-outcomes, prototype email sign-in, and **real** measurement.
+A PWA prototype for a fixed-option cultural polling game: vote what you think,
+predict the complete crowd distribution, stake fake USD credits, and reveal how
+accurately you read a deterministic simulated crowd.
 
-Design spec: [`docs/superpowers/specs/2026-06-18-pulse-rigged-demo-design.md`](docs/superpowers/specs/2026-06-18-pulse-rigged-demo-design.md)
+## What's real vs simulated
 
-## What's real vs faked
-
-| Real | Faked |
+| Real | Simulated |
 |---|---|
-| prototype email sign-in, user records | win/lose outcome (weighted random + guardrails) |
-| category selections | crowd distribution % at reveal |
-| markets, objects, fuzzy search | leaderboard competitors |
-| every prediction (pick, timing) | |
-| coins + pulse derived from wins | |
+| prototype email sign-in, user records | 500–2,000 deterministic dummy participants |
+| category selections and per-user reveal timing | dummy votes, forecasts, and fake stakes |
+| vote, full forecast, fake USD stake and settlement | leaderboard competitors |
+| balance ledger, payout, PnL, accuracy and Pulse Score | |
 
 ## Stack
 
 - **Backend:** FastAPI (async) + Postgres (SQLAlchemy 2.0 + asyncpg), `pg_trgm`
   fuzzy search.
-- **Frontend:** React + Vite PWA (simple light theme).
+- **Frontend:** React + Vite PWA.
 - **Auth:** passwordless prototype email sign-in (plus optional Google OAuth).
 
 ## Run it locally
@@ -41,30 +37,39 @@ pip install -r requirements.txt
 # Config
 cp .env.example .env          # defaults work with the docker compose db
 
-# Run — creates tables, enables pg_trgm, seeds 12 categories on first boot
+# Run — migrates the schema and idempotently seeds 8 categories / 64 markets
 uvicorn app.main:app --reload
 ```
 
-Check it: open http://localhost:8000/health → `{"status":"ok", ...}`.
+Check it: open http://localhost:8000/api/health → `{"status":"ok", ...}`.
+The database-backed readiness probe is at
+http://localhost:8000/api/ready → `{"status":"ready"}`.
 API docs at http://localhost:8000/docs.
 
-**Testing without Google:** the login screen lets a tester enter an email
-address and creates a prototype account through `POST /auth/email-login`.
-This does not verify mailbox ownership, so use it only for a shareable demo.
-Set `EMAIL_LOGIN_ENABLED=false` to turn it off. The legacy
-`POST /auth/dev-login?email=you@example.com` endpoint remains available only
+**Email authentication:** Pulse supports six-digit, one-time email codes through
+`POST /api/auth/email-otp/request` and `/api/auth/email-otp/verify`. Configure
+`RESEND_API_KEY` (recommended for Vercel) or the `SMTP_*` variables to enable
+delivery in production. Codes are hashed at rest, expire after 10 minutes, are
+single-use, and have resend and attempt limits. In local `DEBUG` mode, the
+request response includes `dev_code` when no delivery provider is configured.
+
+**Testing without an email provider:** the login screen can fall back to the
+prototype `POST /api/auth/email-login` flow while
+`EMAIL_LOGIN_ENABLED=true`. This does not verify mailbox ownership, so use it
+only for a shareable demo and turn it off once OTP delivery is configured. The legacy
+`POST /api/auth/dev-login?email=you@example.com` endpoint remains available only
 with `DEBUG=true`.
 
 **Enabling Google OAuth:** create OAuth credentials at
 https://console.cloud.google.com/apis/credentials, set the redirect URI to
-`http://localhost:8000/auth/google/callback`, and fill `GOOGLE_CLIENT_ID` /
+`http://localhost:8000/api/auth/google/callback`, and fill `GOOGLE_CLIENT_ID` /
 `GOOGLE_CLIENT_SECRET` in `.env`.
 
 ### 2. Frontend
 
 ```bash
 cd frontend
-cp .env.example .env          # VITE_API_URL=http://localhost:8000
+cp .env.example .env          # VITE_API_URL=/api (proxied to port 8000 in dev)
 npm install
 npm run dev                   # http://localhost:5173
 ```
@@ -72,44 +77,32 @@ npm run dev                   # http://localhost:5173
 Open http://localhost:5173, log in with any valid email address, pick your
 categories, and start swiping.
 
-## Questions (static seed)
+## Market catalog
 
-The feed is seeded from **14,400 questions** — **200 per subcategory**, 6
-subcategories × 12 categories (1,200 per category). They live as compact JSON in
-`backend/app/data/markets/<category>.json`, grouped by subcategory, and load at
-first boot.
+The active feed is owned by `backend/app/data/pulse_markets_v0.json`: 64 manually
+curated fixed-option polls across Internet, Music, Entertainment, Fashion,
+Technology, Crypto, Culture, and Experiences. Every market has four to eight
+ordered options and hidden authored simulation weights totalling 10,000 basis
+points. Legacy open-ended catalogs remain only for compatibility and never enter
+the active feed. LLM top-up is disabled for Pulse Poll markets.
 
-Regenerate or tweak them with the template generator:
+## Upgrade an existing database
+
+The migration is additive and preserves legacy users, markets, predictions, and
+category selections. Back up production first, then run:
 
 ```bash
-cd backend && python scripts/build_market_seed.py   # rewrites the JSON files
+cd backend
+source .venv/bin/activate
+alembic upgrade head
 ```
 
-Each question is templated as `superlative × object_type × facet` within a
-subcategory scope, and every question's `object_type` is restricted to the types
-that category actually has seeded answers for — so the fuzzy search always has
-real objects to match. To reload after regenerating, drop and recreate the DB
-(seeding only runs on an empty database).
-
-## Optional: dynamic LLM top-up
-
-With 14,400 static questions the feed effectively never runs dry, so this is
-off by default. If you set `ANTHROPIC_API_KEY`, the backend will *also* generate
-fresh questions on the fly with Claude (`claude-opus-4-8`) when a user's
-unanswered count in a category drops below `FEED_TOPUP_THRESHOLD`:
-
-- **On category select** — picking categories kicks off background generation
-  for each, so the feed grows as you start playing.
-- **Auto top-up** — when a category's unanswered count for a user drops below
-  `FEED_TOPUP_THRESHOLD`, the feed fires a background batch of
-  `FEED_TOPUP_BATCH` new questions.
-
-Generated prompts are constrained (via structured outputs) to the `object_type`s
-each category actually has seeded answers for, so fuzzy search always has real
-objects to match. It's fully best-effort: no key, or any API error, and the feed
-just falls back to the seeded markets — nothing in the request path blocks on it.
-
-Set `ANTHROPIC_API_KEY` in `backend/.env` to enable it.
+Start the API once after migration so the idempotent seed can upsert categories,
+markets, options, bot profiles, and user backfills. Re-running both migration and
+seed is safe. Do not drop or recreate the database. Local startup also runs the
+migration when `INITIALIZE_DATABASE=true`; production should run the migration
+and seed as release steps before deploying with `INITIALIZE_DATABASE=false` and
+`SEED_DATABASE=false`.
 
 ## Game tuning (backend `.env`)
 
@@ -117,12 +110,10 @@ Set `ANTHROPIC_API_KEY` in `backend/.env` to enable it.
 |---|---|---|
 | `REVEAL_START_SECONDS` | 30 | delay before the 1st locked market reveals |
 | `REVEAL_INCREMENT_SECONDS` | 30 | added to each subsequent reveal (linear: 30, 60, 90…) |
-| `WIN_PROBABILITY` | 0.65 | base win chance per reveal |
-| `FIRST_MARKET_ALWAYS_WIN` | true | guarantee a first-win dopamine hit |
-| `NO_BACK_TO_BACK_LOSS_WINDOW` | 5 | no two losses in a row within first N markets |
-| `STARTING_COINS` | 100 | balance on signup |
-| `BASE_COIN_PAYOUT` | 50 | base coins per win (×contrarian multiplier) |
-| `LEADERBOARD_RANK_METRIC` | coins | `coins` or `pulse` |
+| `STARTING_BALANCE_CENTS` | 1000000 | new-user fake USD balance ($10,000) |
+| `STARTING_PULSE_SCORE` | 1000 | new-user Pulse Score |
+
+The platform fee is fixed at 2% for this prototype.
 
 ## Project layout
 
@@ -133,10 +124,12 @@ backend/
     config.py          # env settings + game knobs
     models.py          # SQLAlchemy models
     auth.py            # JWT sessions, get_current_user, upsert_user
-    game.py            # rigging: timers, outcomes, crowd, coins, pulse
-    seed_data.py       # the 12-category catalog
-    seed.py            # idempotent seeding
+    game.py            # timers, deterministic crowd, accuracy and settlement
+    data/pulse_markets_v0.json # 64-market fixed-option catalog
+    seed.py            # idempotent catalog migration/seed
     routers/           # auth, users, feed, predictions, leaderboard
+  migrations/          # additive Alembic migration for existing databases
+  tests/               # catalog, validation and settlement tests
   docker-compose.yml   # Postgres 16
 frontend/
   src/
@@ -151,9 +144,10 @@ docs/superpowers/specs/ # design spec
 
 This repository deploys as one Vercel **Services** project: the Vite frontend
 at `/` and the FastAPI backend at `/api/*`. The root
-[`vercel.json`](vercel.json) defines both services and strips the public `/api`
-prefix before the backend handles a request. `frontend/.env.production` makes
-the built frontend call that same-origin `/api` path.
+[`vercel.json`](vercel.json) defines both services. Vercel forwards the public
+`/api` path to FastAPI unchanged, so the backend exposes its routes under
+`/api`. `frontend/.env.production` makes the built frontend call that
+same-origin path.
 
 1. Import the repository into Vercel and set **Framework Preset** to
    **Services** in **Settings → Build and Deployment**. Do not set a root
@@ -168,7 +162,12 @@ the built frontend call that same-origin `/api` path.
    JWT_SECRET=<a long, random secret>
    DEBUG=false
    EMAIL_LOGIN_ENABLED=true
+   OTP_EMAIL_ENABLED=true
+   OTP_PEPPER=<a second long, random secret>
+   OTP_FROM_EMAIL=Pulse <login@your-verified-domain.example>
+   RESEND_API_KEY=<recommended; alternatively configure SMTP_*>
    INITIALIZE_DATABASE=false
+   SEED_DATABASE=false
    FRONTEND_URL=https://<your-production-domain>
    GOOGLE_CLIENT_ID=<optional>
    GOOGLE_CLIENT_SECRET=<optional>
@@ -180,11 +179,33 @@ the built frontend call that same-origin `/api` path.
    Cloud OAuth client. For each preview domain you want to test with Google,
    add its exact callback URL as well.
 5. Deploy. Verify the backend through
-   `https://<your-production-domain>/api/health` and then open the root URL.
+   `https://<your-production-domain>/api/health`, verify database readiness
+   through `https://<your-production-domain>/api/ready`, and then open the
+   root URL.
 
-Vercel Services is currently in beta; it builds the two directories separately
-but exposes them on one domain. The backend is a Vercel Function, so the
-database must be external and reachable over TLS.
+Vercel Services builds the two directories separately but exposes them on one
+domain. The backend is a Vercel Function, so the database and email provider
+must be external and reachable over TLS.
+
+### Safe production releases
+
+Do not deploy an in-progress working tree. Production releases use:
+
+```bash
+CONFIRM_PRODUCTION_DEPLOY=psyblr.vercel.app ./scripts/deploy-production.sh
+```
+
+The script refuses dirty, non-`main`, or unpushed code; runs backend tests and
+the frontend build; creates a production-environment deployment without moving
+the live domain; smoke-tests its frontend, liveness, database readiness, and
+catalog; and only then promotes it. If the post-promotion smoke test fails, it
+rolls back to the previous deployment.
+
+For a read-only check of the current production deployment:
+
+```bash
+./scripts/smoke-production.sh
+```
 
 The default sign-in is intentionally a low-friction, **unverified email**
 identity for prototype testers. It is suitable for sharing a demo link, but it

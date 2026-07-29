@@ -1,70 +1,75 @@
 import { createPortal } from "react-dom";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-function formatNumber(value = 0) {
-  return new Intl.NumberFormat(undefined, { maximumFractionDigits: 0 }).format(value);
+function money(cents = 0, signed = false) {
+  const formatted = new Intl.NumberFormat(undefined, {
+    style: "currency", currency: "USD", maximumFractionDigits: cents % 100 ? 2 : 0,
+  }).format(Math.abs(cents) / 100);
+  return signed ? `${cents >= 0 ? "+" : "−"}${formatted}` : formatted;
 }
 
-export default function Reveal({ data, onClose }) {
-  const win = data.outcome === "win";
-  const pct = Math.round((data.shown_share || 0) * 1000) / 10;
-  const payoutMultiplier = data.payout_multiplier ?? Math.round(((data.coins_won || 0) / 10) * 10) / 10;
+export default function Reveal({ data, onClose, onNext }) {
+  const navigate = useNavigate();
+  const [skipped, setSkipped] = useState(false);
+  const win = data.pnl_cents >= 0;
+
+  useEffect(() => {
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) setSkipped(true);
+  }, []);
 
   const content = (
-    <div className={`overlay ${win ? "win" : "lose"}`} onClick={onClose}>
-      <section className={`reveal-card ${win ? "win" : "lose"}`} onClick={(event) => event.stopPropagation()}>
-        <div className="reveal-burst" aria-hidden="true">
-          <span />
-          <span />
-          <span />
-          <span />
+    <div className={`overlay reveal-overlay ${skipped ? "skip-motion" : ""}`} onClick={onClose}>
+      <section className={`v0-reveal ${win ? "win" : "loss"}`} onClick={(event) => event.stopPropagation()}>
+        <div className="reveal-pulse" aria-hidden="true"><i /><i /><i /></div>
+        <div className="reveal-topline">
+          <div><span>Pulse reveal</span><strong>{data.category_name}</strong></div>
+          <button className="text-btn" onClick={onClose} aria-label="Close reveal">Close</button>
         </div>
-        <div className="reveal-prize" aria-hidden="true">
-          <span />
-          <span />
-        </div>
-        <div className="label">Psyblr reveal</div>
-        <h1>{win ? "Room read." : "Room swerved."}</h1>
+        <h1>{data.question}</h1>
+        <div className="reveal-vote"><span>Your vote</span><strong>{data.vote.label}</strong></div>
 
-        <div className="reveal-focus">
-          <span>Top call</span>
-          <strong>{data.winning_object || data.your_pick || "Unresolved"}</strong>
-          <small>{pct}% hidden share</small>
-          <div className="share-meter" aria-hidden="true">
-            <span style={{ width: `${Math.min(100, Math.max(3, pct))}%` }} />
-          </div>
-        </div>
-
-        <div className="reveal-grid">
-          <div>
-            <span>Your call</span>
-            <strong>{data.your_pick || "Unknown"}</strong>
-          </div>
-          <div>
-            <span>Pool</span>
-            <strong>{formatNumber(data.pool_size)}</strong>
-          </div>
-          <div>
-            <span>Payout</span>
-            <strong>{win ? `${payoutMultiplier}x` : "0x"}</strong>
-          </div>
-          <div>
-            <span>Score</span>
-            <strong>{data.pulse_delta > 0 ? `+${data.pulse_delta}` : data.pulse_delta}</strong>
-          </div>
+        <div className="reveal-distributions">
+          {data.actual_distribution.map((actual) => {
+            const forecast = data.forecast.find((item) => item.option_id === actual.option_id);
+            return (
+              <div key={actual.option_id} className="reveal-distribution-row">
+                <div><span>{actual.label}</span><strong>{(actual.bps / 100).toFixed(1)}%</strong></div>
+                <div className="actual-track"><i style={{ width: `${actual.bps / 100}%` }} /></div>
+                <small>Your forecast {(forecast.bps / 100).toFixed(1)}%</small>
+              </div>
+            );
+          })}
         </div>
 
-        {!win && data.taste_signal && (
-          <div className="taste-signal">
-            <strong>Taste signal</strong>
-            <span>{data.taste_signal}</span>
-          </div>
-        )}
-
-        <div className={`coin-win ${win ? "hot" : "cold"}`}>
-          {win ? `+${formatNumber(data.coins_won)} coins` : "0 coin payout"}
+        <div className="accuracy-hero">
+          <span>Accuracy score</span>
+          <strong>{data.accuracy_score.toFixed(1)}</strong>
+          <small>{Math.round(data.accuracy_percentile * 100)}th percentile · rank #{data.forecast_rank} of {data.total_participants}</small>
         </div>
 
-        <button className="primary-btn full" onClick={onClose}>Claim screen</button>
+        <section className="difference-panel">
+          <div className="section-heading"><span>Largest forecast differences</span><strong>Forecast − actual</strong></div>
+          {data.largest_differences.map((difference) => (
+            <div key={difference.option_id}>
+              <span>{difference.label}</span>
+              <strong>{difference.difference_bps >= 0 ? "+" : ""}{(difference.difference_bps / 100).toFixed(1)} pts</strong>
+            </div>
+          ))}
+        </section>
+
+        <div className="settlement-grid reveal-settlement">
+          <div><span>Stake</span><strong>{money(data.stake_cents)}</strong></div>
+          <div><span>Fee</span><strong>{money(data.user_fee_cents)}</strong></div>
+          <div><span>Payout</span><strong>{money(data.payout_cents)}</strong></div>
+          <div><span>PnL</span><strong className={win ? "positive" : "negative"}>{money(data.pnl_cents, true)}</strong></div>
+          <div><span>Pulse score</span><strong>{data.pulse_delta >= 0 ? "+" : ""}{data.pulse_delta}</strong></div>
+        </div>
+
+        <div className="reveal-actions">
+          {!skipped && <button className="ghost-btn" onClick={() => setSkipped(true)}>Skip Animation</button>}
+          <button className="primary-btn" onClick={() => { onNext?.(); navigate("/feed"); }}>Play Next Market</button>
+        </div>
       </section>
     </div>
   );
