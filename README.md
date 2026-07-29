@@ -201,6 +201,12 @@ the live domain; smoke-tests its frontend, liveness, database readiness, and
 catalog; and only then promotes it. If the post-promotion smoke test fails, it
 rolls back to the previous deployment.
 
+Vercel Git auto-deployments are disabled in `vercel.json`. Merging to `main`
+updates the release source but does not change the live domain; production moves
+only through the guarded command above. `.vercelignore` and the release
+preflight prevent local secrets, dependency trees, and build/test artifacts from
+being uploaded by the CLI.
+
 For a read-only check of the current production deployment:
 
 ```bash

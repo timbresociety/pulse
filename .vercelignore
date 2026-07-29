@@ -1,0 +1,18 @@
+.git
+.vercel
+**/.vercel
+
+# Local secrets. Keep the tracked frontend/.env.production build defaults.
+.env
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Local dependency, build, and test artifacts.
+backend/.venv
+frontend/node_modules
+frontend/dist
+backend/.pytest_cache
+**/__pycache__
+**/*.pyc
+**/*.pyo
