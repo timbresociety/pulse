@@ -65,8 +65,9 @@ previous_deployment="$(printf '%s' "$previous_json" | node -e '
   process.stdin.on("data", chunk => input += chunk);
   process.stdin.on("end", () => {
     const value = JSON.parse(input);
-    if (!value.url) process.exit(1);
-    process.stdout.write(value.url);
+    const url = value.url || value.deployment?.url;
+    if (!url) process.exit(1);
+    process.stdout.write(url);
   });
 ')"
 
@@ -86,8 +87,9 @@ deployment_url="$(printf '%s' "$deployment_json" | node -e '
   process.stdin.on("data", chunk => input += chunk);
   process.stdin.on("end", () => {
     const value = JSON.parse(input);
-    if (!value.url) process.exit(1);
-    const url = value.url.startsWith("http") ? value.url : `https://${value.url}`;
+    const deploymentUrl = value.url || value.deployment?.url;
+    if (!deploymentUrl) process.exit(1);
+    const url = deploymentUrl.startsWith("http") ? deploymentUrl : `https://${deploymentUrl}`;
     process.stdout.write(url);
   });
 ')"
