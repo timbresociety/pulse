@@ -24,8 +24,8 @@ V0_BOTS = [
     ("the_contrarian", 1127, 65.8, 0.48, 201, 2),
     ("ChartWatcher", 1082, 64.1, 0.47, 74, 1),
     ("lurker99", 1036, 62.7, 0.46, 61, 0),
-    ("certified_yapper", 978, 59.4, 0.43, 48, 0),
-    ("nightcore_dev", 924, 57.8, 0.41, 39, 1),
+    ("certified_yapper", 1018, 59.4, 0.43, 48, 0),
+    ("nightcore_dev", 1007, 57.8, 0.41, 39, 1),
 ]
 
 

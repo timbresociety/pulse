@@ -190,6 +190,12 @@ class LeaderboardRow(BaseModel):
     is_you: bool = False
 
 
+class LeaderboardOut(BaseModel):
+    total_players: int
+    user_rank: int
+    rows: list[LeaderboardRow]
+
+
 class ActivityDayOut(BaseModel):
     date: str
     markets_played: int

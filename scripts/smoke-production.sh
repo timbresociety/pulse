@@ -39,6 +39,15 @@ if ! grep -q '<div id="root"' "$work_dir/index.html"; then
   exit 1
 fi
 
+echo "Checking frontend reload routes..."
+for route in /categories /feed /reveals /history /wallet /social /leaderboard /profile; do
+  curl_json "$route" "$work_dir/route.html"
+  if ! grep -q '<div id="root"' "$work_dir/route.html"; then
+    echo "Frontend smoke test failed at $route: React root was not found." >&2
+    exit 1
+  fi
+done
+
 echo "Checking API liveness..."
 curl_json "/api/health" "$work_dir/health.json"
 node -e '

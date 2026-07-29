@@ -9266,3 +9266,45 @@ h3 {
     max-width: calc(100% - 12px);
   }
 }
+
+/* Large-field leaderboard */
+.leaderboard-gap {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 10px;
+  align-items: center;
+  padding: 11px 16px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.leaderboard-gap i {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--line));
+}
+
+.leaderboard-gap i:last-child {
+  background: linear-gradient(90deg, var(--line), transparent);
+}
+
+.v0-leaderboard article.you .rank {
+  color: var(--accent);
+}
+
+.v0-leaderboard article {
+  grid-template-columns: 48px 38px minmax(0, 1fr) minmax(84px, auto);
+}
+
+.v0-leaderboard .rank {
+  white-space: nowrap;
+}
+
+@media (max-width: 520px) {
+  .v0-leaderboard article {
+    grid-template-columns: 48px 34px minmax(0, 1fr);
+  }
+}

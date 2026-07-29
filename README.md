@@ -10,7 +10,7 @@ accurately you read a deterministic simulated crowd.
 |---|---|
 | prototype email sign-in, user records | 500–2,000 deterministic dummy participants |
 | category selections and per-user reveal timing | dummy votes, forecasts, and fake stakes |
-| vote, full forecast, fake USD stake and settlement | leaderboard competitors |
+| vote, full forecast, fake USD stake and settlement | 5,200 deterministic leaderboard competitors |
 | balance ledger, payout, PnL, accuracy and Pulse Score | |
 
 ## Stack

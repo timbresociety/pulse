@@ -3,20 +3,30 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth import get_current_user
+from app.config import settings
 from app.database import get_db
 from app.game import PULSE_MARKET_KIND
+from app.leaderboard_data import (
+    LeaderboardProfile,
+    complete_dummy_field,
+    ranked_window,
+)
 from app.models import LeaderboardEntry, Market, Prediction, User
-from app.schemas import LeaderboardRow
+from app.schemas import LeaderboardOut, LeaderboardRow
 
 router = APIRouter(tags=["leaderboard"])
 
 
-@router.get("/leaderboard", response_model=list[LeaderboardRow])
+@router.get("/leaderboard", response_model=LeaderboardOut)
 async def leaderboard(
     user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
-    bots = (await db.execute(select(LeaderboardEntry))).scalars().all()
+    bots = (
+        await db.execute(
+            select(LeaderboardEntry).where(LeaderboardEntry.is_bot.is_(True))
+        )
+    ).scalars().all()
     predictions = (
         await db.execute(
             select(Prediction)
@@ -37,33 +47,38 @@ async def leaderboard(
         else:
             break
 
-    rows = [
-        {
-            "display_name": bot.display_name,
-            "avatar_url": bot.avatar_url,
-            "pulse_score": bot.pulse_score,
-            "average_accuracy": bot.average_accuracy,
-            "win_rate": bot.win_rate,
-            "markets_played": bot.markets_played,
-            "current_streak": bot.current_streak,
-            "is_you": False,
-        }
-        for bot in bots
-    ]
-    rows.append(
-        {
-            "display_name": user.display_name or user.email.split("@")[0],
-            "avatar_url": user.avatar_url,
-            "pulse_score": user.pulse_score,
-            "average_accuracy": (
-                sum(prediction.accuracy_score or 0 for prediction in revealed) / len(revealed)
-                if revealed else 0
-            ),
-            "win_rate": len(wins) / len(revealed) if revealed else 0,
-            "markets_played": len(predictions),
-            "current_streak": streak,
-            "is_you": True,
-        }
+    dummy_profiles = complete_dummy_field(
+        [
+            LeaderboardProfile(
+                display_name=bot.display_name,
+                avatar_url=bot.avatar_url,
+                pulse_score=bot.pulse_score,
+                average_accuracy=bot.average_accuracy,
+                win_rate=bot.win_rate,
+                markets_played=bot.markets_played,
+                current_streak=bot.current_streak,
+            )
+            for bot in bots
+        ],
+        starting_pulse_score=settings.starting_pulse_score,
     )
-    rows.sort(key=lambda row: (-row["pulse_score"], row["display_name"].casefold()))
-    return [LeaderboardRow(rank=index + 1, **row) for index, row in enumerate(rows)]
+    user_profile = LeaderboardProfile(
+        display_name=user.display_name or user.email.split("@")[0],
+        avatar_url=user.avatar_url,
+        pulse_score=user.pulse_score,
+        average_accuracy=(
+            sum(prediction.accuracy_score or 0 for prediction in revealed) / len(revealed)
+            if revealed
+            else 0
+        ),
+        win_rate=len(wins) / len(revealed) if revealed else 0,
+        markets_played=len(predictions),
+        current_streak=streak,
+        is_you=True,
+    )
+    total_players, user_rank, rows = ranked_window(dummy_profiles, user_profile)
+    return LeaderboardOut(
+        total_players=total_players,
+        user_rank=user_rank,
+        rows=[LeaderboardRow(**row) for row in rows],
+    )
