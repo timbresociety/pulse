@@ -95,7 +95,8 @@ deployment_url="$(printf '%s' "$deployment_json" | node -e '
 ')"
 
 echo "Testing the new deployment before changing the live domain..."
-"$repo_root/scripts/smoke-production.sh" "$deployment_url"
+VERCEL_AUTHENTICATED_SMOKE=true \
+  "$repo_root/scripts/smoke-production.sh" "$deployment_url"
 
 echo "Promoting the verified deployment..."
 npx vercel promote "$deployment_url" --yes --cwd "$repo_root"

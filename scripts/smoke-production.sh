@@ -18,18 +18,34 @@ trap cleanup EXIT
 curl_json() {
   local path="$1"
   local output="$2"
-  curl \
-    --http1.1 \
-    --fail \
-    --show-error \
-    --silent \
-    --location \
-    --max-time 30 \
-    --retry 3 \
-    --retry-all-errors \
-    --retry-delay 2 \
-    "$base_url$path" \
-    --output "$output"
+  if [[ "${VERCEL_AUTHENTICATED_SMOKE:-false}" == "true" ]]; then
+    npx vercel curl "$path" \
+      --deployment "$base_url" \
+      -- \
+      --http1.1 \
+      --fail \
+      --show-error \
+      --silent \
+      --location \
+      --max-time 30 \
+      --retry 3 \
+      --retry-all-errors \
+      --retry-delay 2 \
+      --output "$output"
+  else
+    curl \
+      --http1.1 \
+      --fail \
+      --show-error \
+      --silent \
+      --location \
+      --max-time 30 \
+      --retry 3 \
+      --retry-all-errors \
+      --retry-delay 2 \
+      "$base_url$path" \
+      --output "$output"
+  fi
 }
 
 echo "Checking frontend..."
