@@ -2,7 +2,7 @@ import re
 import uuid
 from datetime import datetime
 
-from pydantic import BaseModel, ConfigDict, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 
 class CategoryOut(BaseModel):
@@ -20,9 +20,8 @@ class UserOut(BaseModel):
     email: str
     display_name: str | None
     avatar_url: str | None
-    coins: int
+    balance_cents: int
     pulse_score: int
-    ranked_calls_remaining: int = 10
     categories: list[CategoryOut] = []
 
 
@@ -31,105 +30,186 @@ class SetCategoriesIn(BaseModel):
 
 
 class ObjectOut(BaseModel):
+    """Legacy search compatibility only; v0 participation never accepts this shape."""
     model_config = ConfigDict(from_attributes=True)
     id: uuid.UUID
     canonical_name: str
     object_type: str
 
 
-class MarketOut(BaseModel):
+class MarketCategoryOut(BaseModel):
+    id: uuid.UUID
+    slug: str
+    name: str
+
+
+class MarketOptionOut(BaseModel):
     model_config = ConfigDict(from_attributes=True)
     id: uuid.UUID
-    prompt: str
-    object_type: str
-    category_id: uuid.UUID
-    category_name: str | None = None
-    category_slug: str | None = None
-    closes_in_seconds: int = 0
-    pool_size: int = 0
-    total_call_count: int = 0
-    potential_payout_max: int = 0
-    settlement_type: str = "top_call"
+    key: str
+    label: str
+    display_order: int
+
+
+class MarketOut(BaseModel):
+    id: uuid.UUID
+    key: str
+    question: str
+    context: str | None = None
+    category: MarketCategoryOut
+    options: list[MarketOptionOut]
+    participant_count: int
+    pool_volume_cents: int
+    reveal_seconds: int
+    avatars: list[str]
+    # Populated only when DEBUG=true.
+    simulation_seed: str | None = None
+    latent_distribution_bps: dict[str, int] | None = None
 
 
 class CreatePredictionIn(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     market_id: uuid.UUID
-    object_id: uuid.UUID | None = None
-    raw_text: str | None = None
+    vote_option_id: uuid.UUID
+    forecast_bps: dict[uuid.UUID, int]
+    stake_cents: int = Field(gt=0)
+
+    @field_validator("forecast_bps")
+    @classmethod
+    def validate_allocations(cls, value: dict[uuid.UUID, int]) -> dict[uuid.UUID, int]:
+        if any(allocation < 0 or allocation > 10_000 for allocation in value.values()):
+            raise ValueError("Forecast allocations must be between 0 and 10,000 basis points")
+        return value
 
 
 class CreatePredictionOut(BaseModel):
     id: uuid.UUID
     reveal_seconds: int
-    new_coins: int | None = None
-    entry_cost: int = 10
-    is_ranked: bool = True
-    ranked_calls_remaining: int = 10
-    pool_size: int = 0
-    object_id: uuid.UUID | None = None
-    canonical_name: str | None = None
-    object_type: str | None = None
+    locked_at: datetime
+    stake_cents: int
+    user_fee_cents: int
+    new_balance_cents: int
+
+
+class DistributionPointOut(BaseModel):
+    option_id: uuid.UUID
+    key: str
+    label: str
+    bps: int
+
+
+class DifferenceOut(BaseModel):
+    option_id: uuid.UUID
+    label: str
+    forecast_bps: int
+    actual_bps: int
+    difference_bps: int
 
 
 class RevealOut(BaseModel):
     prediction_id: uuid.UUID
-    outcome: str
-    your_pick: str | None
-    winning_object: str | None
-    shown_share: float
-    coins_won: int
-    payout_multiplier: float = 0
-    pool_size: int = 0
+    market_id: uuid.UUID
+    question: str
+    category_name: str
+    vote: MarketOptionOut
+    forecast: list[DistributionPointOut]
+    actual_distribution: list[DistributionPointOut]
+    largest_differences: list[DifferenceOut]
+    accuracy_score: float
+    accuracy_percentile: float
+    forecast_rank: int
+    total_participants: int
+    stake_cents: int
+    user_fee_cents: int
+    gross_pool_cents: int
+    net_pool_cents: int
+    payout_cents: int
+    pnl_cents: int
     pulse_delta: int
-    new_coins: int
-    new_pulse: int
-
-
-class LeaderboardRow(BaseModel):
-    rank: int
-    display_name: str
-    coins: int
-    pulse_score: int
-    is_you: bool = False
+    new_balance_cents: int
+    new_pulse_score: int
+    revealed_at: datetime
 
 
 class HistoryPredictionOut(BaseModel):
     id: uuid.UUID
     market_id: uuid.UUID
-    prompt: str
-    category_name: str | None = None
-    category_slug: str | None = None
-    picked_name: str | None = None
-    outcome: str | None = None
+    question: str
+    category_name: str
+    category_slug: str
+    status: str
+    vote: MarketOptionOut
+    forecast: list[DistributionPointOut]
+    actual_distribution: list[DistributionPointOut] | None = None
     locked_at: datetime
-    resolved_at: datetime | None = None
     reveal_seconds: int
-    shown_share: float | None = None
-    coins_won: int
-    pulse_delta: int
-    entry_cost: int = 10
-    payout_multiplier: float = 0
-    pool_size: int = 0
-    settlement_type: str = "top_call"
+    reveal_at: datetime
+    seconds_remaining: int
+    participant_count: int
+    pool_volume_cents: int
+    stake_cents: int
+    user_fee_cents: int
+    accuracy_score: float | None = None
+    accuracy_percentile: float | None = None
+    forecast_rank: int | None = None
+    total_participants: int | None = None
+    payout_cents: int | None = None
+    pnl_cents: int | None = None
+    pulse_delta: int | None = None
+    revealed_at: datetime | None = None
+
+
+class WalletTransactionOut(BaseModel):
+    id: uuid.UUID
+    transaction_type: str
+    amount_cents: int
+    balance_after_cents: int
+    prediction_id: uuid.UUID | None = None
+    question: str | None = None
+    created_at: datetime
+
+
+class WalletOut(BaseModel):
+    available_balance_cents: int
+    total_stakes_cents: int
+    total_payouts_cents: int
+    net_pnl_cents: int
+    debug_topup_enabled: bool
+    transactions: list[WalletTransactionOut]
+
+
+class LeaderboardRow(BaseModel):
+    rank: int
+    display_name: str
+    avatar_url: str | None = None
+    pulse_score: int
+    average_accuracy: float
+    win_rate: float
+    markets_played: int
+    current_streak: int
+    is_you: bool = False
+
+
+class ActivityDayOut(BaseModel):
+    date: str
+    markets_played: int
 
 
 class ProfileStatsOut(BaseModel):
-    entered: int
-    resolved: int
+    markets_played: int
+    revealed: int
     pending: int
     wins: int
     losses: int
     win_rate: float
-    total_coins_won: int
-    total_pulse_delta: int
-    best_coin_win: int
-    avg_crowd_share: float
-    ranked_calls_remaining: int = 10
-    current_streak: int = 0
-    biggest_multiplier: float = 0
-    contrarian_wins: int = 0
-    early_calls: int = 0
+    average_accuracy: float
+    total_pnl_cents: int
+    total_volume_cents: int
+    biggest_win_cents: int
+    current_streak: int
+    longest_streak: int
     best_category: str | None = None
+    activity: list[ActivityDayOut]
 
 
 class TokenOut(BaseModel):
@@ -151,3 +231,29 @@ class EmailLoginIn(BaseModel):
         if len(email) > 320 or not re.fullmatch(r"[^@\s]+@[^@\s]+\.[^@\s]+", email):
             raise ValueError("Enter a valid email address")
         return email
+
+
+class AuthMethodsOut(BaseModel):
+    email_otp: bool
+    email_login: bool
+    google: bool
+
+
+class EmailOtpRequestOut(BaseModel):
+    challenge_id: uuid.UUID
+    expires_in_seconds: int
+    # Present only in DEBUG mode when no email provider is configured.
+    dev_code: str | None = None
+
+
+class EmailOtpVerifyIn(BaseModel):
+    challenge_id: uuid.UUID
+    code: str
+
+    @field_validator("code")
+    @classmethod
+    def validate_code(cls, value: str) -> str:
+        code = re.sub(r"\s+", "", value)
+        if not re.fullmatch(r"\d{6}", code):
+            raise ValueError("Enter the 6-digit code")
+        return code

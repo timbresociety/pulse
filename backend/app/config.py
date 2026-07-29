@@ -29,6 +29,15 @@ class Settings(BaseSettings):
         ]
         return urlunsplit(parsed._replace(query=urlencode(query)))
 
+    # Keep each serverless instance's pool deliberately small. Managed
+    # Postgres providers usually sit behind their own connection pooler, and a
+    # large per-instance pool can exhaust the database as Vercel scales out.
+    database_pool_size: int = 2
+    database_max_overflow: int = 1
+    database_pool_timeout_seconds: int = 10
+    database_pool_recycle_seconds: int = 300
+    database_readiness_timeout_seconds: int = 5
+
     # Auth
     jwt_secret: str = "dev-secret-change-me"
     jwt_expire_minutes: int = 43200  # 30 days
@@ -36,7 +45,7 @@ class Settings(BaseSettings):
 
     google_client_id: str = ""
     google_client_secret: str = ""
-    google_redirect_uri: str = "http://localhost:8000/auth/google/callback"
+    google_redirect_uri: str = "http://localhost:8000/api/auth/google/callback"
 
     frontend_url: str = "http://localhost:5173"
 
@@ -44,19 +53,32 @@ class Settings(BaseSettings):
     # This is intentionally passwordless and unverified. It is for sharing the
     # prototype with testers, not a production authentication system.
     email_login_enabled: bool = True
-    # Local and newly provisioned databases need the schema and seed. Once a
-    # production database is ready, disabling this removes cold-start DDL work.
+    # Passwordless email OTP. In production this becomes available only when a
+    # Resend API key or SMTP host is configured; DEBUG mode exposes the code in
+    # the response so local development does not need an email provider.
+    otp_email_enabled: bool = True
+    otp_expire_minutes: int = 10
+    otp_resend_seconds: int = 60
+    otp_max_attempts: int = 5
+    otp_pepper: str = ""
+    otp_from_email: str = "Pulse <onboarding@resend.dev>"
+    resend_api_key: str = ""
+    smtp_host: str = ""
+    smtp_port: int = 587
+    smtp_username: str = ""
+    smtp_password: str = ""
+    smtp_starttls: bool = True
+    smtp_use_ssl: bool = False
+    # Local and newly provisioned databases need schema initialization. The
+    # catalog seed can be disabled independently after a production cutover.
     initialize_database: bool = True
+    seed_database: bool = True
 
-    # Game tuning
+    # Pulse Markets v0 game tuning
     reveal_start_seconds: int = 30
     reveal_increment_seconds: int = 30
-    win_probability: float = 0.65
-    no_back_to_back_loss_window: int = 5
-    first_market_always_win: bool = True
-    starting_coins: int = 100
-    base_coin_payout: int = 50
-    leaderboard_rank_metric: str = "coins"  # "coins" | "pulse"
+    starting_balance_cents: int = 1_000_000
+    starting_pulse_score: int = 1000
 
     # LLM market generation
     anthropic_api_key: str = ""
@@ -71,6 +93,18 @@ class Settings(BaseSettings):
     @property
     def llm_enabled(self) -> bool:
         return bool(self.anthropic_api_key)
+
+    @property
+    def otp_signing_secret(self) -> str:
+        return self.otp_pepper or self.jwt_secret
+
+    @property
+    def otp_delivery_configured(self) -> bool:
+        return bool(self.resend_api_key or self.smtp_host)
+
+    @property
+    def otp_available(self) -> bool:
+        return self.otp_email_enabled and (self.otp_delivery_configured or self.debug)
 
 
 settings = Settings()

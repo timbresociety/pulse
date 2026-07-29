@@ -1,3 +1,6 @@
+import hashlib
+import hmac
+import secrets
 import uuid
 from datetime import datetime, timedelta, timezone
 
@@ -12,6 +15,19 @@ from app.database import get_db
 from app.models import User
 
 bearer_scheme = HTTPBearer(auto_error=False)
+
+
+def generate_otp_code() -> str:
+    return f"{secrets.randbelow(1_000_000):06d}"
+
+
+def hash_otp(challenge_id: uuid.UUID, email: str, code: str) -> str:
+    message = f"{challenge_id}:{email.strip().lower()}:{code}".encode()
+    return hmac.new(
+        settings.otp_signing_secret.encode(),
+        message,
+        hashlib.sha256,
+    ).hexdigest()
 
 
 def create_session_token(user_id: uuid.UUID) -> str:
@@ -55,8 +71,9 @@ async def upsert_user(
             google_sub=google_sub,
             display_name=display_name or email.split("@")[0],
             avatar_url=avatar_url,
-            coins=settings.starting_coins,
-            pulse_score=0,
+            coins=0,
+            balance_cents=settings.starting_balance_cents,
+            pulse_score=settings.starting_pulse_score,
         )
         db.add(user)
     else:
@@ -67,4 +84,7 @@ async def upsert_user(
         if avatar_url and not user.avatar_url:
             user.avatar_url = avatar_url
     await db.commit()
+    # UserOut includes categories. Explicitly load the relationship after the
+    # commit so a brand-new account can be serialized on its first login.
+    await db.refresh(user, attribute_names=["categories"])
     return user

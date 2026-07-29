@@ -1,4 +1,3 @@
-import asyncio
 import uuid
 
 from fastapi import APIRouter, Depends, Query
@@ -8,65 +7,78 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.auth import get_current_user
 from app.config import settings
 from app.database import get_db
-from app.game import fabricate_market_metrics
-from app.llm import generate_markets_for_category
+from app.game import (
+    PULSE_MARKET_KIND,
+    market_avatar_names,
+    reveal_seconds_for_index,
+    simulate_crowd,
+    user_locked_count,
+)
 from app.models import Category, Market, Object, ObjectAlias, Prediction, User
-from app.schemas import MarketOut, ObjectOut
+from app.schemas import MarketCategoryOut, MarketOptionOut, MarketOut, ObjectOut
 
 router = APIRouter(tags=["feed"])
 
 
-async def _maybe_topup(user: User, chosen_ids: list[uuid.UUID], db: AsyncSession) -> None:
-    """Fire background LLM generation for any chosen category running low on
-    unanswered markets for this user. Non-blocking, best-effort."""
-    if not settings.llm_enabled:
-        return
-    answered = select(Prediction.market_id).where(Prediction.user_id == user.id)
-    for cid in chosen_ids:
-        remaining = await db.scalar(
-            select(func.count())
-            .select_from(Market)
-            .where(Market.category_id == cid, Market.id.not_in(answered))
-        )
-        if (remaining or 0) < settings.feed_topup_threshold:
-            asyncio.create_task(generate_markets_for_category(cid))
-
-
-@router.get("/feed", response_model=list[MarketOut])
+@router.get("/feed", response_model=list[MarketOut], response_model_exclude_none=True)
 async def feed(
-    limit: int = Query(20, le=50),
+    limit: int = Query(20, ge=1, le=50),
     user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
-    chosen_ids = [c.id for c in user.categories]
+    chosen_ids = [category.id for category in user.categories if category.is_active]
     if not chosen_ids:
         return []
 
-    await _maybe_topup(user, chosen_ids, db)
-
     answered = select(Prediction.market_id).where(Prediction.user_id == user.id)
     result = await db.execute(
-        select(Market, Category.name, Category.slug)
+        select(Market, Category)
         .join(Category, Category.id == Market.category_id)
-        .where(Market.category_id.in_(chosen_ids), Market.id.not_in(answered))
-        .order_by(func.random())
+        .where(
+            Market.category_id.in_(chosen_ids),
+            Market.market_kind == PULSE_MARKET_KIND,
+            Market.status == "active",
+            Category.is_active.is_(True),
+            Market.id.not_in(answered),
+        )
+        .order_by(Market.created_at, Market.market_key)
         .limit(limit)
     )
-    out: list[MarketOut] = []
-    for market, cat_name, cat_slug in result.all():
-        metrics = fabricate_market_metrics(market.id)
-        out.append(
+    reveal_seconds = reveal_seconds_for_index(await user_locked_count(db, user.id))
+    output: list[MarketOut] = []
+    for market, category in result.all():
+        options = sorted(market.options, key=lambda option: option.display_order)
+        crowd = simulate_crowd(
+            market.id,
+            [option.id for option in options],
+            market.simulation_weights_bps or [],
+        )
+        option_output = [
+            MarketOptionOut(
+                id=option.id,
+                key=option.option_key,
+                label=option.label,
+                display_order=option.display_order,
+            )
+            for option in options
+        ]
+        output.append(
             MarketOut(
                 id=market.id,
-                prompt=market.prompt,
-                object_type=market.object_type,
-                category_id=market.category_id,
-                category_name=cat_name,
-                category_slug=cat_slug,
-                **metrics,
+                key=market.market_key or str(market.id),
+                question=market.question or market.prompt,
+                context=market.context,
+                category=MarketCategoryOut(id=category.id, slug=category.slug, name=category.name),
+                options=option_output,
+                participant_count=crowd.participant_count,
+                pool_volume_cents=crowd.pool_volume_cents,
+                reveal_seconds=reveal_seconds,
+                avatars=market_avatar_names(market.id),
+                simulation_seed=crowd.seed if settings.debug else None,
+                latent_distribution_bps=crowd.latent_distribution_bps if settings.debug else None,
             )
         )
-    return out
+    return output
 
 
 @router.get("/search", response_model=list[ObjectOut])
@@ -77,19 +89,17 @@ async def search(
     user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
+    """Legacy compatibility endpoint; Pulse Poll markets never use object search."""
     market = await db.get(Market, market_id)
-    if market is None:
+    if market is None or market.market_kind == PULSE_MARKET_KIND:
         return []
 
     term = q.strip().lower()
-    # Trigram similarity over canonical_name and aliases, constrained to the
-    # market's object_type + category. Falls back to ILIKE if pg_trgm absent.
     similarity = func.greatest(
         func.similarity(func.lower(Object.canonical_name), term),
         func.coalesce(func.max(func.similarity(func.lower(ObjectAlias.alias), term)), 0.0),
     ).label("sim")
-
-    stmt = (
+    statement = (
         select(Object, similarity)
         .outerjoin(ObjectAlias, ObjectAlias.object_id == Object.id)
         .where(
@@ -98,32 +108,22 @@ async def search(
             Object.status == "active",
         )
         .group_by(Object.id)
-        .having(
-            func.greatest(
-                func.similarity(func.lower(Object.canonical_name), term),
-                func.coalesce(func.max(func.similarity(func.lower(ObjectAlias.alias), term)), 0.0),
-            )
-            > 0.1
-        )
         .order_by(similarity.desc())
         .limit(limit)
     )
     try:
-        result = await db.execute(stmt)
-        rows = [row[0] for row in result.all()]
+        rows = (await db.execute(statement)).all()
+        return [row[0] for row in rows]
     except Exception:
-        # Fallback: simple ILIKE if pg_trgm is unavailable
         await db.rollback()
-        like = f"%{term}%"
         result = await db.execute(
             select(Object)
             .where(
                 Object.category_id == market.category_id,
                 Object.object_type == market.object_type,
                 Object.status == "active",
-                func.lower(Object.canonical_name).like(like),
+                func.lower(Object.canonical_name).like(f"%{term}%"),
             )
             .limit(limit)
         )
-        rows = result.scalars().all()
-    return rows
+        return result.scalars().all()

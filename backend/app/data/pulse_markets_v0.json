@@ -1,0 +1,783 @@
+{
+  "version": 1,
+  "categories": [
+    {"slug": "internet", "name": "Internet", "color": "#54E0B7"},
+    {"slug": "music", "name": "Music", "color": "#A78BFA"},
+    {"slug": "entertainment", "name": "Entertainment", "color": "#FB7185"},
+    {"slug": "fashion", "name": "Fashion", "color": "#FBBF24"},
+    {"slug": "technology", "name": "Technology", "color": "#60A5FA"},
+    {"slug": "crypto", "name": "Crypto", "color": "#F97316"},
+    {"slug": "culture", "name": "Culture", "color": "#E879F9"},
+    {"slug": "experiences", "name": "Experiences", "color": "#34D399"}
+  ],
+  "markets": [
+    {
+      "key": "internet-first-app",
+      "category_slug": "internet",
+      "question": "Which app do you open first after waking up?",
+      "context": "Choose the closest answer.",
+      "options": [
+        {"key": "instagram", "label": "Instagram"}, {"key": "whatsapp", "label": "WhatsApp"},
+        {"key": "x", "label": "X"}, {"key": "tiktok", "label": "TikTok"},
+        {"key": "youtube", "label": "YouTube"}, {"key": "reddit", "label": "Reddit"},
+        {"key": "email", "label": "Email"}, {"key": "other", "label": "Something else"}
+      ],
+      "simulation_weights_bps": [1800, 2400, 900, 1600, 1300, 700, 500, 800]
+    },
+    {
+      "key": "internet-exhausted-format",
+      "category_slug": "internet",
+      "question": "Which content format feels most exhausted?",
+      "options": [
+        {"key": "podcasts", "label": "Podcasts"}, {"key": "short-video", "label": "Short-form videos"},
+        {"key": "newsletters", "label": "Newsletters"}, {"key": "livestreams", "label": "Livestreams"},
+        {"key": "x-threads", "label": "X threads"}, {"key": "video-essays", "label": "Video essays"},
+        {"key": "long-interviews", "label": "Long-form interviews"}, {"key": "none", "label": "None of them"}
+      ],
+      "simulation_weights_bps": [1900, 2400, 900, 1200, 1500, 600, 800, 700]
+    },
+    {
+      "key": "internet-discover-first",
+      "category_slug": "internet",
+      "question": "Where do you most often discover something before your friends do?",
+      "options": [
+        {"key": "tiktok", "label": "TikTok"}, {"key": "instagram", "label": "Instagram"},
+        {"key": "x", "label": "X"}, {"key": "reddit", "label": "Reddit"},
+        {"key": "youtube", "label": "YouTube"}, {"key": "group-chats", "label": "Group chats"},
+        {"key": "offline-friends", "label": "Offline friends"}, {"key": "elsewhere", "label": "Somewhere else"}
+      ],
+      "simulation_weights_bps": [2200, 1600, 1100, 1500, 900, 1500, 500, 700]
+    },
+    {
+      "key": "internet-posting-frequency",
+      "category_slug": "internet",
+      "question": "How often do you post publicly on social media?",
+      "options": [
+        {"key": "daily", "label": "Daily"}, {"key": "few-week", "label": "A few times a week"},
+        {"key": "weekly", "label": "About weekly"}, {"key": "monthly", "label": "A few times a month"},
+        {"key": "rarely", "label": "Rarely"}, {"key": "never", "label": "Never"}
+      ],
+      "simulation_weights_bps": [900, 1300, 1400, 1800, 3000, 1600]
+    },
+    {
+      "key": "internet-trust-source",
+      "category_slug": "internet",
+      "question": "Whose recommendation are you most likely to trust online?",
+      "options": [
+        {"key": "close-friend", "label": "A close friend"}, {"key": "niche-expert", "label": "A niche expert"},
+        {"key": "small-creator", "label": "A small creator"}, {"key": "large-creator", "label": "A large creator"},
+        {"key": "reviews", "label": "Customer reviews"}, {"key": "community", "label": "An online community"},
+        {"key": "algorithm", "label": "The algorithm"}, {"key": "no-one", "label": "No one online"}
+      ],
+      "simulation_weights_bps": [2500, 1800, 900, 400, 1700, 1400, 500, 800]
+    },
+    {
+      "key": "internet-group-chat-role",
+      "category_slug": "internet",
+      "question": "What role do you usually play in a group chat?",
+      "options": [
+        {"key": "meme-sender", "label": "Meme sender"}, {"key": "planner", "label": "Planner"},
+        {"key": "reactor", "label": "Reactor"}, {"key": "debater", "label": "Debater"},
+        {"key": "lurker", "label": "Lurker"}, {"key": "late-replier", "label": "Late replier"},
+        {"key": "chaos", "label": "Chaos agent"}, {"key": "depends", "label": "It depends on the chat"}
+      ],
+      "simulation_weights_bps": [1600, 900, 1300, 700, 1800, 1400, 900, 1400]
+    },
+    {
+      "key": "internet-notification-policy",
+      "category_slug": "internet",
+      "question": "What is your default approach to phone notifications?",
+      "options": [
+        {"key": "all-on", "label": "Most are on"}, {"key": "messages-only", "label": "Messages only"},
+        {"key": "important-only", "label": "Important apps only"}, {"key": "scheduled", "label": "Scheduled summaries"},
+        {"key": "dnd", "label": "Do Not Disturb most of the day"}, {"key": "all-off", "label": "Almost all are off"}
+      ],
+      "simulation_weights_bps": [1200, 2500, 2800, 700, 1600, 1200]
+    },
+    {
+      "key": "internet-feed-feeling",
+      "category_slug": "internet",
+      "question": "How does your main social feed feel right now?",
+      "options": [
+        {"key": "inspiring", "label": "Inspiring"}, {"key": "entertaining", "label": "Entertaining"},
+        {"key": "useful", "label": "Useful"}, {"key": "repetitive", "label": "Repetitive"},
+        {"key": "overwhelming", "label": "Overwhelming"}, {"key": "hostile", "label": "Hostile"},
+        {"key": "boring", "label": "Boring"}, {"key": "mixed", "label": "A complete mix"}
+      ],
+      "simulation_weights_bps": [700, 1800, 800, 2000, 1300, 400, 1000, 2000]
+    },
+
+    {
+      "key": "music-discovery-source",
+      "category_slug": "music",
+      "question": "Where do you discover most new music?",
+      "options": [
+        {"key": "spotify", "label": "Spotify"}, {"key": "tiktok", "label": "TikTok"},
+        {"key": "youtube", "label": "YouTube"}, {"key": "instagram", "label": "Instagram"},
+        {"key": "apple-music", "label": "Apple Music"}, {"key": "independent", "label": "SoundCloud or Bandcamp"},
+        {"key": "friends", "label": "Friends"}, {"key": "live-other", "label": "Live events or somewhere else"}
+      ],
+      "simulation_weights_bps": [2700, 1500, 1400, 700, 700, 500, 1700, 800]
+    },
+    {
+      "key": "music-first-hook",
+      "category_slug": "music",
+      "question": "What matters most when you first like a song?",
+      "options": [
+        {"key": "melody", "label": "Melody"}, {"key": "lyrics", "label": "Lyrics"},
+        {"key": "beat", "label": "Beat"}, {"key": "voice", "label": "Voice"},
+        {"key": "production", "label": "Production"}, {"key": "mood", "label": "Mood"},
+        {"key": "relevance", "label": "Cultural relevance"}, {"key": "other", "label": "Something else"}
+      ],
+      "simulation_weights_bps": [1800, 1700, 1600, 1000, 1000, 1900, 400, 600]
+    },
+    {
+      "key": "music-listening-mode",
+      "category_slug": "music",
+      "question": "How do you listen to music most often?",
+      "options": [
+        {"key": "own-playlists", "label": "My own playlists"}, {"key": "albums", "label": "Full albums"},
+        {"key": "algorithm", "label": "Algorithmic playlists"}, {"key": "artist-radio", "label": "Artist radio"},
+        {"key": "curated", "label": "Editorial playlists"}, {"key": "shared", "label": "Shared playlists"},
+        {"key": "shuffle", "label": "My whole library on shuffle"}, {"key": "other", "label": "Something else"}
+      ],
+      "simulation_weights_bps": [2600, 1200, 1800, 600, 700, 700, 1800, 600]
+    },
+    {
+      "key": "music-album-length",
+      "category_slug": "music",
+      "question": "What album length feels ideal today?",
+      "options": [
+        {"key": "under-25", "label": "Under 25 minutes"}, {"key": "25-35", "label": "25 to 35 minutes"},
+        {"key": "35-45", "label": "35 to 45 minutes"}, {"key": "45-60", "label": "45 to 60 minutes"},
+        {"key": "over-60", "label": "More than an hour"}, {"key": "no-preference", "label": "No preference"}
+      ],
+      "simulation_weights_bps": [700, 2100, 3000, 1800, 500, 1900]
+    },
+    {
+      "key": "music-share-behavior",
+      "category_slug": "music",
+      "question": "When you find a song you love, what do you do first?",
+      "options": [
+        {"key": "save", "label": "Save it"}, {"key": "repeat", "label": "Play it on repeat"},
+        {"key": "send-friend", "label": "Send it to a friend"}, {"key": "playlist", "label": "Add it to a playlist"},
+        {"key": "artist", "label": "Explore the artist"}, {"key": "post", "label": "Post it publicly"},
+        {"key": "lyrics", "label": "Look up the lyrics"}, {"key": "nothing", "label": "Just keep listening"}
+      ],
+      "simulation_weights_bps": [1100, 2100, 1300, 1800, 1300, 300, 900, 1200]
+    },
+    {
+      "key": "music-live-priority",
+      "category_slug": "music",
+      "question": "What matters most at a live music event?",
+      "options": [
+        {"key": "performance", "label": "The performance"}, {"key": "sound", "label": "Sound quality"},
+        {"key": "crowd", "label": "Crowd energy"}, {"key": "venue", "label": "The venue"},
+        {"key": "setlist", "label": "The setlist"}, {"key": "friends", "label": "Who I go with"},
+        {"key": "production", "label": "Visual production"}, {"key": "price", "label": "Value for money"}
+      ],
+      "simulation_weights_bps": [2300, 1100, 1800, 500, 1300, 1200, 1000, 800]
+    },
+    {
+      "key": "music-repeat-era",
+      "category_slug": "music",
+      "question": "Which era supplies most of your repeat listens?",
+      "options": [
+        {"key": "before-1980", "label": "Before the 1980s"}, {"key": "1980s", "label": "1980s"},
+        {"key": "1990s", "label": "1990s"}, {"key": "2000s", "label": "2000s"},
+        {"key": "2010s", "label": "2010s"}, {"key": "2020s", "label": "2020s"},
+        {"key": "mixed", "label": "A mix of every era"}
+      ],
+      "simulation_weights_bps": [500, 700, 1200, 1900, 2700, 1500, 1500]
+    },
+    {
+      "key": "music-pay-artist",
+      "category_slug": "music",
+      "question": "How are you most likely to spend money supporting an artist?",
+      "options": [
+        {"key": "concert", "label": "Concert tickets"}, {"key": "merch", "label": "Merchandise"},
+        {"key": "vinyl", "label": "Vinyl or physical music"}, {"key": "subscription", "label": "Streaming subscription"},
+        {"key": "direct", "label": "Direct digital purchase"}, {"key": "membership", "label": "Fan membership"},
+        {"key": "none", "label": "I probably would not"}
+      ],
+      "simulation_weights_bps": [2800, 1300, 1000, 2300, 400, 500, 1700]
+    },
+
+    {
+      "key": "entertainment-streaming-originals",
+      "category_slug": "entertainment",
+      "question": "Which streaming service currently has the best originals?",
+      "options": [
+        {"key": "netflix", "label": "Netflix"}, {"key": "prime-video", "label": "Prime Video"},
+        {"key": "disney-plus", "label": "Disney+"}, {"key": "apple-tv", "label": "Apple TV+"},
+        {"key": "max", "label": "Max"}, {"key": "hulu", "label": "Hulu"},
+        {"key": "crunchyroll", "label": "Crunchyroll"}, {"key": "none", "label": "None of these"}
+      ],
+      "simulation_weights_bps": [2500, 1100, 900, 1800, 1500, 500, 700, 1000]
+    },
+    {
+      "key": "entertainment-start-show",
+      "category_slug": "entertainment",
+      "question": "What makes you start a new show?",
+      "options": [
+        {"key": "friend", "label": "Friend recommendation"}, {"key": "social-clips", "label": "Social media clips"},
+        {"key": "cast", "label": "Cast"}, {"key": "reviews", "label": "Reviews"},
+        {"key": "trailer", "label": "Trailer"}, {"key": "platform", "label": "Platform recommendation"},
+        {"key": "fandom", "label": "Existing fandom"}, {"key": "other", "label": "Something else"}
+      ],
+      "simulation_weights_bps": [2200, 1700, 800, 1100, 1200, 1000, 1200, 800]
+    },
+    {
+      "key": "entertainment-watch-company",
+      "category_slug": "entertainment",
+      "question": "Who do you prefer watching a new release with?",
+      "options": [
+        {"key": "alone", "label": "Alone"}, {"key": "partner", "label": "A partner"},
+        {"key": "one-friend", "label": "One friend"}, {"key": "friend-group", "label": "A group of friends"},
+        {"key": "family", "label": "Family"}, {"key": "online", "label": "An online watch party"},
+        {"key": "depends", "label": "It depends on the release"}
+      ],
+      "simulation_weights_bps": [1900, 2100, 800, 1100, 1400, 200, 2500]
+    },
+    {
+      "key": "entertainment-cinema-reason",
+      "category_slug": "entertainment",
+      "question": "What is most likely to get you into a cinema?",
+      "options": [
+        {"key": "spectacle", "label": "Big-screen spectacle"}, {"key": "director", "label": "A favorite director"},
+        {"key": "franchise", "label": "A favorite franchise"}, {"key": "reviews", "label": "Exceptional reviews"},
+        {"key": "social", "label": "A social outing"}, {"key": "event", "label": "A limited event"},
+        {"key": "price", "label": "A good ticket deal"}, {"key": "nothing", "label": "I rarely go to cinemas"}
+      ],
+      "simulation_weights_bps": [2000, 800, 1400, 1300, 1500, 600, 800, 1600]
+    },
+    {
+      "key": "entertainment-episode-release",
+      "category_slug": "entertainment",
+      "question": "How should a great series release its episodes?",
+      "options": [
+        {"key": "all-at-once", "label": "All at once"}, {"key": "weekly", "label": "One per week"},
+        {"key": "small-batches", "label": "In small batches"}, {"key": "split-season", "label": "Two half-seasons"},
+        {"key": "no-preference", "label": "No preference"}
+      ],
+      "simulation_weights_bps": [3300, 3000, 1600, 700, 1400]
+    },
+    {
+      "key": "entertainment-spoiler-window",
+      "category_slug": "entertainment",
+      "question": "How long should people wait before discussing spoilers publicly?",
+      "options": [
+        {"key": "one-day", "label": "One day"}, {"key": "three-days", "label": "Three days"},
+        {"key": "one-week", "label": "One week"}, {"key": "two-weeks", "label": "Two weeks"},
+        {"key": "one-month", "label": "One month"}, {"key": "always-warn", "label": "Always use a spoiler warning"}
+      ],
+      "simulation_weights_bps": [700, 1200, 2300, 1200, 600, 4000]
+    },
+    {
+      "key": "entertainment-comfort-rewatch",
+      "category_slug": "entertainment",
+      "question": "What kind of story are you most likely to rewatch for comfort?",
+      "options": [
+        {"key": "sitcom", "label": "Sitcom"}, {"key": "romance", "label": "Romance"},
+        {"key": "animation", "label": "Animation"}, {"key": "fantasy", "label": "Fantasy"},
+        {"key": "action", "label": "Action or adventure"}, {"key": "reality", "label": "Reality television"},
+        {"key": "crime", "label": "Crime or mystery"}, {"key": "none", "label": "I rarely rewatch"}
+      ],
+      "simulation_weights_bps": [2100, 1100, 1400, 1200, 900, 700, 800, 1800]
+    },
+    {
+      "key": "entertainment-attention",
+      "category_slug": "entertainment",
+      "question": "What most often steals your attention while watching at home?",
+      "options": [
+        {"key": "messages", "label": "Messages"}, {"key": "social", "label": "Social media"},
+        {"key": "work", "label": "Work"}, {"key": "snacks", "label": "Food or snacks"},
+        {"key": "other-people", "label": "Other people"}, {"key": "nothing", "label": "Nothing—I focus"},
+        {"key": "sleep", "label": "Falling asleep"}
+      ],
+      "simulation_weights_bps": [1200, 2500, 600, 900, 700, 2500, 1600]
+    },
+
+    {
+      "key": "fashion-cultural-aesthetic",
+      "category_slug": "fashion",
+      "question": "Which aesthetic has the strongest cultural pulse right now?",
+      "context": "Choose only among these aesthetics.",
+      "options": [
+        {"key": "quiet-luxury", "label": "Quiet luxury"}, {"key": "indie-sleaze", "label": "Indie sleaze"},
+        {"key": "blokecore", "label": "Blokecore"}, {"key": "corporate-surrealism", "label": "Corporate surrealism"},
+        {"key": "neo-medieval", "label": "Neo-medieval"}, {"key": "cyber-minimalism", "label": "Cyber minimalism"},
+        {"key": "maximalism", "label": "Maximalism"}, {"key": "none", "label": "None of these"}
+      ],
+      "simulation_weights_bps": [1900, 1500, 1300, 800, 600, 1100, 1500, 1300]
+    },
+    {
+      "key": "fashion-wear-influence",
+      "category_slug": "fashion",
+      "question": "What influences what you wear most?",
+      "options": [
+        {"key": "comfort", "label": "Comfort"}, {"key": "identity", "label": "Personal identity"},
+        {"key": "trends", "label": "Current trends"}, {"key": "friends", "label": "Friends"},
+        {"key": "creators", "label": "Creators"}, {"key": "brand", "label": "Brand"},
+        {"key": "occasion", "label": "Occasion"}, {"key": "price", "label": "Price"}
+      ],
+      "simulation_weights_bps": [2300, 1900, 1000, 500, 600, 500, 1400, 1800]
+    },
+    {
+      "key": "fashion-shopping-channel",
+      "category_slug": "fashion",
+      "question": "Where do you buy most of your clothes?",
+      "options": [
+        {"key": "brand-sites", "label": "Brand websites"}, {"key": "marketplaces", "label": "Online marketplaces"},
+        {"key": "malls", "label": "Malls or department stores"}, {"key": "local", "label": "Local independent stores"},
+        {"key": "thrift", "label": "Thrift or vintage stores"}, {"key": "resale", "label": "Resale apps"},
+        {"key": "tailor", "label": "Custom or tailored"}, {"key": "other", "label": "Somewhere else"}
+      ],
+      "simulation_weights_bps": [1400, 2400, 1800, 800, 1000, 600, 700, 1300]
+    },
+    {
+      "key": "fashion-outfit-start",
+      "category_slug": "fashion",
+      "question": "Which piece most often anchors your outfit?",
+      "options": [
+        {"key": "top", "label": "Top or shirt"}, {"key": "bottom", "label": "Trousers or skirt"},
+        {"key": "shoes", "label": "Shoes"}, {"key": "outerwear", "label": "Outerwear"},
+        {"key": "accessory", "label": "An accessory"}, {"key": "dress", "label": "A one-piece outfit"},
+        {"key": "no-anchor", "label": "Nothing in particular"}
+      ],
+      "simulation_weights_bps": [2000, 1100, 2600, 1000, 800, 600, 1900]
+    },
+    {
+      "key": "fashion-brand-signal",
+      "category_slug": "fashion",
+      "question": "How visible do you prefer branding on your clothes?",
+      "options": [
+        {"key": "none", "label": "No visible branding"}, {"key": "subtle", "label": "Very subtle"},
+        {"key": "recognizable", "label": "Recognizable but restrained"}, {"key": "bold", "label": "Bold logos"},
+        {"key": "depends", "label": "It depends on the item"}
+      ],
+      "simulation_weights_bps": [2100, 3300, 1500, 700, 2400]
+    },
+    {
+      "key": "fashion-keep-item",
+      "category_slug": "fashion",
+      "question": "What makes you keep an item for years?",
+      "options": [
+        {"key": "fit", "label": "Perfect fit"}, {"key": "comfort", "label": "Comfort"},
+        {"key": "quality", "label": "Build quality"}, {"key": "versatility", "label": "Versatility"},
+        {"key": "memory", "label": "A memory attached to it"}, {"key": "rarity", "label": "Rarity"},
+        {"key": "style", "label": "Timeless style"}, {"key": "other", "label": "Something else"}
+      ],
+      "simulation_weights_bps": [1800, 1600, 1700, 1200, 900, 300, 1900, 600]
+    },
+    {
+      "key": "fashion-dress-up",
+      "category_slug": "fashion",
+      "question": "Which occasion most makes you want to dress up?",
+      "options": [
+        {"key": "date", "label": "A date"}, {"key": "party", "label": "A party"},
+        {"key": "wedding", "label": "A wedding"}, {"key": "work", "label": "A work event"},
+        {"key": "concert", "label": "A concert"}, {"key": "dinner", "label": "A special dinner"},
+        {"key": "photos", "label": "Taking photos"}, {"key": "never", "label": "I rarely dress up"}
+      ],
+      "simulation_weights_bps": [1300, 1500, 2100, 700, 800, 1200, 700, 1700]
+    },
+    {
+      "key": "fashion-sustainability",
+      "category_slug": "fashion",
+      "question": "Which tradeoff matters most when trying to shop more sustainably?",
+      "options": [
+        {"key": "buy-less", "label": "Buying fewer pieces"}, {"key": "durability", "label": "Choosing durability"},
+        {"key": "secondhand", "label": "Buying secondhand"}, {"key": "materials", "label": "Better materials"},
+        {"key": "repair", "label": "Repairing what I own"}, {"key": "local", "label": "Buying local"},
+        {"key": "price", "label": "Price still comes first"}, {"key": "not-factor", "label": "It is not a factor for me"}
+      ],
+      "simulation_weights_bps": [1600, 1700, 1300, 900, 800, 500, 2200, 1000]
+    },
+
+    {
+      "key": "technology-ai-product",
+      "category_slug": "technology",
+      "question": "Which AI product do you currently use most?",
+      "options": [
+        {"key": "chatgpt", "label": "ChatGPT"}, {"key": "claude", "label": "Claude"},
+        {"key": "gemini", "label": "Gemini"}, {"key": "perplexity", "label": "Perplexity"},
+        {"key": "copilot", "label": "Copilot"}, {"key": "grok", "label": "Grok"},
+        {"key": "meta-ai", "label": "Meta AI"}, {"key": "none", "label": "None of these"}
+      ],
+      "simulation_weights_bps": [4100, 900, 1200, 900, 600, 400, 500, 1400]
+    },
+    {
+      "key": "technology-ai-use",
+      "category_slug": "technology",
+      "question": "What is your primary use of AI?",
+      "options": [
+        {"key": "research", "label": "Research"}, {"key": "writing", "label": "Writing"},
+        {"key": "coding", "label": "Coding"}, {"key": "learning", "label": "Learning"},
+        {"key": "creative", "label": "Creative work"}, {"key": "automation", "label": "Work automation"},
+        {"key": "advice", "label": "Advice"}, {"key": "rarely", "label": "I rarely use AI"}
+      ],
+      "simulation_weights_bps": [1900, 1500, 1600, 1400, 900, 700, 500, 1500]
+    },
+    {
+      "key": "technology-device-upgrade",
+      "category_slug": "technology",
+      "question": "What usually makes you replace a personal device?",
+      "options": [
+        {"key": "battery", "label": "Battery degradation"}, {"key": "breaks", "label": "It breaks"},
+        {"key": "slow", "label": "It becomes too slow"}, {"key": "camera", "label": "A much better camera"},
+        {"key": "feature", "label": "A compelling new feature"}, {"key": "support", "label": "Software support ends"},
+        {"key": "deal", "label": "A good trade-in deal"}, {"key": "routine", "label": "A regular upgrade cycle"}
+      ],
+      "simulation_weights_bps": [2100, 2200, 1800, 600, 700, 800, 900, 900]
+    },
+    {
+      "key": "technology-privacy-trade",
+      "category_slug": "technology",
+      "question": "What are you most willing to trade some privacy for?",
+      "options": [
+        {"key": "convenience", "label": "Convenience"}, {"key": "personalization", "label": "Personalization"},
+        {"key": "security", "label": "Security"}, {"key": "health", "label": "Health insights"},
+        {"key": "location", "label": "Location-based help"}, {"key": "social", "label": "Social connection"},
+        {"key": "nothing", "label": "Nothing"}
+      ],
+      "simulation_weights_bps": [2200, 1000, 1900, 900, 700, 500, 2800]
+    },
+    {
+      "key": "technology-screen",
+      "category_slug": "technology",
+      "question": "Which screen do you spend the most non-work time on?",
+      "options": [
+        {"key": "phone", "label": "Phone"}, {"key": "television", "label": "Television"},
+        {"key": "laptop", "label": "Laptop"}, {"key": "desktop", "label": "Desktop computer"},
+        {"key": "tablet", "label": "Tablet"}, {"key": "console", "label": "Gaming console"},
+        {"key": "other", "label": "Another screen"}
+      ],
+      "simulation_weights_bps": [4300, 1800, 1500, 700, 500, 900, 300]
+    },
+    {
+      "key": "technology-smart-home",
+      "category_slug": "technology",
+      "question": "Which smart-home feature is most useful to you?",
+      "options": [
+        {"key": "lighting", "label": "Lighting"}, {"key": "security", "label": "Security cameras or locks"},
+        {"key": "speakers", "label": "Smart speakers"}, {"key": "climate", "label": "Climate control"},
+        {"key": "appliances", "label": "Connected appliances"}, {"key": "cleaning", "label": "Robot cleaning"},
+        {"key": "none", "label": "None of these"}
+      ],
+      "simulation_weights_bps": [1400, 2000, 900, 1200, 500, 1600, 2400]
+    },
+    {
+      "key": "technology-passwords",
+      "category_slug": "technology",
+      "question": "How do you manage most of your passwords?",
+      "options": [
+        {"key": "manager", "label": "Dedicated password manager"}, {"key": "browser", "label": "Browser or device manager"},
+        {"key": "memory", "label": "Mostly from memory"}, {"key": "variations", "label": "Variations of a few passwords"},
+        {"key": "notes", "label": "Notes or a document"}, {"key": "mixed", "label": "A mix of methods"}
+      ],
+      "simulation_weights_bps": [1700, 2800, 1000, 1600, 700, 2200]
+    },
+    {
+      "key": "technology-next-interface",
+      "category_slug": "technology",
+      "question": "Which interface would you most like to become genuinely useful?",
+      "options": [
+        {"key": "voice", "label": "Voice assistants"}, {"key": "glasses", "label": "Smart glasses"},
+        {"key": "vr", "label": "Virtual reality"}, {"key": "brain", "label": "Brain-computer interfaces"},
+        {"key": "agents", "label": "Autonomous AI agents"}, {"key": "gestures", "label": "Gesture control"},
+        {"key": "none", "label": "Current interfaces are enough"}
+      ],
+      "simulation_weights_bps": [1200, 1700, 900, 900, 3000, 600, 1700]
+    },
+
+    {
+      "key": "crypto-narrative-mindshare",
+      "category_slug": "crypto",
+      "question": "Which crypto narrative currently has the strongest mindshare?",
+      "options": [
+        {"key": "stablecoins", "label": "Stablecoins"}, {"key": "prediction-markets", "label": "Prediction markets"},
+        {"key": "ai-agents", "label": "AI agents"}, {"key": "memecoins", "label": "Memecoins"},
+        {"key": "rwa", "label": "Real-world assets"}, {"key": "depin", "label": "DePIN"},
+        {"key": "layer-2", "label": "Layer 2 networks"}, {"key": "none", "label": "None of these"}
+      ],
+      "simulation_weights_bps": [1900, 1700, 1600, 1800, 1100, 500, 700, 700]
+    },
+    {
+      "key": "crypto-use-today",
+      "category_slug": "crypto",
+      "question": "What is crypto most useful for today?",
+      "options": [
+        {"key": "trading", "label": "Trading"}, {"key": "payments", "label": "Global payments"},
+        {"key": "savings", "label": "Stablecoin savings"}, {"key": "speculation", "label": "Speculation"},
+        {"key": "fundraising", "label": "Fundraising"}, {"key": "ownership", "label": "Digital ownership"},
+        {"key": "communities", "label": "Online communities"}, {"key": "nothing", "label": "Nothing meaningful yet"}
+      ],
+      "simulation_weights_bps": [1900, 1400, 1200, 2200, 500, 700, 500, 1600]
+    },
+    {
+      "key": "crypto-entry-reason",
+      "category_slug": "crypto",
+      "question": "What first pulled you toward crypto?",
+      "options": [
+        {"key": "returns", "label": "Potential returns"}, {"key": "technology", "label": "The technology"},
+        {"key": "community", "label": "The community"}, {"key": "payments", "label": "Payments"},
+        {"key": "collectibles", "label": "Digital collectibles"}, {"key": "work", "label": "Work or a project"},
+        {"key": "friends", "label": "Friends"}, {"key": "not-involved", "label": "I am not involved"}
+      ],
+      "simulation_weights_bps": [2600, 1200, 700, 400, 500, 600, 800, 3200]
+    },
+    {
+      "key": "crypto-risk-signal",
+      "category_slug": "crypto",
+      "question": "Which signal makes a crypto project feel riskiest?",
+      "options": [
+        {"key": "anonymous", "label": "Anonymous team"}, {"key": "tokenomics", "label": "Unclear token economics"},
+        {"key": "hype", "label": "Influencer-heavy hype"}, {"key": "yield", "label": "Unsustainable yield"},
+        {"key": "centralization", "label": "Centralized control"}, {"key": "audits", "label": "No security audits"},
+        {"key": "product", "label": "No working product"}, {"key": "all", "label": "All of these equally"}
+      ],
+      "simulation_weights_bps": [900, 1200, 1100, 1000, 800, 1200, 1400, 2400]
+    },
+    {
+      "key": "crypto-hold-location",
+      "category_slug": "crypto",
+      "question": "Where would you feel most comfortable holding crypto?",
+      "options": [
+        {"key": "hardware", "label": "Hardware wallet"}, {"key": "self-custody", "label": "Mobile self-custody wallet"},
+        {"key": "exchange", "label": "Large exchange"}, {"key": "fintech", "label": "A mainstream finance app"},
+        {"key": "bank", "label": "A bank"}, {"key": "nowhere", "label": "I would not hold crypto"}
+      ],
+      "simulation_weights_bps": [1700, 1400, 1800, 1200, 1200, 2700]
+    },
+    {
+      "key": "crypto-social-source",
+      "category_slug": "crypto",
+      "question": "Where do you get most of your crypto information?",
+      "options": [
+        {"key": "x", "label": "X"}, {"key": "newsletters", "label": "Newsletters"},
+        {"key": "youtube", "label": "YouTube"}, {"key": "podcasts", "label": "Podcasts"},
+        {"key": "telegram", "label": "Telegram or Discord"}, {"key": "news", "label": "Mainstream news"},
+        {"key": "friends", "label": "Friends or colleagues"}, {"key": "none", "label": "I do not follow crypto"}
+      ],
+      "simulation_weights_bps": [2300, 700, 900, 600, 900, 700, 700, 3200]
+    },
+    {
+      "key": "crypto-mainstream-barrier",
+      "category_slug": "crypto",
+      "question": "What is the biggest barrier to mainstream crypto use?",
+      "options": [
+        {"key": "ux", "label": "Poor user experience"}, {"key": "trust", "label": "Lack of trust"},
+        {"key": "regulation", "label": "Regulatory uncertainty"}, {"key": "volatility", "label": "Price volatility"},
+        {"key": "scams", "label": "Scams and fraud"}, {"key": "use-cases", "label": "Weak everyday use cases"},
+        {"key": "education", "label": "Lack of education"}, {"key": "none", "label": "No single barrier"}
+      ],
+      "simulation_weights_bps": [1300, 1300, 1000, 900, 1700, 1800, 900, 1100]
+    },
+    {
+      "key": "crypto-cycle-behavior",
+      "category_slug": "crypto",
+      "question": "What best describes your behavior during a crypto market surge?",
+      "options": [
+        {"key": "buy", "label": "Buy more"}, {"key": "hold", "label": "Hold and watch"},
+        {"key": "take-profit", "label": "Take some profit"}, {"key": "research", "label": "Research new projects"},
+        {"key": "talk", "label": "Talk about it more"}, {"key": "ignore", "label": "Ignore it"},
+        {"key": "not-involved", "label": "I am not involved"}
+      ],
+      "simulation_weights_bps": [1000, 2200, 1200, 800, 500, 1200, 3100]
+    },
+
+    {
+      "key": "culture-city-pulse",
+      "category_slug": "culture",
+      "question": "Which city has the strongest cultural pulse right now?",
+      "context": "Choose only among these cities or the fallback.",
+      "options": [
+        {"key": "new-york", "label": "New York"}, {"key": "london", "label": "London"},
+        {"key": "seoul", "label": "Seoul"}, {"key": "tokyo", "label": "Tokyo"},
+        {"key": "berlin", "label": "Berlin"}, {"key": "mumbai", "label": "Mumbai"},
+        {"key": "paris", "label": "Paris"}, {"key": "elsewhere", "label": "Somewhere else"}
+      ],
+      "simulation_weights_bps": [1800, 1300, 1700, 1600, 800, 900, 800, 1100]
+    },
+    {
+      "key": "culture-spread-medium",
+      "category_slug": "culture",
+      "question": "What spreads culture fastest today?",
+      "options": [
+        {"key": "music", "label": "Music"}, {"key": "memes", "label": "Memes"},
+        {"key": "fashion", "label": "Fashion"}, {"key": "film-tv", "label": "Film and television"},
+        {"key": "creators", "label": "Creators"}, {"key": "food", "label": "Food"},
+        {"key": "games", "label": "Games"}, {"key": "live", "label": "Live experiences"}
+      ],
+      "simulation_weights_bps": [1500, 2000, 900, 1300, 1800, 500, 1000, 1000]
+    },
+    {
+      "key": "culture-belonging",
+      "category_slug": "culture",
+      "question": "What most creates a sense of belonging for you?",
+      "options": [
+        {"key": "family", "label": "Family"}, {"key": "friends", "label": "Friends"},
+        {"key": "city", "label": "My city or neighborhood"}, {"key": "work", "label": "Work or school"},
+        {"key": "faith", "label": "Faith or tradition"}, {"key": "interest", "label": "A shared interest"},
+        {"key": "online", "label": "An online community"}, {"key": "self", "label": "I rely mostly on myself"}
+      ],
+      "simulation_weights_bps": [1800, 2700, 800, 800, 700, 1300, 700, 1200]
+    },
+    {
+      "key": "culture-language-online",
+      "category_slug": "culture",
+      "question": "What changes the way you speak online most?",
+      "options": [
+        {"key": "friends", "label": "Friends"}, {"key": "memes", "label": "Memes"},
+        {"key": "creators", "label": "Creators"}, {"key": "music", "label": "Music"},
+        {"key": "work", "label": "Work culture"}, {"key": "games", "label": "Games"},
+        {"key": "local", "label": "Local language or dialect"}, {"key": "unchanged", "label": "My speech barely changes"}
+      ],
+      "simulation_weights_bps": [1900, 2100, 1000, 900, 500, 700, 1500, 1400]
+    },
+    {
+      "key": "culture-identity-signal",
+      "category_slug": "culture",
+      "question": "Which choice feels most expressive of personal identity?",
+      "options": [
+        {"key": "clothes", "label": "Clothes"}, {"key": "music", "label": "Music taste"},
+        {"key": "home", "label": "Home or room"}, {"key": "food", "label": "Food choices"},
+        {"key": "career", "label": "Career"}, {"key": "hobbies", "label": "Hobbies"},
+        {"key": "social", "label": "Social circle"}, {"key": "values", "label": "Values and beliefs"}
+      ],
+      "simulation_weights_bps": [1000, 1700, 600, 600, 900, 1400, 700, 3100]
+    },
+    {
+      "key": "culture-tradition",
+      "category_slug": "culture",
+      "question": "How do you relate to traditions you grew up with?",
+      "options": [
+        {"key": "keep", "label": "Keep them closely"}, {"key": "adapt", "label": "Adapt them"},
+        {"key": "select", "label": "Keep only a few"}, {"key": "question", "label": "Question most of them"},
+        {"key": "leave", "label": "Leave most behind"}, {"key": "mixed", "label": "It depends on the tradition"}
+      ],
+      "simulation_weights_bps": [1200, 2400, 1800, 900, 700, 3000]
+    },
+    {
+      "key": "culture-public-space",
+      "category_slug": "culture",
+      "question": "Which public place contributes most to a city's culture?",
+      "options": [
+        {"key": "streets", "label": "Streets and squares"}, {"key": "cafes", "label": "Cafes"},
+        {"key": "parks", "label": "Parks"}, {"key": "markets", "label": "Markets"},
+        {"key": "venues", "label": "Music venues"}, {"key": "museums", "label": "Museums and galleries"},
+        {"key": "sports", "label": "Sports grounds"}, {"key": "transport", "label": "Public transport"}
+      ],
+      "simulation_weights_bps": [1600, 1200, 800, 1400, 1500, 1300, 1000, 1200]
+    },
+    {
+      "key": "culture-local-discovery",
+      "category_slug": "culture",
+      "question": "How do you most often discover what is happening in your city?",
+      "options": [
+        {"key": "friends", "label": "Friends"}, {"key": "instagram", "label": "Instagram"},
+        {"key": "local-media", "label": "Local media"}, {"key": "event-apps", "label": "Event apps"},
+        {"key": "posters", "label": "Posters or flyers"}, {"key": "venues", "label": "Venue mailing lists"},
+        {"key": "walk", "label": "Walking around"}, {"key": "other", "label": "Somewhere else"}
+      ],
+      "simulation_weights_bps": [2100, 2500, 900, 900, 500, 500, 900, 1700]
+    },
+
+    {
+      "key": "experiences-friday-night",
+      "category_slug": "experiences",
+      "question": "What is your ideal Friday night?",
+      "options": [
+        {"key": "house-party", "label": "House party"}, {"key": "nightclub", "label": "Nightclub"},
+        {"key": "bar", "label": "Bar"}, {"key": "dinner", "label": "Dinner with friends"},
+        {"key": "concert", "label": "Concert"}, {"key": "movie", "label": "Movie"},
+        {"key": "gaming", "label": "Gaming"}, {"key": "home", "label": "Staying home"}
+      ],
+      "simulation_weights_bps": [900, 600, 900, 2000, 700, 1000, 1200, 2700]
+    },
+    {
+      "key": "experiences-conversation-size",
+      "category_slug": "experiences",
+      "question": "Which group size creates the best conversation?",
+      "options": [
+        {"key": "two", "label": "Two people"}, {"key": "three", "label": "Three people"},
+        {"key": "four", "label": "Four people"}, {"key": "five-six", "label": "Five to six people"},
+        {"key": "seven-ten", "label": "Seven to ten people"}, {"key": "more-ten", "label": "More than ten"},
+        {"key": "depends", "label": "Depends on the setting"}, {"key": "alone", "label": "I prefer being alone"}
+      ],
+      "simulation_weights_bps": [1900, 1600, 1500, 1000, 400, 100, 2900, 600]
+    },
+    {
+      "key": "experiences-travel-style",
+      "category_slug": "experiences",
+      "question": "Which travel style sounds most appealing right now?",
+      "options": [
+        {"key": "city", "label": "City break"}, {"key": "beach", "label": "Beach escape"},
+        {"key": "mountains", "label": "Mountains or nature"}, {"key": "road-trip", "label": "Road trip"},
+        {"key": "food", "label": "Food-focused trip"}, {"key": "wellness", "label": "Wellness retreat"},
+        {"key": "adventure", "label": "Adventure travel"}, {"key": "staycation", "label": "Staycation"}
+      ],
+      "simulation_weights_bps": [1500, 1900, 1700, 1000, 900, 600, 1000, 1400]
+    },
+    {
+      "key": "experiences-trip-planning",
+      "category_slug": "experiences",
+      "question": "How much of a trip do you prefer to plan in advance?",
+      "options": [
+        {"key": "everything", "label": "Nearly everything"}, {"key": "major", "label": "Major bookings and highlights"},
+        {"key": "first-days", "label": "Only the first day or two"}, {"key": "stay-only", "label": "Just transport and accommodation"},
+        {"key": "nothing", "label": "Almost nothing"}, {"key": "depends", "label": "It depends on the trip"}
+      ],
+      "simulation_weights_bps": [900, 3300, 1000, 1800, 700, 2300]
+    },
+    {
+      "key": "experiences-restaurant-choice",
+      "category_slug": "experiences",
+      "question": "What most influences your choice of a new restaurant?",
+      "options": [
+        {"key": "friend", "label": "Friend recommendation"}, {"key": "reviews", "label": "Reviews"},
+        {"key": "social", "label": "Social media"}, {"key": "menu", "label": "The menu"},
+        {"key": "ambience", "label": "Ambience"}, {"key": "price", "label": "Price"},
+        {"key": "location", "label": "Location"}, {"key": "walk-by", "label": "I notice it while passing"}
+      ],
+      "simulation_weights_bps": [1900, 1600, 1100, 1700, 900, 900, 1100, 800]
+    },
+    {
+      "key": "experiences-event-memory",
+      "category_slug": "experiences",
+      "question": "What makes a live event most memorable?",
+      "options": [
+        {"key": "people", "label": "Who I went with"}, {"key": "performance", "label": "The performance"},
+        {"key": "unexpected", "label": "An unexpected moment"}, {"key": "crowd", "label": "The crowd"},
+        {"key": "venue", "label": "The venue"}, {"key": "participation", "label": "Taking part"},
+        {"key": "photos", "label": "Photos and keepsakes"}, {"key": "after", "label": "What happened afterward"}
+      ],
+      "simulation_weights_bps": [2100, 2100, 1400, 1200, 700, 800, 600, 1100]
+    },
+    {
+      "key": "experiences-weekend-recharge",
+      "category_slug": "experiences",
+      "question": "What helps you recharge most on a free weekend?",
+      "options": [
+        {"key": "sleep", "label": "Extra sleep"}, {"key": "friends", "label": "Seeing friends"},
+        {"key": "nature", "label": "Time in nature"}, {"key": "exercise", "label": "Exercise"},
+        {"key": "creative", "label": "A creative hobby"}, {"key": "screens", "label": "Games or streaming"},
+        {"key": "chores", "label": "Getting life admin done"}, {"key": "alone", "label": "Quiet time alone"}
+      ],
+      "simulation_weights_bps": [1600, 1200, 1100, 700, 700, 1400, 800, 2500]
+    },
+    {
+      "key": "experiences-gift",
+      "category_slug": "experiences",
+      "question": "Which experience would you most enjoy receiving as a gift?",
+      "options": [
+        {"key": "concert", "label": "Concert tickets"}, {"key": "meal", "label": "A special meal"},
+        {"key": "short-trip", "label": "A short trip"}, {"key": "class", "label": "A class or workshop"},
+        {"key": "spa", "label": "A spa day"}, {"key": "sports", "label": "A sports event"},
+        {"key": "adventure", "label": "An adventure activity"}, {"key": "choose", "label": "I would rather choose myself"}
+      ],
+      "simulation_weights_bps": [1300, 1100, 2600, 600, 800, 500, 900, 2200]
+    }
+  ]
+}

@@ -1,187 +1,194 @@
 import { useEffect, useMemo, useState } from "react";
 import { api } from "../api";
+import { useAuth } from "../auth.jsx";
 import Reveal from "./Reveal.jsx";
 
-function formatNumber(value = 0) {
-  return new Intl.NumberFormat(undefined, { maximumFractionDigits: 0 }).format(value);
+function money(cents = 0, signed = false) {
+  const value = new Intl.NumberFormat(undefined, {
+    style: "currency", currency: "USD", maximumFractionDigits: cents % 100 ? 2 : 0,
+  }).format(Math.abs(cents) / 100);
+  return signed ? `${cents >= 0 ? "+" : "−"}${value}` : value;
 }
 
-function formatDuration(seconds = 0) {
-  const safe = Math.max(0, Math.round(seconds));
-  const minutes = Math.floor(safe / 60);
-  const rest = safe % 60;
-  return `${minutes}m ${String(rest).padStart(2, "0")}s`;
+function countdown(revealAt, now) {
+  const total = Math.max(0, Math.ceil((new Date(revealAt).getTime() - now) / 1000));
+  const minutes = Math.floor(total / 60);
+  return `${minutes}:${String(total % 60).padStart(2, "0")}`;
 }
 
-function timeLeft(row) {
-  const lockedAt = new Date(row.locked_at).getTime();
-  const revealAt = lockedAt + row.reveal_seconds * 1000;
-  return Math.max(0, Math.round((revealAt - Date.now()) / 1000));
+function Distribution({ points, actual, compact = false }) {
+  if (!points?.length) return null;
+  return (
+    <div className={`distribution-list ${compact ? "compact" : ""}`}>
+      {points.map((point) => {
+        const actualPoint = actual?.find((item) => item.option_id === point.option_id);
+        return (
+          <div className="distribution-row" key={point.option_id}>
+            <div><span>{point.label}</span><strong>{(point.bps / 100).toFixed(1)}%</strong></div>
+            <div className="distribution-track"><i style={{ width: `${point.bps / 100}%` }} /></div>
+            {actualPoint && <small>Actual {(actualPoint.bps / 100).toFixed(1)}%</small>}
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
-function resultCopy(row) {
-  if (!row.outcome) return "Hidden until epoch close";
-  if (row.outcome === "win") return "You read the room";
-  return "Missed the top call";
-}
-
-function statusCopy(row, canReveal) {
-  if (row.outcome === "win") return "Won";
-  if (row.outcome === "lose") return "Settled";
-  return canReveal ? "Ready" : "Hidden";
-}
-
-function payoutCopy(row) {
-  if (!row.outcome) return "--";
-  return row.coins_won > 0 ? `+${formatNumber(row.coins_won)}` : "0";
+function Section({ title, count, children }) {
+  return (
+    <section className="history-section">
+      <div className="history-section-title"><h2>{title}</h2><span>{count}</span></div>
+      {children}
+    </section>
+  );
 }
 
 export default function History() {
+  const { user, setUser } = useAuth();
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [reveal, setReveal] = useState(null);
-  const [revealingId, setRevealingId] = useState(null);
+  const [modal, setModal] = useState(null);
+  const [busy, setBusy] = useState("");
   const [error, setError] = useState("");
+  const [resultFilter, setResultFilter] = useState("all");
+  const [category, setCategory] = useState("all");
+  const [now, setNow] = useState(Date.now());
 
   async function load() {
     setLoading(true);
     try {
-      setRows(await api.history(100));
+      setRows(await api.history(200));
+    } catch (event) {
+      setError(event.message || "Could not load history.");
     } finally {
       setLoading(false);
     }
   }
 
+  useEffect(() => { load(); }, []);
   useEffect(() => {
-    load();
+    const timer = window.setInterval(() => setNow(Date.now()), 1000);
+    return () => window.clearInterval(timer);
   }, []);
 
-  const summary = useMemo(() => {
-    const settled = rows.filter((row) => row.outcome);
-    const wins = settled.filter((row) => row.outcome === "win");
-    return {
-      entered: rows.length,
-      pending: rows.length - settled.length,
-      wins: wins.length,
-      coins: settled.reduce((sum, row) => sum + (row.coins_won || 0), 0),
-    };
-  }, [rows]);
+  const categories = useMemo(
+    () => [...new Set(rows.map((row) => row.category_name))].sort(),
+    [rows],
+  );
+  const filtered = rows.filter((row) => {
+    if (category !== "all" && row.category_name !== category) return false;
+    if (resultFilter === "wins") return row.status === "revealed" && row.pnl_cents >= 0;
+    if (resultFilter === "losses") return row.status === "revealed" && row.pnl_cents < 0;
+    return true;
+  });
+  const active = filtered.filter((row) => row.status !== "revealed" && new Date(row.reveal_at).getTime() > now);
+  const ready = filtered.filter((row) => row.status !== "revealed" && new Date(row.reveal_at).getTime() <= now);
+  const revealed = filtered.filter((row) => row.status === "revealed");
 
-  async function revealReady(row) {
+  async function openReveal(row) {
+    setBusy(row.id);
     setError("");
-    setRevealingId(row.id);
     try {
       const data = await api.reveal(row.id);
-      setReveal(data);
+      setModal(data);
+      setUser({ ...user, balance_cents: data.new_balance_cents, pulse_score: data.new_pulse_score });
       await load();
-    } catch {
-      setError("Could not open this reveal yet.");
+    } catch (event) {
+      setError(event.message || "This participation is not ready yet.");
     } finally {
-      setRevealingId(null);
+      setBusy("");
     }
   }
 
   return (
-    <main className="screen stack-screen">
+    <main className="screen stack-screen history-screen">
       <header className="page-hero">
-        <div>
-          <div className="label">Reveal queue</div>
-          <h1>Your calls</h1>
-        </div>
-        <div className="hero-stat">
-          <strong>{summary.pending}</strong>
-          <span>hidden</span>
-        </div>
+        <div><div className="label">History</div><h1>Your market reads</h1></div>
+        <div className="hero-stat"><strong>{ready.length}</strong><span>ready</span></div>
       </header>
 
-      <section className="metric-band">
-        <div>
-          <span>Tickets</span>
-          <strong>{summary.entered}</strong>
+      <div className="history-filters">
+        <div className="filter-pills">
+          {["all", "wins", "losses"].map((filter) => (
+            <button key={filter} className={resultFilter === filter ? "active" : ""} onClick={() => setResultFilter(filter)}>
+              {filter[0].toUpperCase() + filter.slice(1)}
+            </button>
+          ))}
         </div>
-        <div>
-          <span>Wins</span>
-          <strong>{summary.wins}</strong>
-        </div>
-        <div>
-          <span>Paid out</span>
-          <strong>{formatNumber(summary.coins)}</strong>
-        </div>
-      </section>
+        <label>Category
+          <select value={category} onChange={(event) => setCategory(event.target.value)}>
+            <option value="all">All categories</option>
+            {categories.map((name) => <option key={name}>{name}</option>)}
+          </select>
+        </label>
+      </div>
 
       {error && <div className="notice">{error}</div>}
-      {loading && <div className="empty">Loading call tickets...</div>}
-      {!loading && rows.length === 0 && (
-        <div className="empty">
-          <strong>No calls yet.</strong>
-          <span>Lock a market from the feed and it will appear here.</span>
-        </div>
-      )}
+      {loading && <div className="empty">Loading your reads…</div>}
+      {!loading && rows.length === 0 && <div className="empty"><strong>No markets played yet.</strong><span>Your first locked poll will appear here.</span></div>}
 
-      <section className="ticket-list">
-        {rows.map((row) => {
-          const pending = !row.outcome;
-          const resolved = !pending;
-          const left = timeLeft(row);
-          const canReveal = pending && left <= 0;
-          const canOpen = canReveal || resolved;
-          const isBusy = revealingId === row.id;
-          return (
-            <article
-              key={row.id}
-              className={`ticket-card ${row.outcome || "pending"} ${resolved ? "resolved" : ""} ${canReveal ? "ready" : ""}`}
-            >
-              <div className="ticket-topline">
-                <span>{row.category_name}</span>
-                <b>{pending && !canReveal ? formatDuration(left) : statusCopy(row, canReveal)}</b>
-              </div>
-              <div className="ticket-object" aria-hidden="true">
-                <span />
-                <span />
-              </div>
-              <h2>{row.prompt}</h2>
-              <div className="ticket-call">
-                <span>Your call</span>
-                <strong>{row.picked_name || "Canonical match pending"}</strong>
-              </div>
-              <div className={`ticket-payout ${resolved ? "settled" : canReveal ? "ready" : "pending"}`}>
-                <span>{resolved ? "Payout" : canReveal ? "Reveal available" : "Payout locked"}</span>
-                <strong>{resolved ? payoutCopy(row) : canReveal ? "Open" : "Hidden"}</strong>
-                <small>
-                  {resolved
-                    ? row.coins_won > 0
-                      ? `${row.payout_multiplier}x on a ${row.entry_cost} entry`
-                      : "No coin payout"
-                    : canReveal
-                      ? "Settlement is ready"
-                      : "Shows after reveal"}
-                </small>
-              </div>
-              <div className="ticket-economy">
-                <div>
-                  <small>Entry</small>
-                  <strong>{row.entry_cost}</strong>
-                </div>
-                <div>
-                  <small>Pool</small>
-                  <strong>{formatNumber(row.pool_size)}</strong>
-                </div>
-                <div>
-                  <small>Result</small>
-                  <strong>{resultCopy(row)}</strong>
-                </div>
-              </div>
-              {canOpen && (
-                <button className="primary-btn full" disabled={isBusy} onClick={() => revealReady(row)}>
-                  {isBusy ? "Opening..." : resolved ? "Open reveal" : "Reveal now"}
-                </button>
-              )}
-            </article>
-          );
-        })}
-      </section>
+      <Section title="Active" count={active.length}>
+        {active.map((row) => (
+          <article className="history-card active-card" key={row.id}>
+            <div className="ticket-topline"><span>{row.category_name}</span><b>{countdown(row.reveal_at, now)}</b></div>
+            <h3>{row.question}</h3>
+            <div className="vote-chip"><span>Your vote</span><strong>{row.vote.label}</strong></div>
+            <Distribution points={row.forecast} compact />
+            <div className="history-economy">
+              <div><span>Stake</span><strong>{money(row.stake_cents)}</strong></div>
+              <div><span>Pool</span><strong>{money(row.pool_volume_cents)}</strong></div>
+              <div><span>Reveal</span><strong>{countdown(row.reveal_at, now)}</strong></div>
+            </div>
+          </article>
+        ))}
+        {!active.length && <p className="section-empty">No active participations.</p>}
+      </Section>
 
-      {reveal && <Reveal data={reveal} onClose={() => setReveal(null)} />}
+      <Section title="Ready to Reveal" count={ready.length}>
+        {ready.map((row) => (
+          <article className="history-card ready-card" key={row.id}>
+            <div className="ticket-topline"><span>{row.category_name}</span><b>Ready</b></div>
+            <h3>{row.question}</h3>
+            <div className="history-economy">
+              <div><span>Stake</span><strong>{money(row.stake_cents)}</strong></div>
+              <div><span>Participants</span><strong>{row.participant_count + 1}</strong></div>
+              <div><span>Result</span><strong>Hidden</strong></div>
+            </div>
+            <button className="primary-btn full" disabled={busy === row.id} onClick={() => openReveal(row)}>
+              {busy === row.id ? "Revealing…" : "Reveal Result"}
+            </button>
+          </article>
+        ))}
+        {!ready.length && <p className="section-empty">Nothing waiting to reveal.</p>}
+      </Section>
+
+      <Section title="Revealed" count={revealed.length}>
+        {revealed.map((row) => (
+          <article className={`history-card revealed-card ${row.pnl_cents >= 0 ? "win" : "loss"}`} key={row.id}>
+            <div className="ticket-topline"><span>{row.category_name}</span><b>{row.pnl_cents >= 0 ? "Win" : "Loss"}</b></div>
+            <h3>{row.question}</h3>
+            <div className="vote-chip"><span>Your vote</span><strong>{row.vote.label}</strong></div>
+            <div className="compare-heading"><span>Your forecast</span><span>Actual</span></div>
+            <Distribution points={row.forecast} actual={row.actual_distribution} compact />
+            <div className="result-metrics">
+              <div><span>Accuracy</span><strong>{row.accuracy_score?.toFixed(1)}%</strong></div>
+              <div><span>Percentile</span><strong>{Math.round((row.accuracy_percentile || 0) * 100)}th</strong></div>
+              <div><span>Rank</span><strong>#{row.forecast_rank}/{row.total_participants}</strong></div>
+            </div>
+            <div className="settlement-grid">
+              <div><span>Stake</span><strong>{money(row.stake_cents)}</strong></div>
+              <div><span>Fee</span><strong>{money(row.user_fee_cents)}</strong></div>
+              <div><span>Payout</span><strong>{money(row.payout_cents)}</strong></div>
+              <div><span>PnL</span><strong className={row.pnl_cents >= 0 ? "positive" : "negative"}>{money(row.pnl_cents, true)}</strong></div>
+              <div><span>Pulse</span><strong>{row.pulse_delta >= 0 ? "+" : ""}{row.pulse_delta}</strong></div>
+            </div>
+            <button className="ghost-btn full" disabled={busy === row.id} onClick={() => openReveal(row)}>Open full reveal</button>
+          </article>
+        ))}
+        {!revealed.length && <p className="section-empty">No revealed results in this filter.</p>}
+      </Section>
+
+      {modal && <Reveal data={modal} onClose={() => setModal(null)} onNext={() => setModal(null)} />}
     </main>
   );
 }
