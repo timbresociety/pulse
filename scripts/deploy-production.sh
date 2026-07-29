@@ -33,6 +33,32 @@ fi
 
 "$repo_root/scripts/verify-release.sh"
 
+echo "Auditing the Vercel upload manifest..."
+dry_run_json="$(npx vercel deploy --dry --json --cwd "$repo_root")"
+printf '%s' "$dry_run_json" | node -e '
+  let input = "";
+  process.stdin.on("data", chunk => input += chunk);
+  process.stdin.on("end", () => {
+    const value = JSON.parse(input);
+    const paths = (value.files || []).map(file => file.path);
+    const forbidden = paths.filter(path =>
+      /(^|\/)\.env$/.test(path) ||
+      /(^|\/)\.env\.local$/.test(path) ||
+      /(^|\/)\.env\..*\.local$/.test(path) ||
+      /(^|\/)\.vercel(\/|$)/.test(path) ||
+      /(^|\/)\.venv(\/|$)/.test(path) ||
+      /(^|\/)node_modules(\/|$)/.test(path) ||
+      /(^|\/)dist(\/|$)/.test(path) ||
+      /(^|\/)\.pytest_cache(\/|$)/.test(path) ||
+      /(^|\/)__pycache__(\/|$)/.test(path)
+    );
+    if (forbidden.length) {
+      console.error(`Refusing to deploy forbidden local files:\n${forbidden.join("\n")}`);
+      process.exit(1);
+    }
+  });
+'
+
 previous_json="$(npx vercel inspect "$production_url" --json --cwd "$repo_root")"
 previous_deployment="$(printf '%s' "$previous_json" | node -e '
   let input = "";
