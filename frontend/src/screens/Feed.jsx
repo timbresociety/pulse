@@ -3,15 +3,24 @@ import { api } from "../api";
 import { useAuth } from "../auth.jsx";
 
 function money(cents = 0) {
-  return new Intl.NumberFormat(undefined, {
+  return new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
     maximumFractionDigits: cents % 100 ? 2 : 0,
   }).format(cents / 100);
 }
 
+function compactMoney(cents = 0) {
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+    notation: "compact",
+    maximumFractionDigits: 1,
+  }).format(cents / 100);
+}
+
 function number(value = 0) {
-  return new Intl.NumberFormat().format(value);
+  return new Intl.NumberFormat("en-US").format(value);
 }
 
 function duration(seconds = 0) {
@@ -22,6 +31,7 @@ function duration(seconds = 0) {
 }
 
 function equalAllocations(options) {
+  if (!options.length) return {};
   const base = Math.floor(10000 / options.length);
   let remaining = 10000 - base * options.length;
   return Object.fromEntries(options.map((option) => {
@@ -31,62 +41,90 @@ function equalAllocations(options) {
   }));
 }
 
-const explainer = [
-  ["01", "Answer", "Tap the option that is true for you."],
-  ["02", "Shape", "Show how the crowd leans without doing percentage math."],
-  ["03", "Lock", "Pick a test stake and commit once."],
-];
-
-const crowdShapes = [
-  { id: "tight", label: "Tight race", hint: "Almost even", lift: 400 },
-  { id: "lean", label: "Leaning", hint: "Small edge", lift: 1400 },
-  { id: "clear", label: "Clear lead", hint: "Strong edge", lift: 2800 },
-  { id: "landslide", label: "Landslide", hint: "Runs away", lift: 5000 },
-];
-
-function shapedAllocations(options, leaderId, shapeId) {
+function splitAllocations(options, leaderId, leaderPercent) {
   if (!options.length) return {};
   if (!leaderId) return equalAllocations(options);
 
-  const shape = crowdShapes.find((item) => item.id === shapeId) || crowdShapes[1];
-  const equalShare = Math.floor(10000 / options.length);
-  const leaderShare = Math.min(9000, equalShare + shape.lift);
+  const leaderBps = Math.round(leaderPercent * 100);
   const others = options.filter((option) => option.id !== leaderId);
-  const otherBase = Math.floor((10000 - leaderShare) / Math.max(1, others.length));
-  let remainder = 10000 - leaderShare - (otherBase * others.length);
+  const base = Math.floor((10000 - leaderBps) / Math.max(1, others.length));
+  let remainder = 10000 - leaderBps - (base * others.length);
 
   return Object.fromEntries(options.map((option) => {
-    if (option.id === leaderId) return [option.id, leaderShare];
-    const value = otherBase + (remainder > 0 ? 1 : 0);
+    if (option.id === leaderId) return [option.id, leaderBps];
+    const value = base + (remainder > 0 ? 1 : 0);
     remainder -= remainder > 0 ? 1 : 0;
     return [option.id, value];
   }));
+}
+
+function categoryColor(slug = "") {
+  const colors = {
+    internet: "#64f3c5",
+    music: "#ff8dcb",
+    "film-tv": "#8fb2ff",
+    fashion: "#e8a8ff",
+    gaming: "#a6ff7c",
+    sports: "#ffd36a",
+    "food-drink": "#ff9d75",
+    "anime-manga": "#9e9bff",
+    "brands-products": "#65d9ff",
+    "books-writing": "#d8b98c",
+    people: "#ff9696",
+    places: "#76e3c4",
+  };
+  return colors[slug] || "#64f3c5";
+}
+
+function feeFor(stakeCents) {
+  return Math.floor((stakeCents * 200 + 5000) / 10000);
+}
+
+function splitTone(share, minimum) {
+  if (share <= minimum + 4) return "Neck and neck";
+  if (share <= 42) return "Slight edge";
+  if (share <= 58) return "Clear lead";
+  return "Runaway";
 }
 
 export default function Feed() {
   const { user, setUser } = useAuth();
   const [markets, setMarkets] = useState([]);
   const [index, setIndex] = useState(0);
+  const [view, setView] = useState("deck");
+  const [activeStep, setActiveStep] = useState(1);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [voteId, setVoteId] = useState("");
   const [forecast, setForecast] = useState({});
   const [crowdLeaderId, setCrowdLeaderId] = useState("");
-  const [crowdShape, setCrowdShape] = useState("lean");
+  const [leaderShare, setLeaderShare] = useState(38);
+  const [splitConfirmed, setSplitConfirmed] = useState(false);
   const [stake, setStake] = useState("");
   const [submitting, setSubmitting] = useState(false);
   const [receipt, setReceipt] = useState(null);
 
   const market = markets[index];
+  const nextMarket = markets[index + 1];
+  const minimumLeaderShare = market ? Math.ceil(100 / market.options.length) : 25;
   const forecastTotal = useMemo(
     () => Object.values(forecast).reduce((sum, value) => sum + (Number(value) || 0), 0),
     [forecast],
   );
   const stakeCents = Math.max(0, Math.round((Number(stake) || 0) * 100));
-  const validForecast = market
-    && Object.keys(forecast).length === market.options.length
-    && forecastTotal === 10000;
-  const canSubmit = voteId && validForecast && stakeCents > 0 && stakeCents <= user.balance_cents;
+  const validForecast = Boolean(
+    market
+      && crowdLeaderId
+      && Object.keys(forecast).length === market.options.length
+      && forecastTotal === 10000,
+  );
+  const canSubmit = Boolean(
+    voteId && validForecast && splitConfirmed && stakeCents > 0 && stakeCents <= user.balance_cents,
+  );
+  const payoutCeiling = market && stakeCents
+    ? Math.max(0, Math.round((market.pool_volume_cents + stakeCents) * 0.98))
+    : 0;
+  const activeColor = categoryColor(market?.category?.slug);
 
   async function loadFeed() {
     setLoading(true);
@@ -95,6 +133,8 @@ export default function Feed() {
       const data = await api.feed(50);
       setMarkets(data);
       setIndex(0);
+      setView("deck");
+      setReceipt(null);
     } catch (event) {
       setError(event.message || "Could not load Pulse markets.");
     } finally {
@@ -106,27 +146,36 @@ export default function Feed() {
     loadFeed();
   }, []);
 
-  function resetParticipation(nextMarket = markets[index]) {
+  function resetParticipation(next = market) {
     setVoteId("");
-    setForecast(nextMarket ? equalAllocations(nextMarket.options) : {});
+    setForecast(next ? equalAllocations(next.options) : {});
     setCrowdLeaderId("");
-    setCrowdShape("lean");
+    setLeaderShare(next ? Math.max(32, Math.ceil(100 / next.options.length) + 10) : 38);
+    setSplitConfirmed(false);
     setStake("");
+    setActiveStep(1);
   }
 
   useEffect(() => {
     if (market) resetParticipation(market);
-    // Market identity is the reset boundary for an immutable participation draft.
+    // The market id is the boundary for a fresh participation draft.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [market?.id]);
 
   async function advance() {
     setReceipt(null);
+    setView("deck");
     if (index + 1 < markets.length) {
       setIndex((current) => current + 1);
     } else {
       await loadFeed();
     }
+  }
+
+  function openMarket() {
+    setView("market");
+    setActiveStep(1);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   function skip() {
@@ -136,51 +185,42 @@ export default function Feed() {
 
   function chooseVote(optionId) {
     setVoteId(optionId);
+    setSplitConfirmed(false);
     if (!crowdLeaderId) {
+      const initialShare = Math.max(32, minimumLeaderShare + 10);
       setCrowdLeaderId(optionId);
-      setForecast(shapedAllocations(market.options, optionId, crowdShape));
+      setLeaderShare(initialShare);
+      setForecast(splitAllocations(market.options, optionId, initialShare));
     }
   }
 
   function chooseCrowdLeader(optionId) {
     setCrowdLeaderId(optionId);
-    setForecast(shapedAllocations(market.options, optionId, crowdShape));
+    setForecast(splitAllocations(market.options, optionId, leaderShare));
+    setSplitConfirmed(false);
   }
 
-  function chooseCrowdShape(shapeId) {
+  function changeLeaderShare(value) {
+    const share = Number(value);
+    setLeaderShare(share);
     const leaderId = crowdLeaderId || voteId || market.options[0]?.id;
-    setCrowdShape(shapeId);
     setCrowdLeaderId(leaderId);
-    setForecast(shapedAllocations(market.options, leaderId, shapeId));
+    setForecast(splitAllocations(market.options, leaderId, share));
+    setSplitConfirmed(false);
   }
 
-  function nudgeAllocation(optionId, delta) {
-    setForecast((current) => {
-      const currentValue = current[optionId] || 0;
-      const target = Math.max(0, Math.min(10000, currentValue + delta));
-      const others = market.options.filter((option) => option.id !== optionId);
-      if (!others.length) return { [optionId]: 10000 };
+  function goToStep(step) {
+    if (step === 1 || (step === 2 && voteId) || (step === 3 && splitConfirmed)) {
+      setActiveStep(step);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
 
-      const remaining = 10000 - target;
-      const otherTotal = others.reduce((sum, option) => sum + (current[option.id] || 0), 0);
-      const raw = others.map((option) => (
-        otherTotal
-          ? ((current[option.id] || 0) * remaining) / otherTotal
-          : remaining / others.length
-      ));
-      const values = raw.map(Math.floor);
-      let remainder = remaining - values.reduce((sum, value) => sum + value, 0);
-      raw
-        .map((value, idx) => [idx, value - values[idx]])
-        .sort((a, b) => b[1] - a[1] || a[0] - b[0])
-        .slice(0, remainder)
-        .forEach(([idx]) => { values[idx] += 1; });
-
-      return Object.fromEntries([
-        [optionId, target],
-        ...others.map((option, idx) => [option.id, values[idx]]),
-      ]);
-    });
+  function confirmSplit() {
+    if (!validForecast) return;
+    setSplitConfirmed(true);
+    setActiveStep(3);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   async function submit() {
@@ -204,154 +244,251 @@ export default function Feed() {
   }
 
   return (
-    <main className="screen feed-screen">
-      <header className="feed-header pulse-header">
-        <div>
+    <main className={`screen feed-screen pulse-deck-feed ${view === "market" ? "market-is-open" : ""}`}>
+      <header className="feed-header deck-header">
+        <div className="deck-brand">
           <div className="pulse-wordmark compact-wordmark" aria-label="Pulse">Pulse<span>.</span></div>
-          <p>Vote your truth. Predict the crowd.</p>
+          <p>Read the room.</p>
         </div>
-        <div className="balance-pill">
-          <span>Balance</span>
+        <div className="deck-balance" aria-label={`${money(user.balance_cents)} test credits`}>
+          <span>Credits</span>
           <strong>{money(user.balance_cents)}</strong>
-          <small>{user.pulse_score} Pulse</small>
+          <small>{number(user.pulse_score)} Pulse</small>
         </div>
       </header>
 
       {error && <div className="notice">{error}</div>}
-      {loading && <div className="empty">Loading the market deck…</div>}
+      {loading && <div className="empty">Shuffling your market deck…</div>}
       {!loading && !market && (
         <div className="empty">
-          <strong>You have read every market in these channels.</strong>
+          <strong>You have played every market in these channels.</strong>
           <button className="primary-btn" onClick={loadFeed}>Refresh deck</button>
         </div>
       )}
 
-      {market && !receipt && (
-        <div className="market-deck v0-deck">
-          <article className="pulse-card v0-market-card market-compose-card">
-            <div className="market-topline">
-              <span>{market.category.name}</span>
-              <button className="text-btn market-skip" onClick={skip}>Skip →</button>
-            </div>
+      {market && view === "deck" && (
+        <section className="discovery-deck" style={{ "--market-accent": activeColor }}>
+          <div className="deck-count">
+            <span>For you</span>
+            <strong>{index + 1} of {markets.length}</strong>
+          </div>
 
-            <div className="market-question">
-              <div className="market-question-meta">
-                <b>{number(market.participant_count)} people</b>
-                <b>{duration(market.reveal_seconds)} reveal</b>
-              </div>
-              <h1>{market.question}</h1>
-              {market.context && <p>{market.context}</p>}
-            </div>
+          <div className="card-stack">
+            {nextMarket && (
+              <article
+                className="discovery-card discovery-card--behind"
+                style={{ "--market-accent": categoryColor(nextMarket.category.slug) }}
+                aria-hidden="true"
+              >
+                <span>{nextMarket.category.name}</span>
+              </article>
+            )}
 
-            <section className={`composer-stage answer-stage ${voteId ? "complete" : ""}`}>
-              <div className="stage-heading">
-                <span className="stage-number">1</span>
-                <div><strong>Your answer</strong><small>What is true for you?</small></div>
-                {voteId && <i aria-label="Complete">✓</i>}
+            <article className="discovery-card discovery-card--front">
+              <button className="discovery-card__tap" onClick={openMarket}>
+                <span className="discovery-card__category">{market.category.name}</span>
+                <span className="discovery-card__signal" aria-hidden="true">
+                  <i />
+                  <i />
+                  <i />
+                  <i />
+                  <i />
+                </span>
+                <span className="discovery-card__question">{market.question}</span>
+                {market.context && <span className="discovery-card__context">{market.context}</span>}
+                <span className="discovery-card__options">
+                  {market.options.slice(0, 4).map((option) => (
+                    <i key={option.id}>{option.label}</i>
+                  ))}
+                  {market.options.length > 4 && <i>+{market.options.length - 4} more</i>}
+                </span>
+                <span className="discovery-card__stats">
+                  <span><b>{number(market.participant_count)}</b> playing</span>
+                  <span><b>{compactMoney(market.pool_volume_cents)}</b> pool</span>
+                  <span><b>{duration(market.reveal_seconds)}</b> reveal</span>
+                </span>
+                <span className="discovery-card__cta">Tap to play <b>→</b></span>
+              </button>
+            </article>
+          </div>
+
+          <div className="deck-actions" aria-label="Market actions">
+            <button className="deck-action deck-action--skip" onClick={skip} aria-label="Skip this market">
+              <span>×</span>
+            </button>
+            <div><strong>Pass</strong><small>or play this card</small></div>
+            <button className="deck-action deck-action--play" onClick={openMarket} aria-label="Play this market">
+              <span>→</span>
+            </button>
+          </div>
+        </section>
+      )}
+
+      {market && view === "market" && !receipt && (
+        <article className="play-market" style={{ "--market-accent": activeColor }}>
+          <header className="play-market__topline">
+            <button className="market-back" onClick={() => setView("deck")}>← Deck</button>
+            <span>{market.category.name}</span>
+            <button className="market-skip-compact" onClick={skip}>Skip</button>
+          </header>
+
+          <div className="play-market__question">
+            <div>
+              <span>{number(market.participant_count)} playing</span>
+              <span>{duration(market.reveal_seconds)} reveal</span>
+            </div>
+            <h1>{market.question}</h1>
+            {market.context && <p>{market.context}</p>}
+          </div>
+
+          <nav className="market-progress" aria-label="Participation progress">
+            {[
+              [1, "Vote"],
+              [2, "Split"],
+              [3, "Stake"],
+            ].map(([step, label]) => {
+              const available = step === 1 || (step === 2 && voteId) || (step === 3 && splitConfirmed);
+              const complete = step === 1 ? voteId : step === 2 ? splitConfirmed : stakeCents > 0;
+              return (
+                <button
+                  key={step}
+                  className={`${activeStep === step ? "active" : ""} ${complete ? "complete" : ""}`}
+                  disabled={!available}
+                  onClick={() => goToStep(step)}
+                  aria-current={activeStep === step ? "step" : undefined}
+                >
+                  <i>{complete && activeStep !== step ? "✓" : step}</i>
+                  <span>{label}</span>
+                </button>
+              );
+            })}
+          </nav>
+
+          {activeStep === 1 && (
+            <section className="market-step vote-step">
+              <div className="market-step__heading">
+                <span>Step 1 of 3</span>
+                <h2>What’s true for you?</h2>
+                <p>There is no correct answer here. Pick your honest vote.</p>
               </div>
-              <div className="answer-grid">
-                {market.options.map((option) => (
+              <div className="market-vote-grid">
+                {market.options.map((option, optionIndex) => (
                   <button
                     key={option.id}
                     className={voteId === option.id ? "selected" : ""}
                     aria-pressed={voteId === option.id}
                     onClick={() => chooseVote(option.id)}
                   >
+                    <i>{String.fromCharCode(65 + optionIndex)}</i>
                     <span>{option.label}</span>
-                    <i>{voteId === option.id ? "My answer" : "Choose"}</i>
+                    <b>{voteId === option.id ? "✓" : "○"}</b>
                   </button>
                 ))}
+              </div>
+              <div className="market-step__actions">
+                <button className="primary-btn full" disabled={!voteId} onClick={() => goToStep(2)}>
+                  {voteId ? "Next: guess the crowd →" : "Choose your answer"}
+                </button>
               </div>
             </section>
+          )}
 
-            <section className={`composer-stage crowd-stage ${crowdLeaderId ? "complete" : ""}`}>
-              <div className="stage-heading">
-                <span className="stage-number">2</span>
-                <div><strong>Draw the crowd</strong><small>Who leads, and by how much?</small></div>
-                {crowdLeaderId && <i aria-label="Complete">✓</i>}
+          {activeStep === 2 && (
+            <section className="market-step split-step">
+              <div className="market-step__heading">
+                <span>Step 2 of 3</span>
+                <h2>How will the crowd split?</h2>
+                <p>Tap the bar you think wins, then drag to show how far ahead it lands.</p>
               </div>
 
-              <div className="crowd-field" aria-label="Your crowd forecast">
-                {market.options.map((option, optionIndex) => (
-                  <div
-                    key={option.id}
-                    className={crowdLeaderId === option.id ? "leader" : ""}
-                    style={{
-                      "--share": `${forecast[option.id] || 0}`,
-                      "--option-index": optionIndex,
-                      flexBasis: `${(forecast[option.id] || 0) / 100}%`,
-                    }}
-                  >
-                    <strong>{((forecast[option.id] || 0) / 100).toFixed(0)}%</strong>
-                    <span>{option.label}</span>
-                  </div>
-                ))}
-              </div>
-
-              <div className="crowd-leader-grid" aria-label="Predicted crowd leader">
-                {market.options.map((option) => (
-                  <button
-                    key={option.id}
-                    className={crowdLeaderId === option.id ? "selected" : ""}
-                    aria-pressed={crowdLeaderId === option.id}
-                    onClick={() => chooseCrowdLeader(option.id)}
-                  >
-                    <span>{option.label}</span>
-                    <strong>{((forecast[option.id] || 0) / 100).toFixed(0)}%</strong>
-                  </button>
-                ))}
-              </div>
-
-              <div className="shape-picker" aria-label="Shape of the result">
-                {crowdShapes.map((shape, shapeIndex) => (
-                  <button
-                    key={shape.id}
-                    className={crowdShape === shape.id ? "selected" : ""}
-                    aria-pressed={crowdShape === shape.id}
-                    onClick={() => chooseCrowdShape(shape.id)}
-                  >
-                    <span className="shape-mark" aria-hidden="true">
-                      <i style={{ "--bar": 32 + (shapeIndex * 13) }} />
-                      <i style={{ "--bar": 68 - (shapeIndex * 13) }} />
-                    </span>
-                    <strong>{shape.label}</strong>
-                    <small>{shape.hint}</small>
-                  </button>
-                ))}
-              </div>
-
-              <details className="precision-editor">
-                <summary>Fine-tune the split</summary>
-                <div className="precision-list">
-                  {market.options.map((option) => (
-                    <div key={option.id}>
+              <div
+                className="split-chart"
+                style={{ "--option-count": market.options.length }}
+                role="radiogroup"
+                aria-label="Predicted crowd split"
+              >
+                {market.options.map((option) => {
+                  const percent = (forecast[option.id] || 0) / 100;
+                  const selected = crowdLeaderId === option.id;
+                  return (
+                    <button
+                      key={option.id}
+                      className={selected ? "selected" : ""}
+                      onClick={() => chooseCrowdLeader(option.id)}
+                      role="radio"
+                      aria-checked={selected}
+                      aria-label={`${option.label}, ${Math.round(percent)} percent${selected ? ", predicted winner" : ""}`}
+                      title={option.label}
+                    >
+                      <strong>{Math.round(percent)}%</strong>
+                      <i style={{ "--bar-height": `${Math.max(7, percent)}%` }} />
                       <span>{option.label}</span>
-                      <div>
-                        <button
-                          aria-label={`Reduce ${option.label} by 5 percent`}
-                          onClick={() => nudgeAllocation(option.id, -500)}
-                          disabled={(forecast[option.id] || 0) === 0}
-                        >−</button>
-                        <strong>{((forecast[option.id] || 0) / 100).toFixed(0)}%</strong>
-                        <button
-                          aria-label={`Increase ${option.label} by 5 percent`}
-                          onClick={() => nudgeAllocation(option.id, 500)}
-                          disabled={(forecast[option.id] || 0) === 10000}
-                        >+</button>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </details>
-            </section>
-
-            <section className={`composer-stage commit-stage ${stakeCents > 0 ? "complete" : ""}`}>
-              <div className="stage-heading">
-                <span className="stage-number">3</span>
-                <div><strong>Choose your stake</strong><small>Test credits only · {money(user.balance_cents)} available</small></div>
-                {stakeCents > 0 && <i aria-label="Complete">✓</i>}
+                    </button>
+                  );
+                })}
               </div>
-              <div className="stake-presets">
+
+              <div className="split-control">
+                <div>
+                  <span>Winning share</span>
+                  <strong>{splitTone(leaderShare, minimumLeaderShare)} · {leaderShare}%</strong>
+                </div>
+                <input
+                  type="range"
+                  min={minimumLeaderShare}
+                  max="75"
+                  step="1"
+                  value={leaderShare}
+                  onChange={(event) => changeLeaderShare(event.target.value)}
+                  aria-label="Predicted winning share"
+                />
+                <div className="split-control__labels"><span>Close race</span><span>Runaway</span></div>
+              </div>
+
+              <div className="split-readout">
+                <span>Your split totals</span>
+                <strong>{Math.round(forecastTotal / 100)}%</strong>
+              </div>
+
+              <div className="market-step__actions market-step__actions--split">
+                <button className="ghost-btn" onClick={() => goToStep(1)}>Back</button>
+                <button className="primary-btn" disabled={!validForecast} onClick={confirmSplit}>
+                  Next: choose stake →
+                </button>
+              </div>
+            </section>
+          )}
+
+          {activeStep === 3 && (
+            <section className="market-step stake-step">
+              <div className="market-step__heading">
+                <span>Step 3 of 3</span>
+                <h2>How strong is your read?</h2>
+                <p>Stake test credits. A more accurate crowd split earns more of the pool.</p>
+              </div>
+
+              <div className="stake-balance">
+                <span>Available</span>
+                <strong>{money(user.balance_cents)}</strong>
+              </div>
+
+              <label className="stake-entry">
+                <span>$</span>
+                <input
+                  type="number"
+                  min="0.01"
+                  max={(user.balance_cents / 100).toFixed(2)}
+                  step="0.01"
+                  inputMode="decimal"
+                  placeholder="0"
+                  value={stake}
+                  onChange={(event) => setStake(event.target.value)}
+                  aria-label="Stake in test credits"
+                />
+                <small>test credits</small>
+              </label>
+
+              <div className="stake-presets stake-presets--new">
                 {[10, 25, 50, 100].map((amount) => (
                   <button
                     key={amount}
@@ -361,63 +498,75 @@ export default function Feed() {
                   >${amount}</button>
                 ))}
               </div>
-              <label className="compact-stake-input">
-                <span>$</span>
-                <input
-                  type="number"
-                  min="0.01"
-                  max={(user.balance_cents / 100).toFixed(2)}
-                  step="0.01"
-                  placeholder="Custom"
-                  value={stake}
-                  onChange={(event) => setStake(event.target.value)}
-                  aria-label="Custom stake"
-                />
-              </label>
-              <div className="commit-summary">
-                <span>{voteId ? `You: ${market.options.find((option) => option.id === voteId)?.label}` : "Choose your answer"}</span>
-                <span>{crowdLeaderId ? `Crowd: ${market.options.find((option) => option.id === crowdLeaderId)?.label} leads` : "Shape the crowd"}</span>
-                <span>{stakeCents ? `${money(stakeCents)} stake · ${money(Math.round(stakeCents * 0.02))} fee` : "Choose a stake"}</span>
-              </div>
-              <button className="primary-btn lock-submit full" disabled={!canSubmit || submitting} onClick={submit}>
-                {submitting ? "Locking…" : canSubmit ? `Lock for ${money(stakeCents)}` : "Complete the three choices"}
-              </button>
-              {stakeCents > user.balance_cents && <small className="form-error">Stake exceeds your available balance.</small>}
-              <small className="lock-note">One tap locks your answer, crowd shape, and test stake.</small>
-            </section>
 
-            {market.simulation_seed && (
-              <details className="debug-panel">
-                <summary>DEBUG simulation</summary>
-                <code>{market.simulation_seed}</code>
-                <pre>{JSON.stringify(market.latent_distribution_bps, null, 2)}</pre>
-              </details>
-            )}
-          </article>
-        </div>
+              <section className={`payout-preview ${stakeCents ? "has-stake" : ""}`}>
+                <div className="payout-preview__title">
+                  <span>Possible payout</span>
+                  <small>Test credits</small>
+                </div>
+                <div className="payout-range">
+                  <div>
+                    <span>Minimum</span>
+                    <strong>{money(0)}</strong>
+                    <small>If your split misses</small>
+                  </div>
+                  <i aria-hidden="true"><b /></i>
+                  <div>
+                    <span>Maximum</span>
+                    <strong>{stakeCents ? money(payoutCeiling) : "—"}</strong>
+                    <small>Available pool ceiling</small>
+                  </div>
+                </div>
+                <p>
+                  {stakeCents
+                    ? `${money(feeFor(stakeCents))} fee · ${money(user.balance_cents - stakeCents)} left after locking.`
+                    : "Enter a stake to see the payout range."}
+                </p>
+              </section>
+
+              <div className="lock-recap">
+                <div><span>Your vote</span><strong>{market.options.find((option) => option.id === voteId)?.label}</strong></div>
+                <div><span>Crowd winner</span><strong>{market.options.find((option) => option.id === crowdLeaderId)?.label} · {leaderShare}%</strong></div>
+              </div>
+
+              {stakeCents > user.balance_cents && (
+                <small className="form-error">Your stake is higher than your available credits.</small>
+              )}
+
+              <div className="market-step__actions market-step__actions--split">
+                <button className="ghost-btn" onClick={() => goToStep(2)}>Back</button>
+                <button className="primary-btn" disabled={!canSubmit || submitting} onClick={submit}>
+                  {submitting ? "Locking…" : stakeCents ? `Lock ${money(stakeCents)} →` : "Enter a stake"}
+                </button>
+              </div>
+              <small className="stake-disclaimer">No real money. Your vote, split, and stake lock together.</small>
+            </section>
+          )}
+
+          {market.simulation_seed && (
+            <details className="debug-panel">
+              <summary>DEBUG simulation</summary>
+              <code>{market.simulation_seed}</code>
+              <pre>{JSON.stringify(market.latent_distribution_bps, null, 2)}</pre>
+            </details>
+          )}
+        </article>
       )}
 
       {receipt && (
-        <section className="lock-receipt">
+        <section className="lock-receipt market-lock-receipt">
           <span className="receipt-check">✓</span>
-          <div className="label">Participation locked</div>
-          <h1>{receipt.question}</h1>
+          <div className="label">Market locked</div>
+          <h1>Your read is in.</h1>
+          <p>{receipt.question}</p>
           <div className="receipt-grid">
             <div><span>Your vote</span><strong>{receipt.vote}</strong></div>
             <div><span>Stake</span><strong>{money(receipt.stake)}</strong></div>
             <div><span>Reveal in</span><strong>{duration(receipt.delay)}</strong></div>
           </div>
-          <p>Your payout is credited only when you reveal the result.</p>
-          <button className="primary-btn full" onClick={advance}>Play Next Market</button>
+          <button className="primary-btn full" onClick={advance}>Back to the deck →</button>
         </section>
       )}
-
-      <section className="how-loop">
-        <div className="section-heading"><span>The Pulse loop</span><strong>No real money</strong></div>
-        {explainer.map(([count, title, copy]) => (
-          <div key={count}><b>{count}</b><span><strong>{title}</strong><small>{copy}</small></span></div>
-        ))}
-      </section>
     </main>
   );
 }
