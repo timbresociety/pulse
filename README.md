@@ -44,6 +44,8 @@ uvicorn app.main:app --reload
 Check it: open http://localhost:8000/api/health → `{"status":"ok", ...}`.
 The database-backed readiness probe is at
 http://localhost:8000/api/ready → `{"status":"ready"}`.
+Its production timeout allows managed Postgres to wake from an idle cold start
+without reporting a false outage.
 API docs at http://localhost:8000/docs.
 
 **Email authentication:** Pulse supports six-digit, one-time email codes through

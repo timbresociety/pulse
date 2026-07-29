@@ -19,6 +19,7 @@ curl_json() {
   local path="$1"
   local output="$2"
   curl \
+    --http1.1 \
     --fail \
     --show-error \
     --silent \

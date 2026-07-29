@@ -36,7 +36,10 @@ class Settings(BaseSettings):
     database_max_overflow: int = 1
     database_pool_timeout_seconds: int = 10
     database_pool_recycle_seconds: int = 300
-    database_readiness_timeout_seconds: int = 5
+    # Neon may need several seconds to wake after being idle. Keep this below
+    # the frontend's ordinary 20-second request timeout while avoiding false
+    # 503s during a healthy database cold start.
+    database_readiness_timeout_seconds: int = 15
 
     # Auth
     jwt_secret: str = "dev-secret-change-me"
