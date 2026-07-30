@@ -10,8 +10,9 @@ function money(cents = 0, signed = false) {
 }
 
 export default function Wallet() {
-  const { user, setUser } = useAuth();
-  const [wallet, setWallet] = useState(null);
+  const { user, setUser, dataVersion } = useAuth();
+  const [wallet, setWallet] = useState(() => api.peek("wallet"));
+  const [loading, setLoading] = useState(() => !api.peek("wallet"));
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
 
@@ -20,10 +21,12 @@ export default function Wallet() {
       setWallet(await api.wallet());
     } catch (event) {
       setError(event.message || "Could not load wallet.");
+    } finally {
+      setLoading(false);
     }
   }
 
-  useEffect(() => { load(); }, []);
+  useEffect(() => { load(); }, [dataVersion]);
 
   async function addCredits() {
     setBusy(true);
@@ -43,7 +46,7 @@ export default function Wallet() {
   }
 
   return (
-    <main className="screen stack-screen wallet-screen">
+    <main className="screen stack-screen wallet-screen" aria-busy={loading}>
       <header className="wallet-balance-card">
         <div className="label">Test-credit wallet</div>
         <span>Available balance</span>
@@ -54,9 +57,9 @@ export default function Wallet() {
       {error && <div className="notice">{error}</div>}
 
       <section className="wallet-metrics">
-        <div><span>Stakes</span><strong>{money(wallet?.total_stakes_cents)}</strong></div>
-        <div><span>Payouts</span><strong>{money(wallet?.total_payouts_cents)}</strong></div>
-        <div><span>Net PnL</span><strong className={(wallet?.net_pnl_cents || 0) >= 0 ? "positive" : "negative"}>{money(wallet?.net_pnl_cents, true)}</strong></div>
+        <div><span>Stakes</span><strong>{wallet ? money(wallet.total_stakes_cents) : "—"}</strong></div>
+        <div><span>Payouts</span><strong>{wallet ? money(wallet.total_payouts_cents) : "—"}</strong></div>
+        <div><span>Net PnL</span><strong className={wallet ? (wallet.net_pnl_cents >= 0 ? "positive" : "negative") : ""}>{wallet ? money(wallet.net_pnl_cents, true) : "—"}</strong></div>
       </section>
 
       {wallet?.debug_topup_enabled && (
@@ -67,7 +70,7 @@ export default function Wallet() {
       )}
 
       <section className="transaction-section">
-        <div className="section-heading"><span>Transaction history</span><strong>{wallet?.transactions?.length || 0} entries</strong></div>
+        <div className="section-heading"><span>Transaction history</span><strong>{wallet ? `${wallet.transactions.length} entries` : "Loading…"}</strong></div>
         <div className="transaction-list">
           {wallet?.transactions?.map((transaction) => (
             <article key={transaction.id}>
@@ -83,6 +86,7 @@ export default function Wallet() {
               </div>
             </article>
           ))}
+          {loading && !wallet && <p className="section-empty">Loading transactions…</p>}
           {wallet && !wallet.transactions.length && <p className="section-empty">No transactions yet.</p>}
         </div>
       </section>

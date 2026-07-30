@@ -1,29 +1,33 @@
 import { Fragment, useEffect, useMemo, useState } from "react";
 import { api } from "../api";
+import { useAuth } from "../auth.jsx";
 
 function initials(name = "P") {
   return name.split(/\s+/).filter(Boolean).slice(0, 2).map((part) => part[0]).join("").toUpperCase();
 }
 
 export default function Leaderboard() {
-  const [leaderboard, setLeaderboard] = useState({ rows: [], total_players: 0, user_rank: 0 });
+  const { dataVersion } = useAuth();
+  const [leaderboard, setLeaderboard] = useState(() => api.peek("leaderboard"));
+  const [loading, setLoading] = useState(() => !api.peek("leaderboard"));
   const [error, setError] = useState("");
 
   useEffect(() => {
     api.leaderboard()
       .then((data) => setLeaderboard(data))
-      .catch((event) => setError(event.message || "Could not load the standings."));
-  }, []);
+      .catch((event) => setError(event.message || "Could not load the standings."))
+      .finally(() => setLoading(false));
+  }, [dataVersion]);
 
-  const rows = leaderboard.rows || [];
+  const rows = leaderboard?.rows || [];
   const you = useMemo(() => rows.find((row) => row.is_you), [rows]);
-  const userRank = leaderboard.user_rank || you?.rank;
-  const population = leaderboard.total_players
+  const userRank = leaderboard?.user_rank || you?.rank;
+  const population = leaderboard?.total_players
     ? leaderboard.total_players.toLocaleString()
-    : "5,000+";
+    : "…";
 
   return (
-    <main className="screen stack-screen social-screen">
+    <main className="screen stack-screen social-screen" aria-busy={loading}>
       <header className="page-hero">
         <div><div className="label">Social</div><h1>Pulse leaderboard</h1><p>Ranked by crowd-reading skill, never by bankroll.</p></div>
         <div className="hero-stat"><strong>#{userRank || "–"}</strong><span>of {population} players</span></div>
@@ -37,6 +41,7 @@ export default function Leaderboard() {
       {error && <div className="notice">{error}</div>}
       <section className="v0-leaderboard">
         <div className="leaderboard-head"><span>Rank · {population} players</span><span>Pulse</span></div>
+        {loading && !rows.length && <p className="section-empty">Loading standings…</p>}
         {rows.map((row, index) => {
           const previousRank = rows[index - 1]?.rank;
           const skippedPlayers = previousRank ? row.rank - previousRank - 1 : 0;

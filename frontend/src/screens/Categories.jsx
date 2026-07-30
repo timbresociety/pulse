@@ -6,7 +6,7 @@ import { useAuth } from "../auth.jsx";
 export default function Categories() {
   const { user, setUser } = useAuth();
   const nav = useNavigate();
-  const [cats, setCats] = useState([]);
+  const [cats, setCats] = useState(() => api.peek("categories") || []);
   const [selected, setSelected] = useState(new Set((user.categories || []).map((category) => category.id)));
   const [busy, setBusy] = useState(false);
 

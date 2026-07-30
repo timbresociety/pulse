@@ -52,11 +52,11 @@ function categoryColor(slug = "") {
 
 export default function Feed() {
   const { user, setUser } = useAuth();
-  const [markets, setMarkets] = useState([]);
+  const [markets, setMarkets] = useState(() => api.peek("feed:50") || []);
   const [index, setIndex] = useState(0);
   const [view, setView] = useState("deck");
   const [activeStep, setActiveStep] = useState(1);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(() => !api.peek("feed:50"));
   const [error, setError] = useState("");
   const [voteId, setVoteId] = useState("");
   const [forecast, setForecast] = useState({});
@@ -101,11 +101,11 @@ export default function Feed() {
     : 0;
   const activeColor = categoryColor(market?.category?.slug);
 
-  async function loadFeed() {
+  async function loadFeed(force = false) {
     setLoading(true);
     setError("");
     try {
-      const data = await api.feed(50);
+      const data = await api.feed(50, { force });
       setMarkets(data);
       setIndex(0);
       setView("deck");
@@ -143,7 +143,7 @@ export default function Feed() {
     if (index + 1 < markets.length) {
       setIndex((current) => current + 1);
     } else {
-      await loadFeed();
+      await loadFeed(true);
     }
   }
 
@@ -290,7 +290,7 @@ export default function Feed() {
       {!loading && !market && (
         <div className="empty">
           <strong>You have played every market in these channels.</strong>
-          <button className="primary-btn" onClick={loadFeed}>Refresh deck</button>
+          <button className="primary-btn" onClick={() => loadFeed(true)}>Refresh deck</button>
         </div>
       )}
 

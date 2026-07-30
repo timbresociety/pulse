@@ -45,8 +45,8 @@ function Section({ title, count, children }) {
 
 export default function History() {
   const { setUser } = useAuth();
-  const [rows, setRows] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [rows, setRows] = useState(() => api.peek("history:200") || []);
+  const [loading, setLoading] = useState(() => !api.peek("history:200"));
   const [modal, setModal] = useState(null);
   const [busy, setBusy] = useState("");
   const [error, setError] = useState("");

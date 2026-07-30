@@ -9,15 +9,104 @@ const BASE = normalizeApiBase(import.meta.env.VITE_API_URL);
 // enough time to complete before aborting a request that may already succeed.
 const REQUEST_TIMEOUT_MS = Number(import.meta.env.VITE_API_TIMEOUT_MS) || 20000;
 const EMAIL_REQUEST_TIMEOUT_MS = Number(import.meta.env.VITE_EMAIL_TIMEOUT_MS) || 30000;
+const QUERY_CACHE_PREFIX = "pulse_query_v1:";
+const USER_CACHE_KEY = "pulse_user_v1";
+const QUERY_TTL_MS = 30_000;
+const CATALOG_TTL_MS = 5 * 60_000;
+const memoryCache = new Map();
+const inFlight = new Map();
+let cacheGeneration = 0;
+
+function readStorage(storage, key) {
+  try {
+    const value = storage.getItem(key);
+    return value ? JSON.parse(value) : null;
+  } catch {
+    return null;
+  }
+}
+
+function writeStorage(storage, key, value) {
+  try {
+    storage.setItem(key, JSON.stringify(value));
+  } catch {
+    // Storage can be unavailable in private contexts. The memory cache still works.
+  }
+}
+
+function removeStorage(storage, key) {
+  try {
+    storage.removeItem(key);
+  } catch {
+    // Best effort only.
+  }
+}
+
+function cacheKey(name) {
+  return `${QUERY_CACHE_PREFIX}${name}`;
+}
+
+function readQueryCache(name) {
+  if (memoryCache.has(name)) return memoryCache.get(name);
+  const entry = readStorage(sessionStorage, cacheKey(name));
+  if (entry && typeof entry.savedAt === "number" && "value" in entry) {
+    memoryCache.set(name, entry);
+    return entry;
+  }
+  return null;
+}
+
+function writeQueryCache(name, value) {
+  const entry = { savedAt: Date.now(), value };
+  memoryCache.set(name, entry);
+  writeStorage(sessionStorage, cacheKey(name), entry);
+  return value;
+}
+
+function clearQueryCache() {
+  cacheGeneration += 1;
+  memoryCache.clear();
+  inFlight.clear();
+  try {
+    Object.keys(sessionStorage)
+      .filter((key) => key.startsWith(QUERY_CACHE_PREFIX))
+      .forEach((key) => sessionStorage.removeItem(key));
+  } catch {
+    // Best effort only.
+  }
+}
+
+function peek(name) {
+  return readQueryCache(name)?.value ?? null;
+}
 
 export function getToken() {
   return localStorage.getItem("pulse_token");
 }
 export function setToken(t) {
+  if (getToken() !== t) {
+    clearQueryCache();
+    removeStorage(localStorage, USER_CACHE_KEY);
+  }
   localStorage.setItem("pulse_token", t);
 }
 export function clearToken() {
   localStorage.removeItem("pulse_token");
+  removeStorage(localStorage, USER_CACHE_KEY);
+  clearQueryCache();
+}
+
+export function getCachedUser() {
+  if (!getToken()) return null;
+  return readStorage(localStorage, USER_CACHE_KEY);
+}
+
+export function setCachedUser(user) {
+  if (user) {
+    writeStorage(localStorage, USER_CACHE_KEY, user);
+  } else {
+    removeStorage(localStorage, USER_CACHE_KEY);
+  }
 }
 
 async function req(
@@ -88,8 +177,72 @@ async function req(
   return res.json();
 }
 
+async function cachedGet(name, path, { force = false, ttlMs = QUERY_TTL_MS } = {}) {
+  const cached = readQueryCache(name);
+  if (!force && cached && Date.now() - cached.savedAt < ttlMs) {
+    return cached.value;
+  }
+  if (inFlight.has(name)) return inFlight.get(name);
+
+  const generation = cacheGeneration;
+  let request;
+  request = req(path)
+    .then((value) => {
+      if (generation !== cacheGeneration) {
+        return cachedGet(name, path, { force: true, ttlMs });
+      }
+      return writeQueryCache(name, value);
+    })
+    .finally(() => {
+      if (inFlight.get(name) === request) inFlight.delete(name);
+    });
+  inFlight.set(name, request);
+  return request;
+}
+
+function seedBootstrap(data) {
+  // A mutation may have invalidated the cache while bootstrap was in flight.
+  // Only seed its child entries when this response is still the active one.
+  if (!data || peek("bootstrap") !== data) return data;
+  writeQueryCache("me", data.user);
+  writeQueryCache("profileStats", data.profile_stats);
+  writeQueryCache("wallet", data.wallet);
+  writeQueryCache("leaderboard", data.leaderboard);
+  return data;
+}
+
+function getBootstrap({ force = false } = {}) {
+  return cachedGet("bootstrap", "/bootstrap", { force }).then(seedBootstrap);
+}
+
+function summaryGet(name, path, bootstrapField, { force = false } = {}) {
+  const cached = readQueryCache(name);
+  if (!force && cached && Date.now() - cached.savedAt < QUERY_TTL_MS) {
+    return Promise.resolve(cached.value);
+  }
+  if (!force && inFlight.has("bootstrap")) {
+    return inFlight.get("bootstrap")
+      .then(seedBootstrap)
+      .then((data) => data[bootstrapField]);
+  }
+  return cachedGet(name, path, { force });
+}
+
+async function mutate(path, options) {
+  const value = await req(path, options);
+  clearQueryCache();
+  if (getToken()) {
+    // Refill all summary caches while the user continues with the local
+    // optimistic UI. A destination screen can join this same request.
+    void getBootstrap({ force: true }).catch(() => {});
+  }
+  return value;
+}
+
 export const api = {
   base: BASE,
+  peek,
+  clearCache: clearQueryCache,
   authMethods: () => req("/auth/methods", { auth: false }),
   emailLogin: (email) => req("/auth/email-login", { method: "POST", body: { email }, auth: false }),
   requestEmailOtp: (email) =>
@@ -106,22 +259,34 @@ export const api = {
       body: { challenge_id, code },
       auth: false,
     }),
-  me: () => req("/me"),
-  categories: () => req("/categories"),
-  setCategories: (category_ids) => req("/me/categories", { method: "POST", body: { category_ids } }),
-  feed: (limit = 20) => req(`/feed?limit=${limit}`),
+  bootstrap: getBootstrap,
+  me: ({ force = false } = {}) => cachedGet("me", "/me", { force }),
+  categories: ({ force = false } = {}) =>
+    cachedGet("categories", "/categories", { force, ttlMs: CATALOG_TTL_MS }),
+  setCategories: (category_ids) =>
+    mutate("/me/categories", { method: "POST", body: { category_ids } }),
+  feed: (limit = 20, { force = false } = {}) =>
+    cachedGet(`feed:${limit}`, `/feed?limit=${limit}`, { force }),
   lock: (market_id, vote_option_id, forecast_bps, stake_cents) =>
-    req("/predictions", {
+    mutate("/predictions", {
       method: "POST",
       body: { market_id, vote_option_id, forecast_bps, stake_cents },
     }),
-  reveal: (prediction_id) => req(`/predictions/${prediction_id}/reveal`, { method: "POST" }),
-  history: (limit = 50) => req(`/me/history?limit=${limit}`),
-  wallet: () => req("/me/wallet"),
-  profileStats: () => req("/me/stats"),
-  leaderboard: () => req("/leaderboard"),
-  addTestCredits: () => req("/debug/credits", { method: "POST" }),
-  resolveNow: (prediction_id) => req(`/debug/predictions/${prediction_id}/resolve`, { method: "POST" }),
-  resolveRevealable: () => req("/debug/resolve-revealable", { method: "POST" }),
-  resetGameplay: () => req("/debug/reset-gameplay", { method: "POST" }),
+  reveal: (prediction_id) =>
+    mutate(`/predictions/${prediction_id}/reveal`, { method: "POST" }),
+  history: (limit = 50, { force = false } = {}) =>
+    cachedGet(`history:${limit}`, `/me/history?limit=${limit}`, { force }),
+  wallet: ({ force = false } = {}) =>
+    summaryGet("wallet", "/me/wallet", "wallet", { force }),
+  profileStats: ({ force = false } = {}) =>
+    summaryGet("profileStats", "/me/stats", "profile_stats", { force }),
+  leaderboard: ({ force = false } = {}) =>
+    summaryGet("leaderboard", "/leaderboard", "leaderboard", { force }),
+  addTestCredits: () => mutate("/debug/credits", { method: "POST" }),
+  resolveNow: (prediction_id) =>
+    mutate(`/debug/predictions/${prediction_id}/resolve`, { method: "POST" }),
+  resolveRevealable: () =>
+    mutate("/debug/resolve-revealable", { method: "POST" }),
+  resetGameplay: () =>
+    mutate("/debug/reset-gameplay", { method: "POST" }),
 };

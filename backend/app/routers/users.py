@@ -1,9 +1,11 @@
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
+from types import SimpleNamespace
 
 from fastapi import APIRouter, Depends, HTTPException, Query
-from sqlalchemy import select
+from sqlalchemy import case, func, literal, select, union_all
 from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.orm import joinedload
 
 from app.auth import get_current_user, get_current_user_with_categories
 from app.config import settings
@@ -13,12 +15,12 @@ from app.models import (
     BalanceTransaction,
     Category,
     Market,
-    MarketOption,
     Prediction,
     User,
 )
 from app.schemas import (
     ActivityDayOut,
+    AppBootstrapOut,
     CategoryOut,
     DistributionPointOut,
     HistoryPredictionOut,
@@ -29,6 +31,7 @@ from app.schemas import (
     WalletOut,
     WalletTransactionOut,
 )
+from app.routers.leaderboard import build_leaderboard
 
 router = APIRouter(tags=["users"])
 
@@ -45,6 +48,33 @@ def _wallet_totals(predictions: list[Prediction]) -> tuple[int, int, int]:
         prediction.stake_cents or 0 for prediction in settled_predictions
     )
     return total_stakes, total_payouts, total_payouts - settled_stakes
+
+
+def _wallet_out(
+    user: User,
+    totals: tuple[int, int, int],
+    transaction_rows: list,
+) -> WalletOut:
+    total_stakes, total_payouts, net_pnl = totals
+    return WalletOut(
+        available_balance_cents=user.balance_cents,
+        total_stakes_cents=total_stakes,
+        total_payouts_cents=total_payouts,
+        net_pnl_cents=net_pnl,
+        debug_topup_enabled=settings.debug,
+        transactions=[
+            WalletTransactionOut(
+                id=transaction.id,
+                transaction_type=transaction.transaction_type,
+                amount_cents=transaction.amount_cents,
+                balance_after_cents=transaction.balance_after_cents,
+                prediction_id=transaction.prediction_id,
+                question=question or prompt,
+                created_at=transaction.created_at,
+            )
+            for transaction, question, prompt in transaction_rows
+        ],
+    )
 
 
 def _category_out(category: Category) -> CategoryOut:
@@ -98,24 +128,6 @@ async def set_categories(
     return _user_out(user)
 
 
-async def _options_by_market(
-    db: AsyncSession, market_ids: list
-) -> dict:
-    if not market_ids:
-        return {}
-    options = (
-        await db.execute(
-            select(MarketOption)
-            .where(MarketOption.market_id.in_(market_ids))
-            .order_by(MarketOption.market_id, MarketOption.display_order)
-        )
-    ).scalars().all()
-    grouped: dict = defaultdict(list)
-    for option in options:
-        grouped[option.market_id].append(option)
-    return grouped
-
-
 @router.get("/me/history", response_model=list[HistoryPredictionOut])
 async def history(
     limit: int = Query(100, ge=1, le=200),
@@ -133,13 +145,13 @@ async def history(
             )
             .order_by(Prediction.locked_at.desc())
             .limit(limit)
+            .options(joinedload(Market.options))
         )
-    ).all()
-    options_by_market = await _options_by_market(db, [market.id for _, market, _ in rows])
+    ).unique().all()
     now = datetime.now(timezone.utc)
     output: list[HistoryPredictionOut] = []
     for prediction, market, category in rows:
-        options = options_by_market[market.id]
+        options = sorted(market.options, key=lambda option: option.display_order)
         vote = next(option for option in options if option.id == prediction.vote_option_id)
         forecast_map = prediction.forecast_bps or {}
         actual_map = prediction.actual_distribution_bps or {}
@@ -216,16 +228,40 @@ async def wallet(
     user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
-    predictions = (
+    total_stakes, total_payouts, net_pnl = (
         await db.execute(
-            select(Prediction)
+            select(
+                func.coalesce(func.sum(Prediction.stake_cents), 0),
+                func.coalesce(
+                    func.sum(
+                        case(
+                            (Prediction.settled_at.is_not(None), Prediction.payout_cents),
+                            else_=0,
+                        )
+                    ),
+                    0,
+                ),
+                func.coalesce(
+                    func.sum(
+                        case(
+                            (
+                                Prediction.settled_at.is_not(None),
+                                func.coalesce(Prediction.payout_cents, 0)
+                                - func.coalesce(Prediction.stake_cents, 0),
+                            ),
+                            else_=0,
+                        )
+                    ),
+                    0,
+                ),
+            )
             .join(Market, Market.id == Prediction.market_id)
             .where(
                 Prediction.user_id == user.id,
                 Market.market_kind == PULSE_MARKET_KIND,
             )
         )
-    ).scalars().all()
+    ).one()
     transaction_rows = (
         await db.execute(
             select(BalanceTransaction, Market.question, Market.prompt)
@@ -236,45 +272,15 @@ async def wallet(
             .limit(200)
         )
     ).all()
-    total_stakes, total_payouts, net_pnl = _wallet_totals(predictions)
-    return WalletOut(
-        available_balance_cents=user.balance_cents,
-        total_stakes_cents=total_stakes,
-        total_payouts_cents=total_payouts,
-        net_pnl_cents=net_pnl,
-        debug_topup_enabled=settings.debug,
-        transactions=[
-            WalletTransactionOut(
-                id=transaction.id,
-                transaction_type=transaction.transaction_type,
-                amount_cents=transaction.amount_cents,
-                balance_after_cents=transaction.balance_after_cents,
-                prediction_id=transaction.prediction_id,
-                question=question or prompt,
-                created_at=transaction.created_at,
-            )
-            for transaction, question, prompt in transaction_rows
-        ],
+    return _wallet_out(
+        user,
+        (int(total_stakes), int(total_payouts), int(net_pnl)),
+        list(transaction_rows),
     )
 
 
-@router.get("/me/stats", response_model=ProfileStatsOut)
-async def stats(
-    user: User = Depends(get_current_user),
-    db: AsyncSession = Depends(get_db),
-):
-    rows = (
-        await db.execute(
-            select(Prediction, Category.name)
-            .join(Market, Market.id == Prediction.market_id)
-            .join(Category, Category.id == Market.category_id)
-            .where(
-                Prediction.user_id == user.id,
-                Market.market_kind == PULSE_MARKET_KIND,
-            )
-            .order_by(Prediction.locked_at)
-        )
-    ).all()
+def _profile_stats(rows: list) -> ProfileStatsOut:
+    """Calculate profile metrics from rows shared by stats and bootstrap."""
     predictions = [prediction for prediction, _ in rows]
     revealed = [prediction for prediction in predictions if prediction.revealed_at]
     wins = [prediction for prediction in revealed if (prediction.pnl_cents or 0) >= 0]
@@ -329,4 +335,140 @@ async def stats(
         longest_streak=longest_streak,
         best_category=best_category,
         activity=activity,
+    )
+
+
+def _null_like(column):
+    return literal(None, type_=column.type)
+
+
+def _bootstrap_statement(user_id):
+    """Fetch compact prediction summaries and wallet rows in one round trip."""
+    prediction_rows = (
+        select(
+            literal("prediction").label("row_kind"),
+            Prediction.id.label("row_id"),
+            Category.name.label("category_name"),
+            Prediction.stake_cents.label("stake_cents"),
+            Prediction.payout_cents.label("payout_cents"),
+            Prediction.settled_at.label("settled_at"),
+            Prediction.revealed_at.label("revealed_at"),
+            Prediction.pnl_cents.label("pnl_cents"),
+            Prediction.accuracy_score.label("accuracy_score"),
+            Prediction.locked_at.label("locked_at"),
+            _null_like(BalanceTransaction.transaction_type).label("transaction_type"),
+            _null_like(BalanceTransaction.amount_cents).label("amount_cents"),
+            _null_like(BalanceTransaction.balance_after_cents).label("balance_after_cents"),
+            _null_like(BalanceTransaction.prediction_id).label("transaction_prediction_id"),
+            _null_like(Market.question).label("question"),
+            _null_like(BalanceTransaction.created_at).label("created_at"),
+        )
+        .join(Market, Market.id == Prediction.market_id)
+        .join(Category, Category.id == Market.category_id)
+        .where(
+            Prediction.user_id == user_id,
+            Market.market_kind == PULSE_MARKET_KIND,
+        )
+    )
+    transaction_rows = (
+        select(
+            literal("transaction").label("row_kind"),
+            BalanceTransaction.id.label("row_id"),
+            _null_like(Category.name).label("category_name"),
+            _null_like(Prediction.stake_cents).label("stake_cents"),
+            _null_like(Prediction.payout_cents).label("payout_cents"),
+            _null_like(Prediction.settled_at).label("settled_at"),
+            _null_like(Prediction.revealed_at).label("revealed_at"),
+            _null_like(Prediction.pnl_cents).label("pnl_cents"),
+            _null_like(Prediction.accuracy_score).label("accuracy_score"),
+            _null_like(Prediction.locked_at).label("locked_at"),
+            BalanceTransaction.transaction_type.label("transaction_type"),
+            BalanceTransaction.amount_cents.label("amount_cents"),
+            BalanceTransaction.balance_after_cents.label("balance_after_cents"),
+            BalanceTransaction.prediction_id.label("transaction_prediction_id"),
+            func.coalesce(Market.question, Market.prompt).label("question"),
+            BalanceTransaction.created_at.label("created_at"),
+        )
+        .outerjoin(Prediction, Prediction.id == BalanceTransaction.prediction_id)
+        .outerjoin(Market, Market.id == Prediction.market_id)
+        .where(BalanceTransaction.user_id == user_id)
+    )
+    return union_all(prediction_rows, transaction_rows)
+
+
+def _split_bootstrap_rows(rows: list) -> tuple[list, list]:
+    predictions = []
+    transactions = []
+    for row in rows:
+        item = row._mapping
+        if item["row_kind"] == "prediction":
+            predictions.append(
+                SimpleNamespace(
+                    id=item["row_id"],
+                    stake_cents=item["stake_cents"],
+                    payout_cents=item["payout_cents"],
+                    settled_at=item["settled_at"],
+                    revealed_at=item["revealed_at"],
+                    pnl_cents=item["pnl_cents"],
+                    accuracy_score=item["accuracy_score"],
+                    locked_at=item["locked_at"],
+                    category_name=item["category_name"],
+                )
+            )
+        else:
+            transactions.append(
+                (
+                    SimpleNamespace(
+                        id=item["row_id"],
+                        transaction_type=item["transaction_type"],
+                        amount_cents=item["amount_cents"],
+                        balance_after_cents=item["balance_after_cents"],
+                        prediction_id=item["transaction_prediction_id"],
+                        created_at=item["created_at"],
+                    ),
+                    item["question"],
+                    None,
+                )
+            )
+    predictions.sort(key=lambda prediction: prediction.locked_at)
+    transactions.sort(key=lambda item: item[0].created_at, reverse=True)
+    return predictions, transactions[:200]
+
+
+@router.get("/me/stats", response_model=ProfileStatsOut)
+async def stats(
+    user: User = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    rows = (
+        await db.execute(
+            select(Prediction, Category.name)
+            .join(Market, Market.id == Prediction.market_id)
+            .join(Category, Category.id == Market.category_id)
+            .where(
+                Prediction.user_id == user.id,
+                Market.market_kind == PULSE_MARKET_KIND,
+            )
+            .order_by(Prediction.locked_at)
+        )
+    ).all()
+    return _profile_stats(list(rows))
+
+
+@router.get("/bootstrap", response_model=AppBootstrapOut)
+async def bootstrap(
+    user: User = Depends(get_current_user_with_categories),
+    db: AsyncSession = Depends(get_db),
+):
+    """Load the signed-in shell and summary screens with one data query."""
+    rows = (await db.execute(_bootstrap_statement(user.id))).all()
+    predictions, transaction_rows = _split_bootstrap_rows(list(rows))
+    prediction_rows = [
+        (prediction, prediction.category_name) for prediction in predictions
+    ]
+    return AppBootstrapOut(
+        user=_user_out(user),
+        profile_stats=_profile_stats(prediction_rows),
+        wallet=_wallet_out(user, _wallet_totals(predictions), list(transaction_rows)),
+        leaderboard=build_leaderboard(user, predictions),
     )

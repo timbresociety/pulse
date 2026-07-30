@@ -9,7 +9,7 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from jose import JWTError, jwt
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.orm import noload, selectinload
+from sqlalchemy.orm import joinedload, noload
 
 from app.config import settings
 from app.database import get_db
@@ -60,12 +60,16 @@ async def _current_user(
     *,
     with_categories: bool,
 ) -> User:
-    category_loading = selectinload(User.categories) if with_categories else noload(User.categories)
-    user = await db.scalar(
+    category_loading = joinedload(User.categories) if with_categories else noload(User.categories)
+    result = await db.execute(
         select(User)
         .where(User.id == _current_user_id(creds))
         .options(category_loading)
     )
+    # joinedload keeps the authenticated user and their small category list to
+    # one database round trip. unique() folds the joined category rows back
+    # into a single User instance.
+    user = result.unique().scalar_one_or_none()
     if user is None:
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "User not found")
     return user

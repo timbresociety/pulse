@@ -8,26 +8,11 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.database import SessionLocal
 from app.game import PULSE_MARKET_KIND
+from app.leaderboard_data import CURATED_BOT_DATA
 from app.models import Category, LeaderboardEntry, Market, MarketOption, Prediction, User
 
 CATALOG_PATH = Path(__file__).parent / "data" / "pulse_markets_v0.json"
 SEED_LOCK_ID = 1_345_391_699
-
-V0_BOTS = [
-    ("CultureGoblin", 1468, 78.4, 0.61, 184, 7),
-    ("TasteOracle", 1416, 76.9, 0.58, 223, 4),
-    ("VibeChecker", 1372, 74.2, 0.56, 139, 3),
-    ("Aarav", 1318, 72.6, 0.55, 118, 5),
-    ("indie_sleaze", 1264, 70.8, 0.53, 97, 2),
-    ("MainCharacter", 1219, 69.5, 0.52, 166, 1),
-    ("frfr_no_cap", 1174, 67.2, 0.49, 84, 0),
-    ("the_contrarian", 1127, 65.8, 0.48, 201, 2),
-    ("ChartWatcher", 1082, 64.1, 0.47, 74, 1),
-    ("lurker99", 1036, 62.7, 0.46, 61, 0),
-    ("certified_yapper", 1018, 59.4, 0.43, 48, 0),
-    ("nightcore_dev", 1007, 57.8, 0.41, 39, 1),
-]
-
 
 def load_catalog() -> dict:
     with CATALOG_PATH.open(encoding="utf-8") as catalog_file:
@@ -182,7 +167,7 @@ async def seed_catalog(db: AsyncSession) -> None:
     # Stable bot profiles are updated in place by display name.
     bot_rows = (await db.execute(select(LeaderboardEntry))).scalars().all()
     bots_by_name = {bot.display_name: bot for bot in bot_rows}
-    for name, pulse, accuracy, win_rate, played, streak in V0_BOTS:
+    for name, pulse, accuracy, win_rate, played, streak in CURATED_BOT_DATA:
         bot = bots_by_name.get(name)
         if bot is None:
             bot = LeaderboardEntry(display_name=name, is_bot=True)

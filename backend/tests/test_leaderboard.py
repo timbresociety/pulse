@@ -2,6 +2,7 @@ from app.leaderboard_data import (
     DUMMY_COMPETITOR_COUNT,
     LeaderboardProfile,
     complete_dummy_field,
+    curated_competitors,
     generated_competitors,
     ranked_window,
 )
@@ -29,6 +30,15 @@ def test_dummy_population_is_stable_and_above_five_thousand():
     assert first is second
     assert len(first) == DUMMY_COMPETITOR_COUNT
     assert DUMMY_COMPETITOR_COUNT > 5_000
+
+
+def test_curated_profiles_are_cached_application_data():
+    first = curated_competitors()
+    second = curated_competitors()
+
+    assert first is second
+    assert first[0].display_name == "CultureGoblin"
+    assert first[0].pulse_score == 1468
 
 
 def test_new_user_starts_at_the_bottom_of_the_full_field():

@@ -3,6 +3,7 @@ import uuid
 from fastapi import APIRouter, Depends, Query
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.orm import joinedload
 
 from app.auth import get_current_user, get_current_user_with_categories
 from app.config import settings
@@ -12,7 +13,6 @@ from app.game import (
     market_avatar_names,
     reveal_seconds_for_index,
     simulate_crowd,
-    user_locked_count,
 )
 from app.models import Category, Market, Object, ObjectAlias, Prediction, User
 from app.schemas import MarketCategoryOut, MarketOptionOut, MarketOut, ObjectOut
@@ -31,8 +31,13 @@ async def feed(
         return []
 
     answered = select(Prediction.market_id).where(Prediction.user_id == user.id)
+    locked_count = (
+        select(func.count(Prediction.id))
+        .where(Prediction.user_id == user.id)
+        .scalar_subquery()
+    )
     result = await db.execute(
-        select(Market, Category)
+        select(Market, Category, locked_count)
         .join(Category, Category.id == Market.category_id)
         .where(
             Market.category_id.in_(chosen_ids),
@@ -43,10 +48,11 @@ async def feed(
         )
         .order_by(Market.created_at, Market.market_key)
         .limit(limit)
+        .options(joinedload(Market.options))
     )
-    reveal_seconds = reveal_seconds_for_index(await user_locked_count(db, user.id))
     output: list[MarketOut] = []
-    for market, category in result.all():
+    for market, category, index in result.unique().all():
+        reveal_seconds = reveal_seconds_for_index(index)
         options = sorted(market.options, key=lambda option: option.display_order)
         crowd = simulate_crowd(
             market.id,

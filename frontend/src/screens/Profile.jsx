@@ -15,14 +15,20 @@ function money(cents = 0, signed = false) {
 }
 
 export default function Profile() {
-  const { user, logout } = useAuth();
+  const { user, dataVersion, logout } = useAuth();
   const navigate = useNavigate();
-  const [stats, setStats] = useState(null);
+  const [stats, setStats] = useState(() => api.peek("profileStats"));
+  const [loading, setLoading] = useState(() => !api.peek("profileStats"));
 
-  useEffect(() => { api.profileStats().then(setStats).catch(() => setStats(null)); }, []);
+  useEffect(() => {
+    api.profileStats()
+      .then(setStats)
+      .catch(() => {})
+      .finally(() => setLoading(false));
+  }, [dataVersion]);
 
   return (
-    <main className="screen stack-screen profile-screen">
+    <main className="screen stack-screen profile-screen" aria-busy={loading}>
       <header className="v0-profile-header">
         <div className="profile-avatar">
           {user.avatar_url ? <img src={user.avatar_url} alt="" /> : initials(user)}
@@ -36,14 +42,14 @@ export default function Profile() {
       </section>
 
       <section className="profile-stat-grid">
-        <div><span>Markets played</span><strong>{stats?.markets_played || 0}</strong></div>
-        <div><span>Win rate</span><strong>{Math.round((stats?.win_rate || 0) * 100)}%</strong></div>
-        <div><span>Avg accuracy</span><strong>{(stats?.average_accuracy || 0).toFixed(1)}%</strong></div>
-        <div><span>Total fake PnL</span><strong className={(stats?.total_pnl_cents || 0) >= 0 ? "positive" : "negative"}>{money(stats?.total_pnl_cents, true)}</strong></div>
-        <div><span>Total volume</span><strong>{money(stats?.total_volume_cents)}</strong></div>
-        <div><span>Biggest win</span><strong>{money(stats?.biggest_win_cents)}</strong></div>
-        <div><span>Current streak</span><strong>{stats?.current_streak || 0}</strong></div>
-        <div><span>Longest streak</span><strong>{stats?.longest_streak || 0}</strong></div>
+        <div><span>Markets played</span><strong>{stats ? stats.markets_played : "—"}</strong></div>
+        <div><span>Win rate</span><strong>{stats ? `${Math.round(stats.win_rate * 100)}%` : "—"}</strong></div>
+        <div><span>Avg accuracy</span><strong>{stats ? `${stats.average_accuracy.toFixed(1)}%` : "—"}</strong></div>
+        <div><span>Total fake PnL</span><strong className={stats ? (stats.total_pnl_cents >= 0 ? "positive" : "negative") : ""}>{stats ? money(stats.total_pnl_cents, true) : "—"}</strong></div>
+        <div><span>Total volume</span><strong>{stats ? money(stats.total_volume_cents) : "—"}</strong></div>
+        <div><span>Biggest win</span><strong>{stats ? money(stats.biggest_win_cents) : "—"}</strong></div>
+        <div><span>Current streak</span><strong>{stats ? stats.current_streak : "—"}</strong></div>
+        <div><span>Longest streak</span><strong>{stats ? stats.longest_streak : "—"}</strong></div>
       </section>
 
       <section className="activity-panel">
@@ -58,11 +64,12 @@ export default function Profile() {
             />
           ))}
         </div>
+        {!stats && <p className="section-empty">Loading activity…</p>}
         <div className="activity-legend"><span>Less</span>{[0, 1, 2, 3, 4].map((level) => <i key={level} className={`level-${level}`} />)}<span>More</span></div>
       </section>
 
       <section className="panel-section profile-channels">
-        <div className="section-heading"><span>Active channels</span><strong>{stats?.best_category || "No best read yet"}</strong></div>
+        <div className="section-heading"><span>Active channels</span><strong>{stats ? (stats.best_category || "No best read yet") : "Loading…"}</strong></div>
         <div className="top-call-list">{user.categories.map((category) => <span key={category.id}>{category.name}</span>)}</div>
         <button className="ghost-btn full" onClick={() => navigate("/categories")}>Edit categories</button>
       </section>

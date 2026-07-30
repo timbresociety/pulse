@@ -219,6 +219,13 @@ class ProfileStatsOut(BaseModel):
     activity: list[ActivityDayOut]
 
 
+class AppBootstrapOut(BaseModel):
+    user: UserOut
+    profile_stats: ProfileStatsOut
+    wallet: WalletOut
+    leaderboard: LeaderboardOut
+
+
 class TokenOut(BaseModel):
     access_token: str
     token_type: str = "bearer"
