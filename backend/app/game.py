@@ -64,6 +64,12 @@ class SettlementResult:
     accuracy_percentile: float
     forecast_rank: int
     total_participants: int
+    crowd_median_accuracy_score: float
+    crowd_top_quartile_accuracy_score: float
+    crowd_top_ten_accuracy_score: float
+    break_even_accuracy_score: float
+    accuracy_weighted_stake_cents: float
+    weighted_pool_share: float
     gross_pool_cents: int
     net_pool_cents: int
     user_fee_cents: int
@@ -289,6 +295,21 @@ def _allocate_pool(net_pool_cents: int, weighted_stakes: Sequence[float]) -> lis
     return floors
 
 
+def _quantile(values: Sequence[float], quantile: float) -> float:
+    if not values:
+        raise ValueError("Quantiles require at least one value")
+    if not 0 <= quantile <= 1:
+        raise ValueError("Quantile must be between zero and one")
+    ordered = sorted(values)
+    position = (len(ordered) - 1) * quantile
+    lower = math.floor(position)
+    upper = math.ceil(position)
+    if lower == upper:
+        return ordered[lower]
+    fraction = position - lower
+    return ordered[lower] + (ordered[upper] - ordered[lower]) * fraction
+
+
 def settle_market(
     crowd: CrowdSimulation,
     *,
@@ -330,6 +351,16 @@ def settle_market(
     percentile = at_or_worse_count / len(dummy_errors)
     user_multiplier = multipliers[-1]
     user_payout = payouts[-1]
+    dummy_accuracy_scores = [multiplier * 100 for multiplier in multipliers[:-1]]
+    user_weighted_stake = weighted_stakes[-1]
+    total_weighted_stake = sum(weighted_stakes)
+    other_weighted_stake = total_weighted_stake - user_weighted_stake
+    break_even_denominator = net_stakes[-1] * (net_pool - user_stake_cents)
+    break_even_accuracy_score = (
+        (user_stake_cents * other_weighted_stake / break_even_denominator) * 100
+        if break_even_denominator > 0
+        else 101.0
+    )
 
     return SettlementResult(
         actual_distribution_bps=actual,
@@ -339,6 +370,12 @@ def settle_market(
         accuracy_percentile=percentile,
         forecast_rank=better_count + 1,
         total_participants=len(crowd.participants) + 1,
+        crowd_median_accuracy_score=_quantile(dummy_accuracy_scores, 0.5),
+        crowd_top_quartile_accuracy_score=_quantile(dummy_accuracy_scores, 0.75),
+        crowd_top_ten_accuracy_score=_quantile(dummy_accuracy_scores, 0.9),
+        break_even_accuracy_score=break_even_accuracy_score,
+        accuracy_weighted_stake_cents=user_weighted_stake,
+        weighted_pool_share=user_weighted_stake / total_weighted_stake,
         gross_pool_cents=gross_pool,
         net_pool_cents=net_pool,
         user_fee_cents=fees[-1],

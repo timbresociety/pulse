@@ -120,6 +120,12 @@ class RevealOut(BaseModel):
     accuracy_percentile: float
     forecast_rank: int
     total_participants: int
+    crowd_median_accuracy_score: float
+    crowd_top_quartile_accuracy_score: float
+    crowd_top_ten_accuracy_score: float
+    break_even_accuracy_score: float
+    accuracy_weighted_stake_cents: float
+    weighted_pool_share: float
     stake_cents: int
     user_fee_cents: int
     gross_pool_cents: int

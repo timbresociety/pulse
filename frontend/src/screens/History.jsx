@@ -16,24 +16,6 @@ function countdown(revealAt, now) {
   return `${minutes}:${String(total % 60).padStart(2, "0")}`;
 }
 
-function Distribution({ points, actual, compact = false }) {
-  if (!points?.length) return null;
-  return (
-    <div className={`distribution-list ${compact ? "compact" : ""}`}>
-      {points.map((point) => {
-        const actualPoint = actual?.find((item) => item.option_id === point.option_id);
-        return (
-          <div className="distribution-row" key={point.option_id}>
-            <div><span>{point.label}</span><strong>{(point.bps / 100).toFixed(1)}%</strong></div>
-            <div className="distribution-track"><i style={{ width: `${point.bps / 100}%` }} /></div>
-            {actualPoint && <small>Actual {(actualPoint.bps / 100).toFixed(1)}%</small>}
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
 function Section({ title, count, children }) {
   return (
     <section className="history-section">
@@ -150,14 +132,18 @@ export default function History() {
       <Section title="Active" count={active.length}>
         {active.map((row) => (
           <article className="history-card active-card" key={row.id}>
-            <div className="ticket-topline"><span>{row.category_name}</span><b>{countdown(row.reveal_at, now)}</b></div>
+            <div className="ticket-topline"><span>{row.category_name}</span><b>Locked</b></div>
             <h3>{row.question}</h3>
+            <div className="history-timer-hero" aria-live="off">
+              <span>Market resolves in</span>
+              <strong>{countdown(row.reveal_at, now)}</strong>
+              <small>Your result will unlock automatically</small>
+            </div>
             <div className="vote-chip"><span>Your vote</span><strong>{row.vote.label}</strong></div>
-            <Distribution points={row.forecast} compact />
             <div className="history-economy">
               <div><span>Stake</span><strong>{money(row.stake_cents)}</strong></div>
-              <div><span>Pool</span><strong>{money(row.pool_volume_cents)}</strong></div>
-              <div><span>Reveal</span><strong>{countdown(row.reveal_at, now)}</strong></div>
+              <div><span>Volume</span><strong>{money(row.pool_volume_cents)}</strong></div>
+              <div><span>Players</span><strong>{row.participant_count + 1}</strong></div>
             </div>
           </article>
         ))}
@@ -184,25 +170,29 @@ export default function History() {
 
       <Section title="Revealed" count={revealed.length}>
         {revealed.map((row) => (
-          <article className={`history-card revealed-card ${row.pnl_cents >= 0 ? "win" : "loss"}`} key={row.id}>
+          <article className={`history-card revealed-card revealed-card--compact ${row.pnl_cents >= 0 ? "win" : "loss"}`} key={row.id}>
             <div className="ticket-topline"><span>{row.category_name}</span><b>{row.pnl_cents >= 0 ? "Win" : "Loss"}</b></div>
             <h3>{row.question}</h3>
-            <div className="vote-chip"><span>Your vote</span><strong>{row.vote.label}</strong></div>
-            <div className="compare-heading"><span>Your forecast</span><span>Actual</span></div>
-            <Distribution points={row.forecast} actual={row.actual_distribution} compact />
-            <div className="result-metrics">
-              <div><span>Accuracy</span><strong>{row.accuracy_score?.toFixed(1)}%</strong></div>
-              <div><span>Percentile</span><strong>{Math.round((row.accuracy_percentile || 0) * 100)}th</strong></div>
-              <div><span>Rank</span><strong>#{row.forecast_rank}/{row.total_participants}</strong></div>
+            <div className="compact-reveal-summary">
+              <div>
+                <span>Result</span>
+                <strong className={row.pnl_cents >= 0 ? "positive" : "negative"}>{money(row.pnl_cents, true)}</strong>
+              </div>
+              <div>
+                <span>Accuracy</span>
+                <strong>{row.accuracy_score?.toFixed(1)}</strong>
+              </div>
+              <div>
+                <span>Pulse</span>
+                <strong>{row.pulse_delta >= 0 ? "+" : ""}{row.pulse_delta}</strong>
+              </div>
             </div>
-            <div className="settlement-grid">
-              <div><span>Stake</span><strong>{money(row.stake_cents)}</strong></div>
-              <div><span>Fee</span><strong>{money(row.user_fee_cents)}</strong></div>
-              <div><span>Payout</span><strong>{money(row.payout_cents)}</strong></div>
-              <div><span>PnL</span><strong className={row.pnl_cents >= 0 ? "positive" : "negative"}>{money(row.pnl_cents, true)}</strong></div>
-              <div><span>Pulse</span><strong>{row.pulse_delta >= 0 ? "+" : ""}{row.pulse_delta}</strong></div>
+            <div className="compact-reveal-footer">
+              <span>Vote: <strong>{row.vote.label}</strong> · Rank #{row.forecast_rank}/{row.total_participants}</span>
+              <button className="text-btn" disabled={busy === row.id} onClick={() => openReveal(row)}>
+                {busy === row.id ? "Opening…" : "View analysis →"}
+              </button>
             </div>
-            <button className="ghost-btn full" disabled={busy === row.id} onClick={() => openReveal(row)}>Open full reveal</button>
           </article>
         ))}
         {!revealed.length && <p className="section-empty">No revealed results in this filter.</p>}

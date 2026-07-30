@@ -262,6 +262,17 @@ async def reveal_payload(
         key=lambda difference: abs(difference.difference_bps),
         reverse=True,
     )[:3]
+    analysis = settle_market(
+        simulate_crowd(
+            market.id,
+            [option.id for option in options],
+            market.simulation_weights_bps or [],
+        ),
+        option_ids=[option.id for option in options],
+        user_vote_option_id=prediction.vote_option_id,
+        user_forecast_bps=forecast_map,
+        user_stake_cents=prediction.stake_cents or 0,
+    )
     return RevealOut(
         prediction_id=prediction.id,
         market_id=market.id,
@@ -277,6 +288,12 @@ async def reveal_payload(
         accuracy_percentile=prediction.accuracy_percentile or 0,
         forecast_rank=prediction.forecast_rank or 0,
         total_participants=prediction.total_participants or 0,
+        crowd_median_accuracy_score=analysis.crowd_median_accuracy_score,
+        crowd_top_quartile_accuracy_score=analysis.crowd_top_quartile_accuracy_score,
+        crowd_top_ten_accuracy_score=analysis.crowd_top_ten_accuracy_score,
+        break_even_accuracy_score=analysis.break_even_accuracy_score,
+        accuracy_weighted_stake_cents=analysis.accuracy_weighted_stake_cents,
+        weighted_pool_share=analysis.weighted_pool_share,
         stake_cents=prediction.stake_cents or 0,
         user_fee_cents=prediction.user_fee_cents or 0,
         gross_pool_cents=prediction.gross_pool_cents or 0,

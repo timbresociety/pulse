@@ -235,6 +235,34 @@ def test_30_reveal_timing_formula_is_unchanged(monkeypatch):
     assert [reveal_seconds_for_index(index) for index in range(4)] == [30, 60, 90, 120]
 
 
+def test_31_settlement_exposes_field_benchmarks_and_payout_threshold():
+    simulation = crowd()
+    result = settle_market(
+        simulation,
+        option_ids=IDS,
+        user_vote_option_id=IDS[0],
+        user_forecast_bps={str(option_id): weight for option_id, weight in zip(IDS, WEIGHTS)},
+        user_stake_cents=50_000,
+    )
+
+    assert (
+        0
+        <= result.crowd_median_accuracy_score
+        <= result.crowd_top_quartile_accuracy_score
+        <= result.crowd_top_ten_accuracy_score
+        <= 100
+    )
+    assert math.isclose(
+        result.accuracy_weighted_stake_cents,
+        (50_000 - result.user_fee_cents) * result.accuracy_score / 100,
+    )
+    assert 0 < result.weighted_pool_share < 1
+    if result.pnl_cents >= 0:
+        assert result.accuracy_score >= result.break_even_accuracy_score - 0.01
+    else:
+        assert result.accuracy_score <= result.break_even_accuracy_score + 0.01
+
+
 def test_31_catalog_seed_keys_cannot_create_duplicates():
     keys = [market["key"] for market in MARKETS]
     assert len(keys) == len(set(keys))

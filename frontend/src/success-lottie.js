@@ -1,0 +1,171 @@
+const linearEase = { x: [0.333], y: [0.333] };
+
+export const successAnimation = {
+  v: "5.10.0",
+  fr: 60,
+  ip: 0,
+  op: 120,
+  w: 256,
+  h: 256,
+  nm: "Pulse stake confirmed",
+  ddd: 0,
+  assets: [],
+  layers: [
+    {
+      ddd: 0,
+      ind: 1,
+      ty: 4,
+      nm: "Success disc",
+      sr: 1,
+      ks: {
+        o: {
+          a: 1,
+          k: [
+            { t: 0, s: [0], e: [100], i: linearEase, o: linearEase },
+            { t: 12, s: [100] },
+          ],
+        },
+        r: { a: 0, k: 0 },
+        p: { a: 0, k: [128, 128, 0] },
+        a: { a: 0, k: [0, 0, 0] },
+        s: {
+          a: 1,
+          k: [
+            { t: 0, s: [18, 18, 100], e: [112, 112, 100], i: linearEase, o: linearEase },
+            { t: 15, s: [112, 112, 100], e: [100, 100, 100], i: linearEase, o: linearEase },
+            { t: 24, s: [100, 100, 100] },
+          ],
+        },
+      },
+      ao: 0,
+      shapes: [
+        {
+          ty: "el",
+          d: 1,
+          s: { a: 0, k: [142, 142] },
+          p: { a: 0, k: [0, 0] },
+          nm: "Circle",
+        },
+        {
+          ty: "fl",
+          c: { a: 0, k: [0.392, 0.953, 0.773, 1] },
+          o: { a: 0, k: 100 },
+          r: 1,
+          nm: "Mint fill",
+        },
+      ],
+      ip: 0,
+      op: 120,
+      st: 0,
+      bm: 0,
+    },
+    {
+      ddd: 0,
+      ind: 2,
+      ty: 4,
+      nm: "Check",
+      sr: 1,
+      ks: {
+        o: { a: 0, k: 100 },
+        r: { a: 0, k: 0 },
+        p: { a: 0, k: [0, 0, 0] },
+        a: { a: 0, k: [0, 0, 0] },
+        s: { a: 0, k: [100, 100, 100] },
+      },
+      ao: 0,
+      shapes: [
+        {
+          ty: "sh",
+          ks: {
+            a: 0,
+            k: {
+              i: [[0, 0], [0, 0], [0, 0]],
+              o: [[0, 0], [0, 0], [0, 0]],
+              v: [[70, 132], [108, 169], [187, 87]],
+              c: false,
+            },
+          },
+          nm: "Check path",
+        },
+        {
+          ty: "st",
+          c: { a: 0, k: [0.024, 0.125, 0.094, 1] },
+          o: { a: 0, k: 100 },
+          w: { a: 0, k: 16 },
+          lc: 2,
+          lj: 2,
+          ml: 4,
+          nm: "Check stroke",
+        },
+        {
+          ty: "tm",
+          s: { a: 0, k: 0 },
+          e: {
+            a: 1,
+            k: [
+              { t: 16, s: [0], e: [100], i: linearEase, o: linearEase },
+              { t: 38, s: [100] },
+            ],
+          },
+          o: { a: 0, k: 0 },
+          m: 1,
+          nm: "Draw check",
+        },
+      ],
+      ip: 0,
+      op: 120,
+      st: 0,
+      bm: 0,
+    },
+    {
+      ddd: 0,
+      ind: 3,
+      ty: 4,
+      nm: "Pulse ring",
+      sr: 1,
+      ks: {
+        o: {
+          a: 1,
+          k: [
+            { t: 20, s: [65], e: [0], i: linearEase, o: linearEase },
+            { t: 62, s: [0] },
+          ],
+        },
+        r: { a: 0, k: 0 },
+        p: { a: 0, k: [128, 128, 0] },
+        a: { a: 0, k: [0, 0, 0] },
+        s: {
+          a: 1,
+          k: [
+            { t: 20, s: [92, 92, 100], e: [158, 158, 100], i: linearEase, o: linearEase },
+            { t: 62, s: [158, 158, 100] },
+          ],
+        },
+      },
+      ao: 0,
+      shapes: [
+        {
+          ty: "el",
+          d: 1,
+          s: { a: 0, k: [156, 156] },
+          p: { a: 0, k: [0, 0] },
+          nm: "Ring",
+        },
+        {
+          ty: "st",
+          c: { a: 0, k: [0.392, 0.953, 0.773, 1] },
+          o: { a: 0, k: 100 },
+          w: { a: 0, k: 4 },
+          lc: 2,
+          lj: 2,
+          ml: 4,
+          nm: "Ring stroke",
+        },
+      ],
+      ip: 0,
+      op: 120,
+      st: 0,
+      bm: 0,
+    },
+  ],
+};

@@ -54,7 +54,6 @@ export function rebalanceAllocations(
 ) {
   if (!options.some((option) => option.id === targetId)) return allocations;
   const locked = new Set(lockedIds);
-  if (locked.has(targetId)) return allocations;
   if (options.length === 1) return { [targetId]: TOTAL_PERCENT * BPS_PER_PERCENT };
 
   const targetIndex = options.findIndex((option) => option.id === targetId);

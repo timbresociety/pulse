@@ -3,27 +3,27 @@ import { useNavigate } from "react-router-dom";
 
 const slides = [
   {
-    eyebrow: "Welcome to Pulse",
-    title: "A question. Your truth. The crowd.",
-    copy: "Pulse is a game about reading people. Every card starts with one simple question.",
+    eyebrow: "First, choose categories",
+    title: "Pick topics you know.",
+    copy: "Choose categories you understand, then enter a market when you have an opinion about the question.",
     visual: "card",
   },
   {
-    eyebrow: "First, vote",
-    title: "Say what’s true for you.",
-    copy: "Choose your honest answer before you see how anyone else voted.",
+    eyebrow: "Then, answer",
+    title: "Choose the answer that fits you best.",
+    copy: "Read the question and pick the option closest to your own answer.",
     visual: "vote",
   },
   {
-    eyebrow: "Then, read the room",
-    title: "Draw how the crowd will split.",
-    copy: "Pick the answer you think wins. Drag the graph from a close race to a runaway.",
+    eyebrow: "Next, guess the split",
+    title: "Guess how everyone else will vote.",
+    copy: "Set the percentage you expect for each answer. The bars always add up to 100%.",
     visual: "split",
   },
   {
-    eyebrow: "Finally, stake",
-    title: "Back your read with test credits.",
-    copy: "See the possible payout before you lock. More accurate crowd guesses earn more of the pool.",
+    eyebrow: "Finally, choose an amount",
+    title: "Use test credits and wait for the result.",
+    copy: "Choose an amount you are comfortable with. Then wait for the market to close. An accurate guess can win more test credits.",
     visual: "stake",
   },
 ];
@@ -45,17 +45,39 @@ function IntroVisual({ type }) {
   }
 
   if (type === "split") {
+    const split = [
+      { label: "A", percent: 18 },
+      { label: "B", percent: 46, active: true },
+      { label: "C", percent: 21, locked: true },
+      { label: "D", percent: 15 },
+    ];
+
     return (
       <div className="intro-demo intro-demo--split" aria-hidden="true">
         <small>Your crowd guess</small>
-        <div className="intro-mini-chart">
-          <span><b>18%</b><i style={{ "--intro-bar": "38%" }} /></span>
-          <span className="winner"><b>46%</b><i style={{ "--intro-bar": "88%" }} /></span>
-          <span><b>21%</b><i style={{ "--intro-bar": "44%" }} /></span>
-          <span><b>15%</b><i style={{ "--intro-bar": "30%" }} /></span>
+        <div className="intro-split-chart">
+          {split.map((option) => (
+            <div
+              key={option.label}
+              className={`intro-split-column${option.active ? " active" : ""}${option.locked ? " locked" : ""}`}
+            >
+              <span className="intro-split-plot" style={{ "--intro-bar": `${option.percent}%` }}>
+                <strong>{option.percent}%</strong>
+                <i />
+              </span>
+              <span className="intro-split-label">{option.label}</span>
+              <span className="intro-split-lock"><i /></span>
+            </div>
+          ))}
         </div>
-        <div className="intro-mini-range"><i /><b /></div>
-        <div className="intro-mini-labels"><span>Close</span><span>Runaway</span></div>
+        <div className="intro-split-status">
+          <i>↕</i>
+          <span>
+            <b>Drag any bar</b>
+            <small>The others rebalance to total 100%</small>
+          </span>
+          <strong>Auto-balanced</strong>
+        </div>
       </div>
     );
   }
@@ -66,9 +88,16 @@ function IntroVisual({ type }) {
         <small>Your stake</small>
         <div className="intro-mini-input"><b>$</b><strong>25</strong><span>credits</span></div>
         <div className="intro-mini-payout">
-          <span><small>Maximum possible payout</small><b>$1.2K</b></span>
+          <div className="intro-mini-payout-title">
+            <span>Maximum possible payout</span>
+            <small>Test credits</small>
+          </div>
+          <div className="intro-mini-payout-value">
+            <b>$1.2K</b>
+            <small>Available pool ceiling</small>
+          </div>
         </div>
-        <strong>See the upside before you lock</strong>
+        <strong>Review the payout before you confirm</strong>
       </div>
     );
   }
@@ -149,7 +178,7 @@ export default function Onboarding({ onComplete }) {
             className="primary-btn"
             onClick={() => (last ? finish() : setIndex(index + 1))}
           >
-            {last ? "Choose my channels →" : "Next →"}
+            {last ? "Choose my categories →" : "Next →"}
           </button>
         </div>
         <small>Test credits only · No real money</small>

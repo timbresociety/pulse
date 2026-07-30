@@ -114,15 +114,26 @@ test("locked allocations cap the available range of an unlocked bar", () => {
   });
 });
 
-test("a locked target ignores adjustment attempts", () => {
+test("a locked target can be moved directly while other locked bars stay fixed", () => {
   const initial = {
-    "option-1": 6000,
-    "option-2": 4000,
+    "option-1": 5000,
+    "option-2": 3000,
+    "option-3": 2000,
   };
 
-  assert.equal(
-    rebalanceAllocations(options.slice(0, 2), initial, "option-1", 20, ["option-1"]),
-    initial,
+  assert.deepEqual(
+    rebalanceAllocations(
+      options.slice(0, 3),
+      initial,
+      "option-1",
+      40,
+      ["option-1", "option-2"],
+    ),
+    {
+      "option-1": 4000,
+      "option-2": 3000,
+      "option-3": 3000,
+    },
   );
 });
 
