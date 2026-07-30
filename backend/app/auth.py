@@ -9,6 +9,7 @@ from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from jose import JWTError, jwt
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.orm import noload, selectinload
 
 from app.config import settings
 from app.database import get_db
@@ -36,22 +37,52 @@ def create_session_token(user_id: uuid.UUID) -> str:
     return jwt.encode(payload, settings.jwt_secret, algorithm=settings.jwt_algorithm)
 
 
-async def get_current_user(
-    creds: HTTPAuthorizationCredentials | None = Depends(bearer_scheme),
-    db: AsyncSession = Depends(get_db),
-) -> User:
+def _current_user_id(creds: HTTPAuthorizationCredentials | None) -> uuid.UUID:
     if creds is None:
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Missing auth token")
     try:
         payload = jwt.decode(creds.credentials, settings.jwt_secret, algorithms=[settings.jwt_algorithm])
-        user_id = uuid.UUID(payload["sub"])
+        return uuid.UUID(payload["sub"])
     except (JWTError, KeyError, ValueError):
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "Invalid auth token")
 
-    user = await db.get(User, user_id)
+
+def get_current_user_id(
+    creds: HTTPAuthorizationCredentials | None = Depends(bearer_scheme),
+) -> uuid.UUID:
+    """Authenticate a token when the route's own locked query loads the user."""
+    return _current_user_id(creds)
+
+
+async def _current_user(
+    creds: HTTPAuthorizationCredentials | None,
+    db: AsyncSession,
+    *,
+    with_categories: bool,
+) -> User:
+    category_loading = selectinload(User.categories) if with_categories else noload(User.categories)
+    user = await db.scalar(
+        select(User)
+        .where(User.id == _current_user_id(creds))
+        .options(category_loading)
+    )
     if user is None:
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "User not found")
     return user
+
+
+async def get_current_user(
+    creds: HTTPAuthorizationCredentials | None = Depends(bearer_scheme),
+    db: AsyncSession = Depends(get_db),
+) -> User:
+    return await _current_user(creds, db, with_categories=False)
+
+
+async def get_current_user_with_categories(
+    creds: HTTPAuthorizationCredentials | None = Depends(bearer_scheme),
+    db: AsyncSession = Depends(get_db),
+) -> User:
+    return await _current_user(creds, db, with_categories=True)
 
 
 async def upsert_user(

@@ -47,6 +47,13 @@ class CrowdSimulation:
     def pool_volume_cents(self) -> int:
         return sum(participant.stake_cents for participant in self.participants)
 
+    @property
+    def net_pool_volume_cents(self) -> int:
+        return sum(
+            participant.stake_cents - platform_fee_cents(participant.stake_cents)
+            for participant in self.participants
+        )
+
 
 @dataclass(frozen=True)
 class SettlementResult:

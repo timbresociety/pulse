@@ -66,11 +66,9 @@ function IntroVisual({ type }) {
         <small>Your stake</small>
         <div className="intro-mini-input"><b>$</b><strong>25</strong><span>credits</span></div>
         <div className="intro-mini-payout">
-          <span><small>Minimum</small><b>$0</b></span>
-          <i>→</i>
-          <span><small>Maximum</small><b>$1.2k</b></span>
+          <span><small>Maximum possible payout</small><b>$1.2K</b></span>
         </div>
-        <strong>Know the range before you lock</strong>
+        <strong>See the upside before you lock</strong>
       </div>
     );
   }

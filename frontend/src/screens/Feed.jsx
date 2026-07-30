@@ -1,6 +1,8 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { api } from "../api";
 import { useAuth } from "../auth.jsx";
+import { equalAllocations, rebalanceAllocations } from "../forecast.js";
+import { formatPayout, maximumPayoutCents, platformFeeCents } from "../payout.js";
 
 function money(cents = 0) {
   return new Intl.NumberFormat("en-US", {
@@ -30,34 +32,6 @@ function duration(seconds = 0) {
   return `${minutes}:${String(rest).padStart(2, "0")}`;
 }
 
-function equalAllocations(options) {
-  if (!options.length) return {};
-  const base = Math.floor(10000 / options.length);
-  let remaining = 10000 - base * options.length;
-  return Object.fromEntries(options.map((option) => {
-    const value = base + (remaining > 0 ? 1 : 0);
-    remaining -= remaining > 0 ? 1 : 0;
-    return [option.id, value];
-  }));
-}
-
-function splitAllocations(options, leaderId, leaderPercent) {
-  if (!options.length) return {};
-  if (!leaderId) return equalAllocations(options);
-
-  const leaderBps = Math.round(leaderPercent * 100);
-  const others = options.filter((option) => option.id !== leaderId);
-  const base = Math.floor((10000 - leaderBps) / Math.max(1, others.length));
-  let remainder = 10000 - leaderBps - (base * others.length);
-
-  return Object.fromEntries(options.map((option) => {
-    if (option.id === leaderId) return [option.id, leaderBps];
-    const value = base + (remainder > 0 ? 1 : 0);
-    remainder -= remainder > 0 ? 1 : 0;
-    return [option.id, value];
-  }));
-}
-
 function categoryColor(slug = "") {
   const colors = {
     internet: "#64f3c5",
@@ -76,17 +50,6 @@ function categoryColor(slug = "") {
   return colors[slug] || "#64f3c5";
 }
 
-function feeFor(stakeCents) {
-  return Math.floor((stakeCents * 200 + 5000) / 10000);
-}
-
-function splitTone(share, minimum) {
-  if (share <= minimum + 4) return "Neck and neck";
-  if (share <= 42) return "Slight edge";
-  if (share <= 58) return "Clear lead";
-  return "Runaway";
-}
-
 export default function Feed() {
   const { user, setUser } = useAuth();
   const [markets, setMarkets] = useState([]);
@@ -97,32 +60,44 @@ export default function Feed() {
   const [error, setError] = useState("");
   const [voteId, setVoteId] = useState("");
   const [forecast, setForecast] = useState({});
-  const [crowdLeaderId, setCrowdLeaderId] = useState("");
-  const [leaderShare, setLeaderShare] = useState(38);
+  const [activeSplitId, setActiveSplitId] = useState("");
+  const [draggingSplitId, setDraggingSplitId] = useState("");
+  const [lockedSplitIds, setLockedSplitIds] = useState([]);
+  const draggingSplitRef = useRef("");
   const [splitConfirmed, setSplitConfirmed] = useState(false);
   const [stake, setStake] = useState("");
   const [submitting, setSubmitting] = useState(false);
-  const [receipt, setReceipt] = useState(null);
 
   const market = markets[index];
   const nextMarket = markets[index + 1];
-  const minimumLeaderShare = market ? Math.ceil(100 / market.options.length) : 25;
   const forecastTotal = useMemo(
     () => Object.values(forecast).reduce((sum, value) => sum + (Number(value) || 0), 0),
     [forecast],
   );
+  const leadingOptions = useMemo(() => {
+    if (!market?.options.length) return [];
+    const highest = Math.max(...market.options.map((option) => Number(forecast[option.id]) || 0));
+    return market.options.filter((option) => (Number(forecast[option.id]) || 0) === highest);
+  }, [forecast, market]);
+  const leadingShare = leadingOptions.length ? (forecast[leadingOptions[0].id] || 0) / 100 : 0;
+  const leadingSummary = leadingOptions.length > 1
+    ? `${leadingOptions.length}-way tie · ${leadingShare}%`
+    : `${leadingOptions[0]?.label || "—"} · ${leadingShare}%`;
   const stakeCents = Math.max(0, Math.round((Number(stake) || 0) * 100));
   const validForecast = Boolean(
     market
-      && crowdLeaderId
       && Object.keys(forecast).length === market.options.length
       && forecastTotal === 10000,
   );
   const canSubmit = Boolean(
     voteId && validForecast && splitConfirmed && stakeCents > 0 && stakeCents <= user.balance_cents,
   );
-  const payoutCeiling = market && stakeCents
-    ? Math.max(0, Math.round((market.pool_volume_cents + stakeCents) * 0.98))
+  const maximumPayout = market && stakeCents
+    ? maximumPayoutCents({
+      poolVolumeCents: market.pool_volume_cents,
+      netPoolVolumeCents: market.net_pool_volume_cents,
+      stakeCents,
+    })
     : 0;
   const activeColor = categoryColor(market?.category?.slug);
 
@@ -134,7 +109,6 @@ export default function Feed() {
       setMarkets(data);
       setIndex(0);
       setView("deck");
-      setReceipt(null);
     } catch (event) {
       setError(event.message || "Could not load Pulse markets.");
     } finally {
@@ -149,8 +123,10 @@ export default function Feed() {
   function resetParticipation(next = market) {
     setVoteId("");
     setForecast(next ? equalAllocations(next.options) : {});
-    setCrowdLeaderId("");
-    setLeaderShare(next ? Math.max(32, Math.ceil(100 / next.options.length) + 10) : 38);
+    setActiveSplitId("");
+    setDraggingSplitId("");
+    setLockedSplitIds([]);
+    draggingSplitRef.current = "";
     setSplitConfirmed(false);
     setStake("");
     setActiveStep(1);
@@ -163,7 +139,6 @@ export default function Feed() {
   }, [market?.id]);
 
   async function advance() {
-    setReceipt(null);
     setView("deck");
     if (index + 1 < markets.length) {
       setIndex((current) => current + 1);
@@ -186,27 +161,85 @@ export default function Feed() {
   function chooseVote(optionId) {
     setVoteId(optionId);
     setSplitConfirmed(false);
-    if (!crowdLeaderId) {
-      const initialShare = Math.max(32, minimumLeaderShare + 10);
-      setCrowdLeaderId(optionId);
-      setLeaderShare(initialShare);
-      setForecast(splitAllocations(market.options, optionId, initialShare));
+  }
+
+  function changeSplitOption(optionId, nextPercent) {
+    if (lockedSplitIds.includes(optionId)) return;
+    setActiveSplitId(optionId);
+    setForecast((current) => rebalanceAllocations(
+      market.options,
+      current,
+      optionId,
+      nextPercent,
+      lockedSplitIds,
+    ));
+    setSplitConfirmed(false);
+  }
+
+  function toggleSplitLock(optionId) {
+    if (draggingSplitRef.current === optionId) clearSplitDrag();
+    setActiveSplitId(optionId);
+    setLockedSplitIds((current) => (
+      current.includes(optionId)
+        ? current.filter((id) => id !== optionId)
+        : [...current, optionId]
+    ));
+  }
+
+  function splitPercentFromPointer(event) {
+    const plot = event.currentTarget.querySelector(".split-bar__plot");
+    if (!plot) return 0;
+    const bounds = plot.getBoundingClientRect();
+    const position = (bounds.bottom - event.clientY) / Math.max(1, bounds.height);
+    return Math.round(Math.min(1, Math.max(0, position)) * 100);
+  }
+
+  function beginSplitDrag(event, optionId) {
+    if (lockedSplitIds.includes(optionId)) return;
+    event.preventDefault();
+    event.currentTarget.setPointerCapture(event.pointerId);
+    draggingSplitRef.current = optionId;
+    setDraggingSplitId(optionId);
+    changeSplitOption(optionId, splitPercentFromPointer(event));
+  }
+
+  function moveSplitDrag(event, optionId) {
+    if (draggingSplitRef.current !== optionId) return;
+    event.preventDefault();
+    changeSplitOption(optionId, splitPercentFromPointer(event));
+  }
+
+  function clearSplitDrag() {
+    draggingSplitRef.current = "";
+    setDraggingSplitId("");
+  }
+
+  function endSplitDrag(event, optionId) {
+    if (draggingSplitRef.current === optionId) {
+      changeSplitOption(optionId, splitPercentFromPointer(event));
     }
+    draggingSplitRef.current = "";
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
+    }
+    setDraggingSplitId("");
   }
 
-  function chooseCrowdLeader(optionId) {
-    setCrowdLeaderId(optionId);
-    setForecast(splitAllocations(market.options, optionId, leaderShare));
-    setSplitConfirmed(false);
-  }
-
-  function changeLeaderShare(value) {
-    const share = Number(value);
-    setLeaderShare(share);
-    const leaderId = crowdLeaderId || voteId || market.options[0]?.id;
-    setCrowdLeaderId(leaderId);
-    setForecast(splitAllocations(market.options, leaderId, share));
-    setSplitConfirmed(false);
+  function changeSplitWithKeyboard(event, optionId, currentPercent) {
+    if (lockedSplitIds.includes(optionId)) return;
+    const changes = {
+      ArrowUp: currentPercent + 1,
+      ArrowRight: currentPercent + 1,
+      ArrowDown: currentPercent - 1,
+      ArrowLeft: currentPercent - 1,
+      PageUp: currentPercent + 5,
+      PageDown: currentPercent - 5,
+      Home: 0,
+      End: 100,
+    };
+    if (!(event.key in changes)) return;
+    event.preventDefault();
+    changeSplitOption(optionId, changes[event.key]);
   }
 
   function goToStep(step) {
@@ -229,13 +262,8 @@ export default function Feed() {
     setError("");
     try {
       const ticket = await api.lock(market.id, voteId, forecast, stakeCents);
-      setUser({ ...user, balance_cents: ticket.new_balance_cents });
-      setReceipt({
-        question: market.question,
-        vote: market.options.find((option) => option.id === voteId)?.label,
-        stake: ticket.stake_cents,
-        delay: ticket.reveal_seconds,
-      });
+      setUser((current) => ({ ...current, balance_cents: ticket.new_balance_cents }));
+      await advance();
     } catch (event) {
       setError(event.message || "Could not lock this participation.");
     } finally {
@@ -324,7 +352,7 @@ export default function Feed() {
         </section>
       )}
 
-      {market && view === "market" && !receipt && (
+      {market && view === "market" && (
         <article className="play-market" style={{ "--market-accent": activeColor }}>
           <header className="play-market__topline">
             <button className="market-back" onClick={() => setView("deck")}>← Deck</button>
@@ -398,56 +426,89 @@ export default function Feed() {
               <div className="market-step__heading">
                 <span>Step 2 of 3</span>
                 <h2>How will the crowd split?</h2>
-                <p>Tap the bar you think wins, then drag to show how far ahead it lands.</p>
+                <p>Drag any bar up or down. Lock values you want to hold while the rest rebalance.</p>
               </div>
 
               <div
                 className="split-chart"
                 style={{ "--option-count": market.options.length }}
-                role="radiogroup"
                 aria-label="Predicted crowd split"
               >
                 {market.options.map((option) => {
                   const percent = (forecast[option.id] || 0) / 100;
-                  const selected = crowdLeaderId === option.id;
+                  const active = activeSplitId === option.id;
+                  const dragging = draggingSplitId === option.id;
+                  const locked = lockedSplitIds.includes(option.id);
+                  const lockedOtherTotal = market.options.reduce((sum, candidate) => (
+                    candidate.id !== option.id && lockedSplitIds.includes(candidate.id)
+                      ? sum + ((forecast[candidate.id] || 0) / 100)
+                      : sum
+                  ), 0);
                   return (
-                    <button
+                    <div
                       key={option.id}
-                      className={selected ? "selected" : ""}
-                      onClick={() => chooseCrowdLeader(option.id)}
-                      role="radio"
-                      aria-checked={selected}
-                      aria-label={`${option.label}, ${Math.round(percent)} percent${selected ? ", predicted winner" : ""}`}
-                      title={option.label}
+                      className={`split-column ${locked ? "is-locked" : ""}`}
                     >
-                      <strong>{Math.round(percent)}%</strong>
-                      <i style={{ "--bar-height": `${Math.max(7, percent)}%` }} />
-                      <span>{option.label}</span>
-                    </button>
+                      <button
+                        type="button"
+                        className={`split-bar ${active ? "active" : ""} ${dragging ? "is-dragging" : ""}`}
+                        onPointerDown={(event) => beginSplitDrag(event, option.id)}
+                        onPointerMove={(event) => moveSplitDrag(event, option.id)}
+                        onPointerUp={(event) => endSplitDrag(event, option.id)}
+                        onPointerCancel={clearSplitDrag}
+                        onLostPointerCapture={clearSplitDrag}
+                        onKeyDown={(event) => changeSplitWithKeyboard(event, option.id, percent)}
+                        role="slider"
+                        aria-disabled={locked}
+                        aria-valuemin={locked ? percent : 0}
+                        aria-valuemax={locked ? percent : 100 - lockedOtherTotal}
+                        aria-valuenow={percent}
+                        aria-valuetext={`${percent} percent${locked ? ", locked" : "; remaining unlocked percentage automatically balanced"}`}
+                        aria-label={`${option.label} predicted share`}
+                        title={locked ? `${option.label} is locked` : option.label}
+                      >
+                        <span className="split-bar__plot" style={{ "--bar-height": `${percent}%` }}>
+                          <strong>{percent}%</strong>
+                          <i><b /></i>
+                        </span>
+                        <span className="split-bar__label">{option.label}</span>
+                      </button>
+                      <button
+                        type="button"
+                        className="split-bar__lock"
+                        aria-pressed={locked}
+                        aria-label={`${locked ? "Unlock" : "Lock"} ${option.label} at ${percent} percent`}
+                        title={`${locked ? "Unlock" : "Lock"} ${option.label}`}
+                        onClick={() => toggleSplitLock(option.id)}
+                      >
+                        <i aria-hidden="true" />
+                        <span>{locked ? "Unlock" : "Lock"}</span>
+                      </button>
+                    </div>
                   );
                 })}
               </div>
 
-              <div className="split-control">
+              <div className="split-auto-balance">
                 <div>
-                  <span>Winning share</span>
-                  <strong>{splitTone(leaderShare, minimumLeaderShare)} · {leaderShare}%</strong>
+                  <span aria-hidden="true">↕</span>
+                  <p>
+                    <strong>{activeSplitId
+                      ? `${market.options.find((option) => option.id === activeSplitId)?.label}: ${forecast[activeSplitId] / 100}%${lockedSplitIds.includes(activeSplitId) ? " · Locked" : ""}`
+                      : "Drag a bar to shape your forecast"}
+                    </strong>
+                    <small>{lockedSplitIds.includes(activeSplitId)
+                      ? "This value stays fixed until you unlock it."
+                      : lockedSplitIds.length
+                        ? "Only unlocked bars share the remaining percentage."
+                        : "Lock any value you want to keep fixed."}
+                    </small>
+                  </p>
                 </div>
-                <input
-                  type="range"
-                  min={minimumLeaderShare}
-                  max="75"
-                  step="1"
-                  value={leaderShare}
-                  onChange={(event) => changeLeaderShare(event.target.value)}
-                  aria-label="Predicted winning share"
-                />
-                <div className="split-control__labels"><span>Close race</span><span>Runaway</span></div>
-              </div>
-
-              <div className="split-readout">
-                <span>Your split totals</span>
-                <strong>{Math.round(forecastTotal / 100)}%</strong>
+                <b className={lockedSplitIds.length ? "has-locks" : ""}>{lockedSplitIds.length
+                  ? `${lockedSplitIds.length} locked`
+                  : "Auto-balanced"}
+                </b>
               </div>
 
               <div className="market-step__actions market-step__actions--split">
@@ -501,32 +562,25 @@ export default function Feed() {
 
               <section className={`payout-preview ${stakeCents ? "has-stake" : ""}`}>
                 <div className="payout-preview__title">
-                  <span>Possible payout</span>
+                  <span>Maximum possible payout</span>
                   <small>Test credits</small>
                 </div>
-                <div className="payout-range">
-                  <div>
-                    <span>Minimum</span>
-                    <strong>{money(0)}</strong>
-                    <small>If your split misses</small>
-                  </div>
-                  <i aria-hidden="true"><b /></i>
-                  <div>
-                    <span>Maximum</span>
-                    <strong>{stakeCents ? money(payoutCeiling) : "—"}</strong>
-                    <small>Available pool ceiling</small>
-                  </div>
+                <div className="payout-maximum">
+                  <strong title={stakeCents ? money(Math.floor(maximumPayout)) : undefined}>
+                    {stakeCents ? formatPayout(maximumPayout) : "—"}
+                  </strong>
+                  <small>Available pool ceiling</small>
                 </div>
                 <p>
                   {stakeCents
-                    ? `${money(feeFor(stakeCents))} fee · ${money(user.balance_cents - stakeCents)} left after locking.`
-                    : "Enter a stake to see the payout range."}
+                    ? `${money(platformFeeCents(stakeCents))} fee · ${money(user.balance_cents - stakeCents)} left after locking.`
+                    : "Enter a stake to see the maximum possible payout."}
                 </p>
               </section>
 
               <div className="lock-recap">
                 <div><span>Your vote</span><strong>{market.options.find((option) => option.id === voteId)?.label}</strong></div>
-                <div><span>Crowd winner</span><strong>{market.options.find((option) => option.id === crowdLeaderId)?.label} · {leaderShare}%</strong></div>
+                <div><span>Top crowd pick</span><strong>{leadingSummary}</strong></div>
               </div>
 
               {stakeCents > user.balance_cents && (
@@ -553,20 +607,6 @@ export default function Feed() {
         </article>
       )}
 
-      {receipt && (
-        <section className="lock-receipt market-lock-receipt">
-          <span className="receipt-check">✓</span>
-          <div className="label">Market locked</div>
-          <h1>Your read is in.</h1>
-          <p>{receipt.question}</p>
-          <div className="receipt-grid">
-            <div><span>Your vote</span><strong>{receipt.vote}</strong></div>
-            <div><span>Stake</span><strong>{money(receipt.stake)}</strong></div>
-            <div><span>Reveal in</span><strong>{duration(receipt.delay)}</strong></div>
-          </div>
-          <button className="primary-btn full" onClick={advance}>Back to the deck →</button>
-        </section>
-      )}
     </main>
   );
 }

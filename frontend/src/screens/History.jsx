@@ -44,7 +44,7 @@ function Section({ title, count, children }) {
 }
 
 export default function History() {
-  const { user, setUser } = useAuth();
+  const { setUser } = useAuth();
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(true);
   const [modal, setModal] = useState(null);
@@ -91,8 +91,28 @@ export default function History() {
     try {
       const data = await api.reveal(row.id);
       setModal(data);
-      setUser({ ...user, balance_cents: data.new_balance_cents, pulse_score: data.new_pulse_score });
-      await load();
+      setUser((current) => ({
+        ...current,
+        balance_cents: data.new_balance_cents,
+        pulse_score: data.new_pulse_score,
+      }));
+      setRows((current) => current.map((item) => (
+        item.id === row.id
+          ? {
+            ...item,
+            status: "revealed",
+            actual_distribution: data.actual_distribution,
+            accuracy_score: data.accuracy_score,
+            accuracy_percentile: data.accuracy_percentile,
+            forecast_rank: data.forecast_rank,
+            total_participants: data.total_participants,
+            payout_cents: data.payout_cents,
+            pnl_cents: data.pnl_cents,
+            pulse_delta: data.pulse_delta,
+            revealed_at: data.revealed_at,
+          }
+          : item
+      )));
     } catch (event) {
       setError(event.message || "This participation is not ready yet.");
     } finally {

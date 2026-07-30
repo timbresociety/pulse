@@ -30,8 +30,11 @@ export default function Wallet() {
     setError("");
     try {
       const updated = await api.addTestCredits();
-      setUser({ ...user, balance_cents: updated.balance_cents });
-      await load();
+      setUser((current) => ({ ...current, balance_cents: updated.balance_cents }));
+      setWallet((current) => current
+        ? { ...current, available_balance_cents: updated.balance_cents }
+        : current);
+      void load();
     } catch (event) {
       setError(event.message || "Test credits are available only in debug mode.");
     } finally {

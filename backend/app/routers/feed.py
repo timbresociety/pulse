@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends, Query
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.auth import get_current_user
+from app.auth import get_current_user, get_current_user_with_categories
 from app.config import settings
 from app.database import get_db
 from app.game import (
@@ -23,7 +23,7 @@ router = APIRouter(tags=["feed"])
 @router.get("/feed", response_model=list[MarketOut], response_model_exclude_none=True)
 async def feed(
     limit: int = Query(20, ge=1, le=50),
-    user: User = Depends(get_current_user),
+    user: User = Depends(get_current_user_with_categories),
     db: AsyncSession = Depends(get_db),
 ):
     chosen_ids = [category.id for category in user.categories if category.is_active]
@@ -72,6 +72,7 @@ async def feed(
                 options=option_output,
                 participant_count=crowd.participant_count,
                 pool_volume_cents=crowd.pool_volume_cents,
+                net_pool_volume_cents=crowd.net_pool_volume_cents,
                 reveal_seconds=reveal_seconds,
                 avatars=market_avatar_names(market.id),
                 simulation_seed=crowd.seed if settings.debug else None,

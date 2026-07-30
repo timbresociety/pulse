@@ -5,7 +5,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy import delete, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.auth import get_current_user
+from app.auth import get_current_user, get_current_user_with_categories
 from app.config import settings
 from app.database import get_db
 from app.models import BalanceTransaction, Prediction, User
@@ -22,7 +22,7 @@ def _require_debug() -> None:
 
 @router.post("/credits", response_model=UserOut)
 async def add_test_credits(
-    user: User = Depends(get_current_user),
+    user: User = Depends(get_current_user_with_categories),
     db: AsyncSession = Depends(get_db),
 ):
     _require_debug()
@@ -40,7 +40,6 @@ async def add_test_credits(
         )
     )
     await db.commit()
-    await db.refresh(locked_user)
     return locked_user
 
 

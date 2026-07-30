@@ -9909,12 +9909,11 @@ h3 {
 }
 
 .split-chart {
-  height: 224px;
+  height: 274px;
   display: grid;
   grid-template-columns: repeat(var(--option-count), minmax(0, 1fr));
   gap: clamp(3px, 1.5vw, 7px);
-  align-items: end;
-  padding: 12px 8px 9px;
+  padding: 12px 8px 10px;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 17px;
@@ -9923,42 +9922,83 @@ h3 {
     #070c11;
 }
 
-.split-chart button {
+.split-column {
   height: 100%;
   min-width: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-end;
-  gap: 5px;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) 22px;
+  gap: 4px;
+}
+
+.split-bar {
+  height: auto;
+  min-width: 0;
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) 25px;
+  gap: 6px;
   padding: 0;
   border: 0;
   color: #8d9aa4;
   background: transparent;
+  cursor: ns-resize;
+  touch-action: none;
+  user-select: none;
 }
 
-.split-chart button strong {
-  min-width: 0;
+.split-column.is-locked .split-bar {
+  cursor: not-allowed;
+}
+
+.split-bar__plot {
+  position: relative;
+  min-height: 0;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+}
+
+.split-bar__plot > strong {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  bottom: clamp(9px, calc(var(--bar-height) + 6px), calc(100% - 16px));
+  transform: translateX(-50%);
   color: #d9e2e0;
   font-size: clamp(9px, 2.8vw, 13px);
   font-variant-numeric: tabular-nums;
-  text-align: center;
+  white-space: nowrap;
+  pointer-events: none;
 }
 
-.split-chart button > i {
+.split-bar__plot > i {
+  position: relative;
   width: 100%;
-  height: var(--bar-height);
-  min-height: 14px;
+  height: max(4px, var(--bar-height));
   display: block;
   border: 1px solid rgba(255, 255, 255, .08);
   border-radius: 7px 7px 3px 3px;
   background: linear-gradient(180deg, #425360, #23313b);
-  transition: height 240ms cubic-bezier(.2, .8, .2, 1), background 150ms ease;
+  transition: height 100ms cubic-bezier(.2, .8, .2, 1), background 150ms ease;
+  pointer-events: none;
 }
 
-.split-chart button > span {
+.split-bar__plot > i::before {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  top: -4px;
+  left: 50%;
+  width: min(25px, 70%);
+  height: 8px;
+  transform: translateX(-50%);
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-radius: 99px;
+  background: #7b8993;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .28);
+}
+
+.split-bar__label {
   min-width: 0;
-  min-height: 24px;
   display: -webkit-box;
   overflow: hidden;
   font-size: clamp(7px, 2.2vw, 9px);
@@ -9969,74 +10009,181 @@ h3 {
   -webkit-line-clamp: 2;
 }
 
-.split-chart button.selected {
-  color: var(--market-accent);
+.split-bar.active {
+  color: var(--gold);
 }
 
-.split-chart button.selected > i {
-  border-color: color-mix(in srgb, var(--market-accent) 78%, white 4%);
+.split-bar.active .split-bar__plot > strong {
+  color: var(--gold);
+}
+
+.split-bar.active .split-bar__plot > i {
+  border-color: color-mix(in srgb, var(--gold) 78%, white 4%);
   background:
-    linear-gradient(180deg, color-mix(in srgb, var(--market-accent) 88%, white 5%), color-mix(in srgb, var(--market-accent) 40%, #11241e));
-  box-shadow: 0 0 24px color-mix(in srgb, var(--market-accent) 16%, transparent);
+    linear-gradient(180deg, color-mix(in srgb, var(--gold) 88%, white 5%), color-mix(in srgb, var(--gold) 40%, #2a2312));
+  box-shadow: 0 0 24px color-mix(in srgb, var(--gold) 16%, transparent);
 }
 
-.split-control {
+.split-bar.active .split-bar__plot > i::before {
+  border-color: color-mix(in srgb, var(--gold) 70%, white);
+  background: var(--gold);
+}
+
+.split-bar:focus-visible .split-bar__plot {
+  border-radius: 9px;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--gold) 30%, transparent);
+}
+
+.split-bar.is-dragging .split-bar__plot > i {
+  transition: background 150ms ease;
+}
+
+.split-column.is-locked .split-bar__plot > strong {
+  color: var(--good);
+}
+
+.split-column.is-locked .split-bar__plot > i {
+  border-color: color-mix(in srgb, var(--good) 62%, #303b45);
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--good) 62%, #425360), #263d35);
+}
+
+.split-column.is-locked .split-bar__plot > i::before {
+  border-color: color-mix(in srgb, var(--good) 70%, white);
+  background: var(--good);
+}
+
+.split-column.is-locked .split-bar {
+  color: var(--good);
+}
+
+.split-bar__lock {
+  position: relative;
+  width: min(28px, 88%);
+  height: 22px;
+  min-width: 0;
+  display: grid;
+  place-items: center;
+  justify-self: center;
+  padding: 0;
+  border: 1px solid #2b3741;
+  border-radius: 7px;
+  color: #73808a;
+  background: #111920;
+}
+
+.split-bar__lock > i {
+  position: relative;
+  width: 9px;
+  height: 7px;
+  margin-top: 3px;
+  border: 1.5px solid currentColor;
+  border-radius: 2px;
+}
+
+.split-bar__lock > i::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  width: 5px;
+  height: 6px;
+  transform: translateX(-50%);
+  border: 1.5px solid currentColor;
+  border-bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+
+.split-bar__lock > span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.split-bar__lock[aria-pressed="true"] {
+  border-color: color-mix(in srgb, var(--good) 62%, #3b4650);
+  color: var(--good);
+  background: color-mix(in srgb, var(--good) 10%, #111920);
+}
+
+.split-bar__lock:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.split-auto-balance {
+  min-height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
   margin-top: 10px;
-  padding: 12px;
+  padding: 10px 12px;
   border: 1px solid var(--line);
   border-radius: 14px;
   background: rgba(255, 255, 255, .025);
 }
 
-.split-control > div:first-child {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-}
-
-.split-control > div:first-child span {
-  color: var(--muted);
-  font-size: 9px;
-  font-weight: 800;
-}
-
-.split-control > div:first-child strong {
-  color: var(--market-accent);
-  font-size: 11px;
-}
-
-.split-control input {
-  width: 100%;
-  height: 30px;
-  margin: 6px 0 0;
-  accent-color: var(--market-accent);
-}
-
-.split-control__labels {
-  display: flex;
-  justify-content: space-between;
-  color: #65737e;
-  font-size: 8px;
-  font-weight: 800;
-}
-
-.split-readout {
+.split-auto-balance > div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 8px;
-  padding: 9px 11px;
-  border-radius: 11px;
-  color: var(--muted);
-  background: color-mix(in srgb, var(--market-accent) 6%, transparent);
-  font-size: 9px;
-  font-weight: 800;
+  gap: 9px;
+  min-width: 0;
 }
 
-.split-readout strong {
+.split-auto-balance > div > span {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  color: #061b15;
+  background: var(--market-accent);
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.split-auto-balance p {
+  min-width: 0;
+  line-height: 1.2;
+}
+
+.split-auto-balance p strong,
+.split-auto-balance p small {
+  display: block;
+}
+
+.split-auto-balance p strong {
+  overflow: hidden;
+  color: var(--text);
+  font-size: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.split-auto-balance p small {
+  margin-top: 3px;
+  color: var(--muted);
+  font-size: 8px;
+}
+
+.split-auto-balance > b {
+  flex: 0 0 auto;
+  padding: 5px 7px;
+  border-radius: 99px;
   color: var(--market-accent);
-  font-size: 12px;
+  background: color-mix(in srgb, var(--market-accent) 9%, transparent);
+  font-size: 8px;
+  white-space: nowrap;
+}
+
+.split-auto-balance > b.has-locks {
+  color: var(--good);
+  background: color-mix(in srgb, var(--good) 9%, transparent);
 }
 
 .stake-balance {
@@ -10134,78 +10281,35 @@ h3 {
   text-transform: uppercase;
 }
 
-.payout-range {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 42px minmax(0, 1fr);
-  align-items: center;
-  gap: 7px;
+.payout-maximum {
   margin-top: 11px;
-}
-
-.payout-range > div {
-  min-width: 0;
-  padding: 10px;
+  padding: 14px 12px;
   border-radius: 12px;
+  text-align: center;
   background: rgba(4, 8, 12, .36);
 }
 
-.payout-range span,
-.payout-range strong,
-.payout-range small {
+.payout-maximum strong,
+.payout-maximum small {
   display: block;
 }
 
-.payout-range span {
-  color: var(--muted);
-  font-size: 8px;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.payout-range strong {
-  margin-top: 3px;
-  overflow: hidden;
-  color: var(--text);
-  font-size: clamp(15px, 4.5vw, 20px);
+.payout-maximum strong {
+  color: var(--market-accent);
+  font-size: clamp(28px, 8vw, 38px);
   font-variant-numeric: tabular-nums;
   letter-spacing: -.04em;
-  text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-.payout-range > div:last-child strong {
-  color: var(--market-accent);
-}
-
-.payout-range small {
-  margin-top: 3px;
+.payout-maximum small {
+  margin-top: 5px;
   color: #65737e;
-  font-size: 7px;
+  font-size: 8px;
+  font-weight: 800;
   line-height: 1.25;
+  text-transform: uppercase;
 }
-
-.payout-range > i {
-  position: relative;
-  height: 1px;
-  background: var(--line);
-}
-
-.payout-range > i::before,
-.payout-range > i::after,
-.payout-range > i b {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--market-accent);
-  transform: translateY(-50%);
-}
-
-.payout-range > i::before { left: 0; }
-.payout-range > i::after { right: 0; }
-.payout-range > i b { left: 50%; transform: translate(-50%, -50%); }
 
 .payout-preview > p {
   margin-top: 9px;
@@ -10610,10 +10714,6 @@ h3 {
 }
 
 .intro-mini-payout {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  gap: 8px;
   margin-bottom: 16px;
 }
 
@@ -10638,13 +10738,8 @@ h3 {
   font-size: 17px;
 }
 
-.intro-mini-payout > span:last-child b {
+.intro-mini-payout b {
   color: var(--accent);
-}
-
-.intro-mini-payout > i {
-  color: var(--muted);
-  font-style: normal;
 }
 
 .intro-footer {
@@ -10722,12 +10817,8 @@ h3 {
   }
 
   .split-chart {
-    height: 210px;
+    height: 258px;
     padding-inline: 5px;
-  }
-
-  .payout-range {
-    grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1fr);
   }
 
   .intro-demo--vote,
@@ -10766,7 +10857,7 @@ h3 {
   }
 
   .split-chart {
-    height: 195px;
+    height: 242px;
   }
 
   .stake-presets--new {

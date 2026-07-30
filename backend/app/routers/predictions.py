@@ -2,11 +2,12 @@ import uuid
 from datetime import datetime, timedelta, timezone
 
 from fastapi import APIRouter, Depends, HTTPException
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.orm import joinedload, noload
 
-from app.auth import get_current_user
+from app.auth import get_current_user_id
 from app.database import get_db
 from app.game import (
     PULSE_MARKET_KIND,
@@ -14,7 +15,6 @@ from app.game import (
     reveal_seconds_for_index,
     settle_market,
     simulate_crowd,
-    user_locked_count,
     validate_participation,
 )
 from app.models import BalanceTransaction, Category, Market, MarketOption, Prediction, User
@@ -34,31 +34,41 @@ def reveal_at(prediction: Prediction) -> datetime:
     return prediction.locked_at + timedelta(seconds=prediction.reveal_seconds)
 
 
-async def _market_options(db: AsyncSession, market_id: uuid.UUID) -> list[MarketOption]:
-    result = await db.execute(
-        select(MarketOption)
-        .where(MarketOption.market_id == market_id)
-        .order_by(MarketOption.display_order)
-    )
-    return list(result.scalars().all())
-
-
 @router.post("", response_model=CreatePredictionOut, status_code=201)
 async def lock_prediction(
     payload: CreatePredictionIn,
-    user: User = Depends(get_current_user),
+    user_id: uuid.UUID = Depends(get_current_user_id),
     db: AsyncSession = Depends(get_db),
 ):
-    market = await db.get(Market, payload.market_id)
-    if market is None:
-        raise HTTPException(404, "Market not found")
+    locked_count = (
+        select(func.count(Prediction.id))
+        .where(Prediction.user_id == user_id)
+        .scalar_subquery()
+    )
+    already_participated = (
+        select(Prediction.id)
+        .where(
+            Prediction.user_id == user_id,
+            Prediction.market_id == payload.market_id,
+        )
+        .exists()
+    )
+    lock_result = await db.execute(
+        select(User, Market, locked_count, already_participated)
+        .select_from(User)
+        .join(Market, Market.id == payload.market_id)
+        .where(User.id == user_id)
+        .options(noload(User.categories), joinedload(Market.options))
+        .with_for_update(of=User)
+    )
+    lock_context = lock_result.unique().one_or_none()
+    if lock_context is None:
+        raise HTTPException(404, "Market or user not found")
+    locked_user, market, index, duplicate = lock_context
     if market.market_kind != PULSE_MARKET_KIND or market.status != "active":
         raise HTTPException(409, "Market is not active")
 
-    options = await _market_options(db, market.id)
-    locked_user = (
-        await db.execute(select(User).where(User.id == user.id).with_for_update())
-    ).scalar_one()
+    options = list(market.options)
     try:
         validate_participation(
             [option.id for option in options],
@@ -71,20 +81,14 @@ async def lock_prediction(
         status_code = 402 if "balance" in str(error).lower() else 400
         raise HTTPException(status_code, str(error))
 
-    duplicate = await db.scalar(
-        select(Prediction.id).where(
-            Prediction.user_id == locked_user.id,
-            Prediction.market_id == market.id,
-        )
-    )
     if duplicate:
         raise HTTPException(409, "You already participated in this market")
 
-    index = await user_locked_count(db, locked_user.id)
     delay = reveal_seconds_for_index(index)
     fee = platform_fee_cents(payload.stake_cents)
     now = datetime.now(timezone.utc)
     prediction = Prediction(
+        id=uuid.uuid4(),
         user_id=locked_user.id,
         market_id=market.id,
         vote_option_id=payload.vote_option_id,
@@ -97,6 +101,8 @@ async def lock_prediction(
     locked_user.balance_cents -= payload.stake_cents
     db.add(prediction)
     try:
+        # Materialize the prediction before its ledger row so the foreign-key
+        # dependency is explicit without requiring another read afterward.
         await db.flush()
         db.add(
             BalanceTransaction(
@@ -112,7 +118,6 @@ async def lock_prediction(
     except IntegrityError:
         await db.rollback()
         raise HTTPException(409, "You already participated in this market")
-    await db.refresh(prediction)
     return CreatePredictionOut(
         id=prediction.id,
         reveal_seconds=delay,
@@ -129,6 +134,8 @@ async def settle_and_reveal(
     user: User,
     *,
     ignore_timer: bool = False,
+    market: Market | None = None,
+    options: list[MarketOption] | None = None,
 ) -> None:
     """Settle, reveal, credit and score once. Caller owns the transaction."""
     now = datetime.now(timezone.utc)
@@ -138,10 +145,17 @@ async def settle_and_reveal(
         seconds = max(1, int((reveal_at(prediction) - now).total_seconds()))
         raise HTTPException(409, f"Reveal available in {seconds} seconds")
 
-    market = await db.get(Market, prediction.market_id)
+    if market is None:
+        market_result = await db.execute(
+            select(Market)
+            .where(Market.id == prediction.market_id)
+            .options(joinedload(Market.options))
+        )
+        market = market_result.unique().scalar_one_or_none()
     if market is None or market.market_kind != PULSE_MARKET_KIND:
         raise HTTPException(409, "Legacy predictions use the legacy reveal path")
-    options = await _market_options(db, market.id)
+    if options is None:
+        options = list(market.options)
 
     if prediction.settled_at is None:
         crowd = simulate_crowd(
@@ -194,11 +208,25 @@ async def settle_and_reveal(
 
 
 async def reveal_payload(
-    db: AsyncSession, prediction: Prediction, user: User
+    db: AsyncSession,
+    prediction: Prediction,
+    user: User,
+    *,
+    market: Market | None = None,
+    category: Category | None = None,
+    options: list[MarketOption] | None = None,
 ) -> RevealOut:
-    market = await db.get(Market, prediction.market_id)
-    category = await db.get(Category, market.category_id)
-    options = await _market_options(db, market.id)
+    if market is None:
+        market_result = await db.execute(
+            select(Market)
+            .where(Market.id == prediction.market_id)
+            .options(joinedload(Market.options))
+        )
+        market = market_result.unique().scalar_one()
+    if category is None:
+        category = await db.get(Category, market.category_id)
+    if options is None:
+        options = list(market.options)
     vote = next(option for option in options if option.id == prediction.vote_option_id)
     forecast_map = prediction.forecast_bps or {}
     actual_map = prediction.actual_distribution_bps or {}
@@ -262,31 +290,71 @@ async def reveal_payload(
     )
 
 
+def _reveal_context_statement(
+    prediction_id: uuid.UUID,
+    user_id: uuid.UUID,
+    *,
+    lock: bool,
+):
+    statement = (
+        select(Prediction, User, Market, Category)
+        .select_from(Prediction)
+        .join(User, User.id == Prediction.user_id)
+        .join(Market, Market.id == Prediction.market_id)
+        .join(Category, Category.id == Market.category_id)
+        .where(Prediction.id == prediction_id, Prediction.user_id == user_id)
+        .options(joinedload(Market.options), noload(User.categories))
+    )
+    if lock:
+        statement = statement.with_for_update(of=(Prediction, User))
+    return statement
+
+
+async def _reveal_context(
+    db: AsyncSession,
+    prediction_id: uuid.UUID,
+    user_id: uuid.UUID,
+    *,
+    lock: bool,
+):
+    result = await db.execute(
+        _reveal_context_statement(prediction_id, user_id, lock=lock)
+    )
+    return result.unique().one_or_none()
+
+
 @router.post("/{prediction_id}/reveal", response_model=RevealOut)
 async def reveal(
     prediction_id: uuid.UUID,
-    user: User = Depends(get_current_user),
+    user_id: uuid.UUID = Depends(get_current_user_id),
     db: AsyncSession = Depends(get_db),
 ):
-    prediction = (
-        await db.execute(
-            select(Prediction)
-            .where(Prediction.id == prediction_id, Prediction.user_id == user.id)
-            .with_for_update()
-        )
-    ).scalar_one_or_none()
-    if prediction is None:
+    context = await _reveal_context(db, prediction_id, user_id, lock=True)
+    if context is None:
         raise HTTPException(404, "Prediction not found")
-    locked_user = (
-        await db.execute(select(User).where(User.id == user.id).with_for_update())
-    ).scalar_one()
-    await settle_and_reveal(db, prediction, locked_user)
+    prediction, locked_user, market, category = context
+    options = list(market.options)
+    await settle_and_reveal(
+        db,
+        prediction,
+        locked_user,
+        market=market,
+        options=options,
+    )
     try:
         await db.commit()
     except IntegrityError:
         # A retried request can race with the unique payout ledger insert. The
         # persisted credit remains the source of truth.
         await db.rollback()
-    prediction = await db.get(Prediction, prediction_id)
-    locked_user = await db.get(User, user.id)
-    return await reveal_payload(db, prediction, locked_user)
+        context = await _reveal_context(db, prediction_id, user_id, lock=False)
+        prediction, locked_user, market, category = context
+        options = list(market.options)
+    return await reveal_payload(
+        db,
+        prediction,
+        locked_user,
+        market=market,
+        category=category,
+        options=options,
+    )

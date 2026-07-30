@@ -128,6 +128,15 @@ def test_15_dummy_vote_count_equals_participant_count():
     assert len(simulation.dummy_votes) == simulation.participant_count
 
 
+def test_net_pool_preview_uses_the_same_fees_as_settlement():
+    simulation = crowd()
+    assert simulation.net_pool_volume_cents == sum(
+        participant.stake_cents - platform_fee_cents(participant.stake_cents)
+        for participant in simulation.participants
+    )
+    assert 0 < simulation.net_pool_volume_cents < simulation.pool_volume_cents
+
+
 def test_16_user_vote_is_included_exactly_once():
     simulation = crowd()
     before = Counter(simulation.dummy_votes)
@@ -188,7 +197,7 @@ def test_24_stake_over_balance_is_rejected():
 def test_25_stake_deduction_uses_a_locked_user_row_and_one_commit():
     source = (ROOT / "backend/app/routers/predictions.py").read_text()
     lock_body = source[source.index("async def lock_prediction"):source.index("async def settle_and_reveal")]
-    assert "with_for_update()" in lock_body
+    assert "with_for_update" in lock_body
     assert "locked_user.balance_cents -= payload.stake_cents" in lock_body
     assert lock_body.count("await db.commit()") == 1
 

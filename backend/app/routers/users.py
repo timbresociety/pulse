@@ -5,7 +5,7 @@ from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
-from app.auth import get_current_user
+from app.auth import get_current_user, get_current_user_with_categories
 from app.config import settings
 from app.database import get_db
 from app.game import PULSE_MARKET_KIND, simulate_crowd
@@ -64,7 +64,7 @@ def _user_out(user: User) -> UserOut:
 
 
 @router.get("/me", response_model=UserOut)
-async def me(user: User = Depends(get_current_user)):
+async def me(user: User = Depends(get_current_user_with_categories)):
     return _user_out(user)
 
 
@@ -79,7 +79,7 @@ async def list_categories(db: AsyncSession = Depends(get_db)):
 @router.post("/me/categories", response_model=UserOut)
 async def set_categories(
     payload: SetCategoriesIn,
-    user: User = Depends(get_current_user),
+    user: User = Depends(get_current_user_with_categories),
     db: AsyncSession = Depends(get_db),
 ):
     unique_ids = set(payload.category_ids)

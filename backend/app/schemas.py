@@ -60,6 +60,7 @@ class MarketOut(BaseModel):
     options: list[MarketOptionOut]
     participant_count: int
     pool_volume_cents: int
+    net_pool_volume_cents: int = 0
     reveal_seconds: int
     avatars: list[str]
     # Populated only when DEBUG=true.
